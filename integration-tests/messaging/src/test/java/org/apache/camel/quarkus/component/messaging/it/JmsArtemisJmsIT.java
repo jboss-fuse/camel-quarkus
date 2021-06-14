@@ -19,6 +19,6 @@ package org.apache.camel.quarkus.component.messaging.it;
 import io.quarkus.test.junit.NativeImageTest;
 
 @NativeImageTest
-class JmsIT extends JmsTest {
+class JmsArtemisJmsIT extends JmsArtemisJmsTest {
 
 }

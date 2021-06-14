@@ -309,7 +309,7 @@ public class JmsResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String consumePahoMessageWs(@PathParam("queueName") String queueName) {
-        return consumerTemplate.receiveBody("paho:" + queueName, 5000, String.class);
+        return consumerTemplate.receiveBody("paho:" + queueName + "?brokerUrl={{broker-url.ws}}", 5000, String.class);
     }
 
     @Path("/paho-ws/{queueName}")

@@ -151,6 +151,7 @@
         <module>mail</module>
         <module>master</module>
         <module>messaging</module>
+        <module>messaging-qpid-client</module>
         <module>micrometer</module>
         <module>microprofile</module>
         <module>minio</module>

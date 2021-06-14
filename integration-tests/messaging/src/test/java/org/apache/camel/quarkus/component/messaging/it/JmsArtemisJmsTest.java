@@ -33,7 +33,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @QuarkusTest
 @QuarkusTestResource(ActiveMQTestResource.class)
-class JmsTest {
+class JmsArtemisJmsTest {
 
     @ParameterizedTest
     @ValueSource(strings = { "jms", "paho", "paho-ws", "sjms" })

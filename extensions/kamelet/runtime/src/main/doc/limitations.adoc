@@ -1,0 +1,1 @@
+Automatic discovery of kamelet definitions having the extension `.kamelet.yaml` is offered in the community version of camel-kamelet. Please note that this automatic discovery is not supported by Red Hat in the camel-quarkus-kamelet extension.

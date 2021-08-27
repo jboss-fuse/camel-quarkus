@@ -1066,7 +1066,6 @@
 :camel-quarkus-tika
 :camel-quarkus-tika-deployment
 :camel-quarkus-tika-parent
-:camel-quarkus-tooling
 :camel-quarkus-twilio
 :camel-quarkus-twilio-deployment
 :camel-quarkus-twilio-parent

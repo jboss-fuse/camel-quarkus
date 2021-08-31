@@ -34,7 +34,6 @@
 
     <properties>
         <camel-quarkus.version>2.1.0-SNAPSHOT</camel-quarkus.version><!-- kept in sync with project.version by the release plugin -->
-        <camel-quarkus-community.version>2.1.0</camel-quarkus-community.version>
     </properties>
 
     <dependencyManagement>

@@ -397,7 +397,6 @@
 :camel-quarkus-integration-test-atlasmap
 :camel-quarkus-integration-test-avro-rpc
 :camel-quarkus-integration-test-aws2
-:camel-quarkus-integration-test-aws2-aws
 :camel-quarkus-integration-test-aws2-cw
 :camel-quarkus-integration-test-aws2-grouped
 :camel-quarkus-integration-test-aws2-ses

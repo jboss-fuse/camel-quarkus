@@ -3,6 +3,7 @@ camel-avro
 camel-aws2-cw
 camel-aws2-ddb
 camel-aws2-kinesis
+camel-aws2-kms
 camel-aws2-lambda
 camel-aws2-s3
 camel-aws2-sns

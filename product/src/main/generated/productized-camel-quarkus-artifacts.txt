@@ -14,6 +14,9 @@ camel-quarkus-aws2-ddb-parent
 camel-quarkus-aws2-kinesis
 camel-quarkus-aws2-kinesis-deployment
 camel-quarkus-aws2-kinesis-parent
+camel-quarkus-aws2-kms
+camel-quarkus-aws2-kms-deployment
+camel-quarkus-aws2-kms-parent
 camel-quarkus-aws2-lambda
 camel-quarkus-aws2-lambda-deployment
 camel-quarkus-aws2-lambda-parent

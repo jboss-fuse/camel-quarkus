@@ -63,6 +63,12 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-fhir</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>hapi-fhir-base</artifactId>
+                    <groupId>ca.uhn.hapi.fhir</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
@@ -85,10 +91,22 @@
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-structures-hl7org-dstu2</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>hapi-fhir-base</artifactId>
+                    <groupId>ca.uhn.hapi.fhir</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-structures-dstu2.1</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>hapi-fhir-base</artifactId>
+                    <groupId>ca.uhn.hapi.fhir</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 

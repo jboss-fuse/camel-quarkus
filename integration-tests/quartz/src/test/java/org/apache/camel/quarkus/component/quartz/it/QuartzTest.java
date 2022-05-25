@@ -18,7 +18,6 @@ package org.apache.camel.quarkus.component.quartz.it;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -40,7 +39,6 @@ class QuartzTest {
     }
 
     @Test
-    @Disabled("Features unavailable on Camel 3.14.2")
     public void testProperties() {
         RestAssured.given()
                 .queryParam("fromEndpoint", "quartz-properties")
@@ -85,7 +83,6 @@ class QuartzTest {
     }
 
     @Test
-    @Disabled("Features unavailable on Camel 3.14.2")
     public void testClustered() throws InterruptedException {
         RestAssured.given()
                 .queryParam("fromEndpoint", "quartz-nodeA")
@@ -96,7 +93,6 @@ class QuartzTest {
     }
 
     @Test
-    @Disabled("Features unavailable on Camel 3.14.2")
     public void testClusteredWithNamedDS() throws InterruptedException {
         RestAssured.given()
                 .queryParam("fromEndpoint", "quartz-nodeB")
@@ -107,7 +103,6 @@ class QuartzTest {
     }
 
     @Test
-    @Disabled("Features unavailable on Camel 3.14.2")
     public void testClusteredWithoutDS() throws InterruptedException {
         //NodeB uses h2 db, which is not initialized therefore no message will be received
         RestAssured.given()

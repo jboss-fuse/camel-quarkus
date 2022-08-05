@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-def MAVEN_PARAMS = '-B -e -ntp -s $MAVEN_SETTINGS -Djava.net.preferIPv4Stack=true'
+def MAVEN_PARAMS = '-B -e -ntp -s $MAVEN_SETTINGS -Djava.net.preferIPv4Stack=true -Djdk.xml.xpathExprGrpLimit=0 -Djdk.xml.xpathExprOpLimit=0 -Djdk.xml.xpathTotalOpLimit=0'
 
 pipeline {
 

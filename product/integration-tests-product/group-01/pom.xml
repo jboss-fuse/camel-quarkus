@@ -46,6 +46,7 @@
         <module>../../../integration-test-groups/azure/azure-storage-queue</module>
         <module>../../../integration-test-groups/compression/zipfile</module>
         <module>../../../integration-test-groups/foundation/bean</module>
+        <module>../../../integration-test-groups/foundation/browse</module>
         <module>../../../integration-test-groups/foundation/component-name-resolver</module>
         <module>../../../integration-test-groups/foundation/core</module>
         <module>../../../integration-test-groups/foundation/core-annotations</module>
@@ -61,6 +62,5 @@
         <module>../../../integration-test-groups/foundation/scheduler</module>
         <module>../../../integration-test-groups/foundation/seda</module>
         <module>../../../integration-test-groups/foundation/timer</module>
-        <module>../../../integration-test-groups/mongodb/mongodb</module>
     </modules>
 </project>

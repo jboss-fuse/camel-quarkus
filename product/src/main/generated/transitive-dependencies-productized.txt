@@ -488,6 +488,7 @@ org.apache.camel:camel-base-engine
 org.apache.camel:camel-bean
 org.apache.camel:camel-bean-validator
 org.apache.camel:camel-bindy
+org.apache.camel:camel-browse
 org.apache.camel:camel-cassandraql
 org.apache.camel:camel-catalog
 org.apache.camel:camel-cloud
@@ -615,6 +616,8 @@ org.apache.camel.quarkus:camel-quarkus-bean-validator
 org.apache.camel.quarkus:camel-quarkus-bean-validator-deployment
 org.apache.camel.quarkus:camel-quarkus-bindy
 org.apache.camel.quarkus:camel-quarkus-bindy-deployment
+org.apache.camel.quarkus:camel-quarkus-browse
+org.apache.camel.quarkus:camel-quarkus-browse-deployment
 org.apache.camel.quarkus:camel-quarkus-cassandraql
 org.apache.camel.quarkus:camel-quarkus-cassandraql-deployment
 org.apache.camel.quarkus:camel-quarkus-catalog

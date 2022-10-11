@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
+        <module>../../../integration-test-groups/mongodb/mongodb</module>
         <module>../../../integration-tests-jvm/java-joor-dsl</module>
         <module>../../../integration-tests/avro</module>
         <module>../../../integration-tests/bean-validator</module>
@@ -61,6 +62,5 @@
         <module>../../../integration-tests/kubernetes</module>
         <module>../../../integration-tests/mail</module>
         <module>../../../integration-tests/main-command-mode</module>
-        <module>../../../integration-tests/main-devmode</module>
     </modules>
 </project>

@@ -414,7 +414,6 @@ org.apache.camel:camel-bonita
 org.apache.camel:camel-box
 org.apache.camel:camel-box-api
 org.apache.camel:camel-braintree
-org.apache.camel:camel-browse
 org.apache.camel:camel-caffeine
 org.apache.camel:camel-caffeine-lrucache
 org.apache.camel:camel-cbor
@@ -671,8 +670,6 @@ org.apache.camel.quarkus:camel-quarkus-box
 org.apache.camel.quarkus:camel-quarkus-box-deployment
 org.apache.camel.quarkus:camel-quarkus-braintree
 org.apache.camel.quarkus:camel-quarkus-braintree-deployment
-org.apache.camel.quarkus:camel-quarkus-browse
-org.apache.camel.quarkus:camel-quarkus-browse-deployment
 org.apache.camel.quarkus:camel-quarkus-caffeine
 org.apache.camel.quarkus:camel-quarkus-caffeine-deployment
 org.apache.camel.quarkus:camel-quarkus-caffeine-lrucache

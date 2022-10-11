@@ -39,6 +39,7 @@
 *** xref:reference/extensions/bean.adoc[Bean]
 *** xref:reference/extensions/bean-validator.adoc[Bean Validator]
 *** xref:reference/extensions/bindy.adoc[Bindy]
+*** xref:reference/extensions/browse.adoc[Browse]
 *** xref:reference/extensions/cxf-soap.adoc[CXF]
 *** xref:reference/extensions/cassandraql.adoc[Cassandra CQL]
 *** xref:reference/extensions/core-cloud.adoc[Cloud]

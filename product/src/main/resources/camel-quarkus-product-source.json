@@ -74,6 +74,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-browse": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.0"
+        },
         "camel-quarkus-cassandraql": {
             "jvm": "supported",
             "native": "supported",

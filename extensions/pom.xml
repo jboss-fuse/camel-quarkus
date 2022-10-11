@@ -71,7 +71,7 @@
         <module>bindy</module>
         <!-- <module>box</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>braintree</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>browse</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>browse</module>
         <!-- <module>caffeine</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cassandraql</module>
         <!-- <module>cbor</module> disabled by cq-prod-maven-plugin:prod-excludes -->

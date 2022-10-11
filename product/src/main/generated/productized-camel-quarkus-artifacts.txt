@@ -43,6 +43,9 @@ camel-quarkus-bindy-deployment
 camel-quarkus-bindy-parent
 camel-quarkus-bom
 camel-quarkus-bom-test
+camel-quarkus-browse
+camel-quarkus-browse-deployment
+camel-quarkus-browse-parent
 camel-quarkus-build-parent
 camel-quarkus-build-parent-it
 camel-quarkus-cassandraql
@@ -116,6 +119,7 @@ camel-quarkus-integration-test-azure-storage-queue
 camel-quarkus-integration-test-bean
 camel-quarkus-integration-test-bean-validator
 camel-quarkus-integration-test-bindy
+camel-quarkus-integration-test-browse
 camel-quarkus-integration-test-cassandraql
 camel-quarkus-integration-test-component-name-resolver
 camel-quarkus-integration-test-core

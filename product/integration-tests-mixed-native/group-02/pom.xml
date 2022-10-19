@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/debezium</module>
         <module>../../../integration-tests/digitalocean</module>
         <module>../../../integration-tests/disruptor</module>
         <module>../../../integration-tests/dozer</module>
@@ -63,5 +62,6 @@
         <module>../../../integration-tests/jsch</module>
         <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/json-validator</module>
+        <module>../../../integration-tests/jsonata</module>
     </modules>
 </project>

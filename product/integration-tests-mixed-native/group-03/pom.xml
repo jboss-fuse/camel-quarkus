@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/jsonata</module>
         <module>../../../integration-tests/kotlin</module>
         <module>../../../integration-tests/kudu</module>
         <module>../../../integration-tests/leveldb</module>

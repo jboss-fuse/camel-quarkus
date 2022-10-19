@@ -90,4 +90,5 @@ camel-xml-io-dsl
 camel-xpath
 camel-xslt
 camel-yaml-dsl
+camel-zip-deflater
 camel-zipfile

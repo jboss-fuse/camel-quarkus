@@ -242,7 +242,7 @@
         <module>xslt</module>
         <!-- <module>xstream</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>zendesk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>zip-deflater</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>zip-deflater</module>
         <module>zipfile</module>
     </modules>
 

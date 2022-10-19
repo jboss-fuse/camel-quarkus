@@ -674,6 +674,15 @@
                     "supported"
                 ]
             }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-zip-deflater",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
+                ]
+            }
         }
     ]
 }

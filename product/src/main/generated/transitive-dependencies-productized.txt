@@ -588,6 +588,7 @@ org.apache.camel:camel-xslt
 org.apache.camel:camel-yaml-dsl
 org.apache.camel:camel-yaml-dsl-common
 org.apache.camel:camel-yaml-dsl-deserializers
+org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
 org.apache.camel.quarkus:camel-quarkus-attachments
 org.apache.camel.quarkus:camel-quarkus-attachments-deployment
@@ -787,6 +788,8 @@ org.apache.camel.quarkus:camel-quarkus-xslt
 org.apache.camel.quarkus:camel-quarkus-xslt-deployment
 org.apache.camel.quarkus:camel-quarkus-yaml-dsl
 org.apache.camel.quarkus:camel-quarkus-yaml-dsl-deployment
+org.apache.camel.quarkus:camel-quarkus-zip-deflater
+org.apache.camel.quarkus:camel-quarkus-zip-deflater-deployment
 org.apache.camel.quarkus:camel-quarkus-zipfile
 org.apache.camel.quarkus:camel-quarkus-zipfile-deployment
 org.apache.commons:commons-compress

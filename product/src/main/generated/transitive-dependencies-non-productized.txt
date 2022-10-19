@@ -598,7 +598,6 @@ org.apache.camel:camel-xmpp
 org.apache.camel:camel-xslt-saxon
 org.apache.camel:camel-xstream
 org.apache.camel:camel-zendesk
-org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zookeeper
 org.apache.camel:camel-zookeeper-master
 org.apache.camel.quarkus:camel-quarkus-activemq
@@ -1054,8 +1053,6 @@ org.apache.camel.quarkus:camel-quarkus-xstream
 org.apache.camel.quarkus:camel-quarkus-xstream-deployment
 org.apache.camel.quarkus:camel-quarkus-zendesk
 org.apache.camel.quarkus:camel-quarkus-zendesk-deployment
-org.apache.camel.quarkus:camel-quarkus-zip-deflater
-org.apache.camel.quarkus:camel-quarkus-zip-deflater-deployment
 org.apache.camel.quarkus:camel-quarkus-zookeeper
 org.apache.camel.quarkus:camel-quarkus-zookeeper-deployment
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master

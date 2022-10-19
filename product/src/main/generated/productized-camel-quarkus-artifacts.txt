@@ -196,6 +196,7 @@ camel-quarkus-integration-test-timer
 camel-quarkus-integration-test-validator
 camel-quarkus-integration-test-velocity
 camel-quarkus-integration-test-xpath
+camel-quarkus-integration-test-zip-deflater
 camel-quarkus-integration-test-zipfile
 camel-quarkus-integration-tests
 camel-quarkus-integration-tests-aws2
@@ -413,6 +414,9 @@ camel-quarkus-xslt-parent
 camel-quarkus-yaml-dsl
 camel-quarkus-yaml-dsl-deployment
 camel-quarkus-yaml-dsl-parent
+camel-quarkus-zip-deflater
+camel-quarkus-zip-deflater-deployment
+camel-quarkus-zip-deflater-parent
 camel-quarkus-zipfile
 camel-quarkus-zipfile-deployment
 camel-quarkus-zipfile-parent

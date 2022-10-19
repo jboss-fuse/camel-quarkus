@@ -62,6 +62,6 @@
         <module>../../../integration-tests/crypto</module>
         <module>../../../integration-tests/csimple</module>
         <module>../../../integration-tests/csv</module>
-        <module>../../../integration-tests/dataformat</module>
+        <module>../../../integration-tests/datasonnet</module>
     </modules>
 </project>

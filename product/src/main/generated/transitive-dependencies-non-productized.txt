@@ -430,7 +430,6 @@ org.apache.camel:camel-couchbase
 org.apache.camel:camel-couchdb
 org.apache.camel:camel-crypto
 org.apache.camel:camel-csv
-org.apache.camel:camel-dataformat
 org.apache.camel:camel-datasonnet
 org.apache.camel:camel-debezium-common
 org.apache.camel:camel-debezium-mongodb
@@ -704,8 +703,6 @@ org.apache.camel.quarkus:camel-quarkus-csimple
 org.apache.camel.quarkus:camel-quarkus-csimple-deployment
 org.apache.camel.quarkus:camel-quarkus-csv
 org.apache.camel.quarkus:camel-quarkus-csv-deployment
-org.apache.camel.quarkus:camel-quarkus-dataformat
-org.apache.camel.quarkus:camel-quarkus-dataformat-deployment
 org.apache.camel.quarkus:camel-quarkus-datasonnet
 org.apache.camel.quarkus:camel-quarkus-datasonnet-deployment
 org.apache.camel.quarkus:camel-quarkus-debezium-mongodb

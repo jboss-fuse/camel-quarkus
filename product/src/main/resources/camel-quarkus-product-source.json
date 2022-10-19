@@ -99,6 +99,14 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.0"
         },
+        "camel-quarkus-dataformat": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.0",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-dataformat"
+            ]
+        },
         "camel-quarkus-dataset": {
             "jvm": "supported",
             "native": "supported",

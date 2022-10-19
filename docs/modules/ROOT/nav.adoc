@@ -45,6 +45,7 @@
 *** xref:reference/extensions/core-cloud.adoc[Cloud]
 *** xref:reference/extensions/core.adoc[Core]
 *** xref:reference/extensions/cron.adoc[Cron]
+*** xref:reference/extensions/dataformat.adoc[Data Format]
 *** xref:reference/extensions/dataset.adoc[Dataset]
 *** xref:reference/extensions/direct.adoc[Direct]
 *** xref:reference/extensions/fhir.adoc[FHIR]

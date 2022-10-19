@@ -64,6 +64,9 @@ camel-quarkus-cron-parent
 camel-quarkus-cxf-soap
 camel-quarkus-cxf-soap-deployment
 camel-quarkus-cxf-soap-parent
+camel-quarkus-dataformat
+camel-quarkus-dataformat-deployment
+camel-quarkus-dataformat-parent
 camel-quarkus-dataset
 camel-quarkus-dataset-deployment
 camel-quarkus-dataset-parent

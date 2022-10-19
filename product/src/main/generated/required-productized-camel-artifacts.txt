@@ -24,6 +24,7 @@ camel-core-languages
 camel-core-processor
 camel-cron
 camel-cxf-soap
+camel-dataformat
 camel-dataset
 camel-dependencies-generator
 camel-direct

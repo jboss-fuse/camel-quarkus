@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
+        <module>../../../integration-tests/digitalocean</module>
         <module>../../../integration-tests/disruptor</module>
         <module>../../../integration-tests/dozer</module>
         <module>../../../integration-tests/dropbox</module>
@@ -59,7 +60,6 @@
         <module>../../../integration-tests/jq</module>
         <module>../../../integration-tests/js-dsl</module>
         <module>../../../integration-tests/jsch</module>
-        <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/json-validator</module>
         <module>../../../integration-tests/jsonata</module>
     </modules>

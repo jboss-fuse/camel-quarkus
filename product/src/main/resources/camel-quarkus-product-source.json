@@ -228,6 +228,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1; still need to productize com.jayway.jsonpath:json-path and net.minidev:* - see https://issues.redhat.com/browse/ENTESB-18809"
         },
+        "camel-quarkus-jslt": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.0"
+        },
         "camel-quarkus-jta": {
             "jvm": "supported",
             "native": "supported",

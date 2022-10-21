@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests/main-command-mode</module>
         <module>../../../integration-tests/main-devmode</module>
         <module>../../../integration-tests/main-discovery-disabled</module>
         <module>../../../integration-tests/main-unknown-args-fail</module>

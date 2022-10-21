@@ -48,6 +48,7 @@ camel-jaxb
 camel-jira
 camel-jms
 camel-jpa
+camel-jslt
 camel-jsonpath
 camel-jta
 camel-kafka

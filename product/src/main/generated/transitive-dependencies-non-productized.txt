@@ -143,7 +143,6 @@ com.pubnub:pubnub-gson
 com.rabbitmq:amqp-client
 com.rometools:rome
 com.rometools:rome-utils
-com.schibsted.spt.data:jslt
 com.squareup.moshi:moshi
 com.squareup.retrofit2:converter-gson
 com.squareup.retrofit2:converter-jackson
@@ -502,7 +501,6 @@ org.apache.camel:camel-joor
 org.apache.camel:camel-jq
 org.apache.camel:camel-js-dsl
 org.apache.camel:camel-jsch
-org.apache.camel:camel-jslt
 org.apache.camel:camel-json-patch
 org.apache.camel:camel-json-validator
 org.apache.camel:camel-jsonapi
@@ -837,8 +835,6 @@ org.apache.camel.quarkus:camel-quarkus-js-dsl
 org.apache.camel.quarkus:camel-quarkus-js-dsl-deployment
 org.apache.camel.quarkus:camel-quarkus-jsch
 org.apache.camel.quarkus:camel-quarkus-jsch-deployment
-org.apache.camel.quarkus:camel-quarkus-jslt
-org.apache.camel.quarkus:camel-quarkus-jslt-deployment
 org.apache.camel.quarkus:camel-quarkus-json-patch
 org.apache.camel.quarkus:camel-quarkus-json-patch-deployment
 org.apache.camel.quarkus:camel-quarkus-json-validator

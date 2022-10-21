@@ -53,6 +53,7 @@
         <module>../../../integration-tests/jaxb</module>
         <module>../../../integration-tests/jira</module>
         <module>../../../integration-tests/jpa</module>
+        <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/jsonpath</module>
         <module>../../../integration-tests/kafka</module>
         <module>../../../integration-tests/kafka-oauth</module>
@@ -62,6 +63,5 @@
         <module>../../../integration-tests/kamelet</module>
         <module>../../../integration-tests/kubernetes</module>
         <module>../../../integration-tests/mail</module>
-        <module>../../../integration-tests/main-command-mode</module>
     </modules>
 </project>

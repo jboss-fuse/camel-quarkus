@@ -125,6 +125,7 @@ com.nimbusds:content-type
 com.nimbusds:lang-tag
 com.nimbusds:nimbus-jose-jwt
 com.nimbusds:oauth2-oidc-sdk
+com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
 com.squareup:protoparser
@@ -533,6 +534,7 @@ org.apache.camel:camel-jaxb
 org.apache.camel:camel-jira
 org.apache.camel:camel-jms
 org.apache.camel:camel-jpa
+org.apache.camel:camel-jslt
 org.apache.camel:camel-jsonpath
 org.apache.camel:camel-jta
 org.apache.camel:camel-kafka
@@ -676,6 +678,8 @@ org.apache.camel.quarkus:camel-quarkus-jms
 org.apache.camel.quarkus:camel-quarkus-jms-deployment
 org.apache.camel.quarkus:camel-quarkus-jpa
 org.apache.camel.quarkus:camel-quarkus-jpa-deployment
+org.apache.camel.quarkus:camel-quarkus-jslt
+org.apache.camel.quarkus:camel-quarkus-jslt-deployment
 org.apache.camel.quarkus:camel-quarkus-jsonpath
 org.apache.camel.quarkus:camel-quarkus-jsonpath-deployment
 org.apache.camel.quarkus:camel-quarkus-jta

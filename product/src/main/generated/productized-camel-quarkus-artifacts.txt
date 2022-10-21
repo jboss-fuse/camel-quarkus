@@ -148,6 +148,7 @@ camel-quarkus-integration-test-java-joor-dsl
 camel-quarkus-integration-test-jaxb
 camel-quarkus-integration-test-jira
 camel-quarkus-integration-test-jpa
+camel-quarkus-integration-test-jslt
 camel-quarkus-integration-test-jsonpath
 camel-quarkus-integration-test-kafka
 camel-quarkus-integration-test-kafka-oauth
@@ -243,6 +244,9 @@ camel-quarkus-jms-parent
 camel-quarkus-jpa
 camel-quarkus-jpa-deployment
 camel-quarkus-jpa-parent
+camel-quarkus-jslt
+camel-quarkus-jslt-deployment
+camel-quarkus-jslt-parent
 camel-quarkus-jsonpath
 camel-quarkus-jsonpath-deployment
 camel-quarkus-jsonpath-parent

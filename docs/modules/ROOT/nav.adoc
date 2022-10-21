@@ -60,6 +60,7 @@
 *** xref:reference/extensions/jaxb.adoc[JAXB]
 *** xref:reference/extensions/jms.adoc[JMS]
 *** xref:reference/extensions/jpa.adoc[JPA]
+*** xref:reference/extensions/jslt.adoc[JSLT]
 *** xref:reference/extensions/jsonpath.adoc[JSON Path]
 *** xref:reference/extensions/jta.adoc[JTA]
 *** xref:reference/extensions/jackson.adoc[Jackson]

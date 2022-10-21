@@ -141,7 +141,7 @@
         <!-- <module>jq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>js-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jsch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>jslt</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>jslt</module>
         <!-- <module>json-validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jsonata</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jsonb</module> disabled by cq-prod-maven-plugin:prod-excludes -->

@@ -270,9 +270,9 @@
             "comment": "supported since CEQ 2.7.1"
         },
         "camel-quarkus-master": {
-            "jvm": "community",
-            "native": "community",
-            "comment": "community/community since CEQ 2.2.0; Required by Camel K"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.0"
         },
         "camel-quarkus-microprofile-fault-tolerance": {
             "jvm": "supported",

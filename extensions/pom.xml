@@ -76,7 +76,7 @@
         <module>cassandraql</module>
         <!-- <module>cbor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>consul</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>controlbus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>controlbus</module>
         <!-- <module>couchdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cron</module>
         <!-- <module>crypto</module> disabled by cq-prod-maven-plugin:prod-excludes -->

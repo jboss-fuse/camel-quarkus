@@ -496,6 +496,7 @@ org.apache.camel:camel-cloud
 org.apache.camel:camel-cluster
 org.apache.camel:camel-componentdsl
 org.apache.camel:camel-console
+org.apache.camel:camel-controlbus
 org.apache.camel:camel-core-catalog
 org.apache.camel:camel-core-engine
 org.apache.camel:camel-core-languages
@@ -626,6 +627,8 @@ org.apache.camel.quarkus:camel-quarkus-browse-deployment
 org.apache.camel.quarkus:camel-quarkus-cassandraql
 org.apache.camel.quarkus:camel-quarkus-cassandraql-deployment
 org.apache.camel.quarkus:camel-quarkus-catalog
+org.apache.camel.quarkus:camel-quarkus-controlbus
+org.apache.camel.quarkus:camel-quarkus-controlbus-deployment
 org.apache.camel.quarkus:camel-quarkus-core
 org.apache.camel.quarkus:camel-quarkus-core-cloud
 org.apache.camel.quarkus:camel-quarkus-core-cloud-deployment

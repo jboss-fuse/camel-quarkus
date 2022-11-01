@@ -18,6 +18,7 @@ camel-cassandraql
 camel-catalog
 camel-cloud
 camel-componentdsl
+camel-controlbus
 camel-core-catalog
 camel-core-engine
 camel-core-languages

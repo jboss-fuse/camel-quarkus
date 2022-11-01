@@ -52,6 +52,9 @@ camel-quarkus-cassandraql
 camel-quarkus-cassandraql-deployment
 camel-quarkus-cassandraql-parent
 camel-quarkus-catalog
+camel-quarkus-controlbus
+camel-quarkus-controlbus-deployment
+camel-quarkus-controlbus-parent
 camel-quarkus-core
 camel-quarkus-core-cloud
 camel-quarkus-core-cloud-deployment
@@ -125,6 +128,7 @@ camel-quarkus-integration-test-bindy
 camel-quarkus-integration-test-browse
 camel-quarkus-integration-test-cassandraql
 camel-quarkus-integration-test-component-name-resolver
+camel-quarkus-integration-test-controlbus
 camel-quarkus-integration-test-core
 camel-quarkus-integration-test-core-annotations
 camel-quarkus-integration-test-core-discovery-disabled

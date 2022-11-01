@@ -423,7 +423,6 @@ org.apache.camel:camel-cmis
 org.apache.camel:camel-coap
 org.apache.camel:camel-cometd
 org.apache.camel:camel-consul
-org.apache.camel:camel-controlbus
 org.apache.camel:camel-corda
 org.apache.camel:camel-couchbase
 org.apache.camel:camel-couchdb
@@ -685,8 +684,6 @@ org.apache.camel.quarkus:camel-quarkus-cometd
 org.apache.camel.quarkus:camel-quarkus-cometd-deployment
 org.apache.camel.quarkus:camel-quarkus-consul
 org.apache.camel.quarkus:camel-quarkus-consul-deployment
-org.apache.camel.quarkus:camel-quarkus-controlbus
-org.apache.camel.quarkus:camel-quarkus-controlbus-deployment
 org.apache.camel.quarkus:camel-quarkus-corda
 org.apache.camel.quarkus:camel-quarkus-corda-deployment
 org.apache.camel.quarkus:camel-quarkus-couchbase

@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 04</name>
 
     <modules>
-        <module>../../../integration-tests/sap-netweaver</module>
         <module>../../../integration-tests/servicenow</module>
         <module>../../../integration-tests/servlet</module>
         <module>../../../integration-tests/shiro</module>

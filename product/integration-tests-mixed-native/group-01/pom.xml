@@ -37,7 +37,6 @@
         <module>../../../integration-test-groups/aws2/aws2-ses</module>
         <module>../../../integration-test-groups/azure/azure-eventhubs</module>
         <module>../../../integration-test-groups/compression/lzf</module>
-        <module>../../../integration-test-groups/foundation/controlbus</module>
         <module>../../../integration-test-groups/foundation/customized-log-component</module>
         <module>../../../integration-test-groups/foundation/language</module>
         <module>../../../integration-test-groups/foundation/stream</module>
@@ -62,5 +61,6 @@
         <module>../../../integration-tests/csv</module>
         <module>../../../integration-tests/datasonnet</module>
         <module>../../../integration-tests/debezium</module>
+        <module>../../../integration-tests/digitalocean</module>
     </modules>
 </project>

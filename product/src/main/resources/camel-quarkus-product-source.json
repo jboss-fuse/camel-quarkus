@@ -84,6 +84,11 @@
             "native": "supported",
             "comment": "community/community since CEQ 2.2.0, since CEQ 2.7.1"
         },
+        "camel-quarkus-controlbus": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.0"
+        },
         "camel-quarkus-core": {
             "jvm": "supported",
             "native": "supported",

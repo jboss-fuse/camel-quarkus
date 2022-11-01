@@ -50,6 +50,7 @@
         <module>../../../integration-tests-jvm/cmis</module>
         <module>../../../integration-tests-jvm/coap</module>
         <module>../../../integration-tests-jvm/cometd</module>
+        <module>../../../integration-tests-jvm/controlbus-statistics</module>
         <module>../../../integration-tests-jvm/corda</module>
         <module>../../../integration-tests-jvm/couchbase</module>
         <module>../../../integration-tests-jvm/debug</module>

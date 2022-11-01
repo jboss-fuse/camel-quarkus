@@ -246,6 +246,8 @@ io.perfmark:perfmark-api
 io.projectreactor:reactor-core
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-deployment
+io.quarkiverse.cxf:quarkus-cxf-rt-features-logging
+io.quarkiverse.cxf:quarkus-cxf-rt-features-logging-deployment
 io.quarkiverse.cxf:quarkus-cxf-saaj
 io.quarkiverse.cxf:quarkus-cxf-saaj-deployment
 io.quarkiverse.cxf:quarkus-cxf-woodstox

@@ -135,7 +135,12 @@ camel-quarkus-integration-test-core-discovery-disabled
 camel-quarkus-integration-test-core-faulttolerance
 camel-quarkus-integration-test-core-languages
 camel-quarkus-integration-test-core-threadpools
-camel-quarkus-integration-test-cxf-soap
+camel-quarkus-integration-test-cxf-soap-client
+camel-quarkus-integration-test-cxf-soap-mtom
+camel-quarkus-integration-test-cxf-soap-mtom-awt
+camel-quarkus-integration-test-cxf-soap-server
+camel-quarkus-integration-test-cxf-soap-ws-security-client
+camel-quarkus-integration-test-cxf-soap-ws-security-server
 camel-quarkus-integration-test-dataset
 camel-quarkus-integration-test-direct
 camel-quarkus-integration-test-eip
@@ -209,6 +214,7 @@ camel-quarkus-integration-tests-aws2
 camel-quarkus-integration-tests-aws2-quarkus-client
 camel-quarkus-integration-tests-azure
 camel-quarkus-integration-tests-compression
+camel-quarkus-integration-tests-cxf-soap
 camel-quarkus-integration-tests-foundation
 camel-quarkus-integration-tests-jvm
 camel-quarkus-integration-tests-mongodb

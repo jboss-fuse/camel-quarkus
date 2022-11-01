@@ -33,6 +33,11 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
+        <module>../../../integration-test-groups/foundation/mock</module>
+        <module>../../../integration-test-groups/foundation/ref</module>
+        <module>../../../integration-test-groups/foundation/route-configurations</module>
+        <module>../../../integration-test-groups/foundation/scheduler</module>
+        <module>../../../integration-test-groups/foundation/seda</module>
         <module>../../../integration-test-groups/foundation/timer</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
         <module>../../../integration-tests-jvm/java-joor-dsl</module>
@@ -41,7 +46,6 @@
         <module>../../../integration-tests/bindy</module>
         <module>../../../integration-tests/cassandraql</module>
         <module>../../../integration-tests/core-discovery-disabled</module>
-        <module>../../../integration-tests/cxf-soap</module>
         <module>../../../integration-tests/fhir</module>
         <module>../../../integration-tests/ftp</module>
         <module>../../../integration-tests/google-bigquery</module>
@@ -61,7 +65,5 @@
         <module>../../../integration-tests/kafka-sasl-ssl</module>
         <module>../../../integration-tests/kafka-ssl</module>
         <module>../../../integration-tests/kamelet</module>
-        <module>../../../integration-tests/kubernetes</module>
-        <module>../../../integration-tests/mail</module>
     </modules>
 </project>

@@ -779,6 +779,7 @@ io.vertx:vertx-uri-template
 io.vertx:vertx-web
 io.vertx:vertx-web-client
 io.vertx:vertx-web-common
+jakarta.activation:jakarta.activation-api
 jakarta.annotation:jakarta.annotation-api
 jakarta.el:jakarta.el-api
 jakarta.enterprise:jakarta.enterprise.cdi-api

@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests/http</module>
         <module>../../../integration-tests/infinispan</module>
         <module>../../../integration-tests/jackson-avro</module>
         <module>../../../integration-tests/jackson-protobuf</module>
@@ -59,6 +60,5 @@
         <module>../../../integration-tests/main-unknown-args-ignore</module>
         <module>../../../integration-tests/main-xml-io</module>
         <module>../../../integration-tests/main-xml-io-with-beans</module>
-        <module>../../../integration-tests/main-yaml</module>
     </modules>
 </project>

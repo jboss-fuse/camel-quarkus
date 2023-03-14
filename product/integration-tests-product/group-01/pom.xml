@@ -47,6 +47,7 @@
         <module>../../../integration-test-groups/compression/zip-deflater</module>
         <module>../../../integration-test-groups/compression/zipfile</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-client</module>
+        <module>../../../integration-test-groups/cxf-soap/cxf-soap-converter</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-mtom</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-mtom-awt</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-server</module>
@@ -59,6 +60,5 @@
         <module>../../../integration-test-groups/foundation/component-name-resolver</module>
         <module>../../../integration-test-groups/foundation/controlbus</module>
         <module>../../../integration-test-groups/foundation/core</module>
-        <module>../../../integration-test-groups/foundation/core-annotations</module>
     </modules>
 </project>

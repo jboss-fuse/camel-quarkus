@@ -321,6 +321,7 @@ io.smallrye.reactive:smallrye-reactive-messaging-health
 io.smallrye.reactive:smallrye-reactive-messaging-provider
 io.vavr:vavr
 io.vavr:vavr-match
+jakarta.activation:jakarta.activation-api
 jakarta.json.bind:jakarta.json.bind-api
 javax.el:javax.el-api
 javax.jcr:jcr

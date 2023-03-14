@@ -139,6 +139,7 @@ camel-quarkus-integration-test-core-faulttolerance
 camel-quarkus-integration-test-core-languages
 camel-quarkus-integration-test-core-threadpools
 camel-quarkus-integration-test-cxf-soap-client
+camel-quarkus-integration-test-cxf-soap-converter
 camel-quarkus-integration-test-cxf-soap-mtom
 camel-quarkus-integration-test-cxf-soap-mtom-awt
 camel-quarkus-integration-test-cxf-soap-server

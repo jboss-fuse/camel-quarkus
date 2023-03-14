@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
+        <module>../../../integration-tests/main-yaml</module>
         <module>../../../integration-tests/master</module>
         <module>../../../integration-tests/master-file</module>
         <module>../../../integration-tests/master-openshift</module>

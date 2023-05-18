@@ -7203,6 +7203,14 @@
         <version>3.5.5.redhat-00029</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.14.redhat-00004 -->
         <exclusions>
           <exclusion>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.14.redhat-00004 -->
             <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.14.redhat-00004 -->
           </exclusion>

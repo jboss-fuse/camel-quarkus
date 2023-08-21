@@ -30,6 +30,16 @@
     <name>Camel Quarkus :: Integration Tests :: JTA</name>
     <description>Integration tests for Camel Quarkus JTA extension</description>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-jms-spi-deployment</artifactId>
+                <version>3.2.3.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.camel.quarkus</groupId>

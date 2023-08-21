@@ -25,6 +25,7 @@ com.atlassian.httpclient:atlassian-httpclient-library
 com.atlassian.jira:jira-rest-java-client-api
 com.atlassian.jira:jira-rest-java-client-core
 com.atlassian.sal:sal-api
+com.auth0:java-jwt
 com.azure:azure-core
 com.azure:azure-core-amqp
 com.azure:azure-core-http-vertx
@@ -608,6 +609,7 @@ org.apache.camel:camel-file
 org.apache.camel:camel-ftp
 org.apache.camel:camel-google-bigquery
 org.apache.camel:camel-google-pubsub
+org.apache.camel:camel-grpc
 org.apache.camel:camel-gson
 org.apache.camel:camel-health
 org.apache.camel:camel-hl7
@@ -763,6 +765,8 @@ org.apache.camel.quarkus:camel-quarkus-google-bigquery
 org.apache.camel.quarkus:camel-quarkus-google-bigquery-deployment
 org.apache.camel.quarkus:camel-quarkus-google-pubsub
 org.apache.camel.quarkus:camel-quarkus-google-pubsub-deployment
+org.apache.camel.quarkus:camel-quarkus-grpc
+org.apache.camel.quarkus:camel-quarkus-grpc-deployment
 org.apache.camel.quarkus:camel-quarkus-gson
 org.apache.camel.quarkus:camel-quarkus-gson-deployment
 org.apache.camel.quarkus:camel-quarkus-hl7

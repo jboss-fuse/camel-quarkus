@@ -37,7 +37,6 @@
         <module>../../../integration-tests/grok</module>
         <module>../../../integration-tests/groovy</module>
         <module>../../../integration-tests/groovy-dsl</module>
-        <module>../../../integration-tests/grpc</module>
         <module>../../../integration-tests/hazelcast</module>
         <module>../../../integration-tests/headersmap</module>
         <module>../../../integration-tests/influxdb</module>
@@ -70,5 +69,6 @@
         <module>../../../integration-tests/nitrite</module>
         <module>../../../integration-tests/oaipmh</module>
         <module>../../../integration-tests/ognl</module>
+        <module>../../../integration-tests/olingo4</module>
     </modules>
 </project>

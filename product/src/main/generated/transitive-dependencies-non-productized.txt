@@ -29,7 +29,6 @@ com.arangodb:arangodb-java-driver
 com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
-com.auth0:java-jwt
 com.azure:azure-cosmos
 com.azure:azure-messaging-eventhubs
 com.azure:azure-messaging-eventhubs-checkpointstore-blob
@@ -421,7 +420,6 @@ org.apache.camel:camel-grok
 org.apache.camel:camel-groovy
 org.apache.camel:camel-groovy-dsl
 org.apache.camel:camel-groovy-dsl-common
-org.apache.camel:camel-grpc
 org.apache.camel:camel-guava-eventbus
 org.apache.camel:camel-hashicorp-vault
 org.apache.camel:camel-hazelcast
@@ -697,8 +695,6 @@ org.apache.camel.quarkus:camel-quarkus-groovy
 org.apache.camel.quarkus:camel-quarkus-groovy-deployment
 org.apache.camel.quarkus:camel-quarkus-groovy-dsl
 org.apache.camel.quarkus:camel-quarkus-groovy-dsl-deployment
-org.apache.camel.quarkus:camel-quarkus-grpc
-org.apache.camel.quarkus:camel-quarkus-grpc-deployment
 org.apache.camel.quarkus:camel-quarkus-guava-eventbus
 org.apache.camel.quarkus:camel-quarkus-guava-eventbus-deployment
 org.apache.camel.quarkus:camel-quarkus-hashicorp-vault

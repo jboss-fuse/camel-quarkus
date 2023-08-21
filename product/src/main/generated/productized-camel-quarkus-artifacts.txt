@@ -104,6 +104,9 @@ camel-quarkus-google-bigquery-parent
 camel-quarkus-google-pubsub
 camel-quarkus-google-pubsub-deployment
 camel-quarkus-google-pubsub-parent
+camel-quarkus-grpc
+camel-quarkus-grpc-deployment
+camel-quarkus-grpc-parent
 camel-quarkus-gson
 camel-quarkus-gson-deployment
 camel-quarkus-gson-parent
@@ -164,6 +167,7 @@ camel-quarkus-integration-test-ftp
 camel-quarkus-integration-test-google-bigquery
 camel-quarkus-integration-test-google-pubsub
 camel-quarkus-integration-test-groups
+camel-quarkus-integration-test-grpc
 camel-quarkus-integration-test-hl7
 camel-quarkus-integration-test-https-netty-http
 camel-quarkus-integration-test-infinispan

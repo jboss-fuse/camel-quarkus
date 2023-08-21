@@ -168,6 +168,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-grpc": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.0.0"
+        },
         "camel-quarkus-gson": {
             "jvm": "supported",
             "native": "supported",

@@ -38,6 +38,7 @@ camel-file
 camel-ftp
 camel-google-bigquery
 camel-google-pubsub
+camel-grpc
 camel-gson
 camel-hl7
 camel-http

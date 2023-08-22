@@ -34,6 +34,16 @@
         <quarkus.runner>${project.build.directory}/quarkus-app/quarkus-run.jar</quarkus.runner>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-test-openshift-client</artifactId>
+                <version>3.2.3.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.camel.quarkus</groupId>

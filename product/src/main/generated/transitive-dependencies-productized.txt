@@ -134,6 +134,8 @@ com.nimbusds:content-type
 com.nimbusds:lang-tag
 com.nimbusds:nimbus-jose-jwt
 com.nimbusds:oauth2-oidc-sdk
+com.sap.conn.idoc:sapidoc3
+com.sap.conn.jco:sapjco3
 com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
@@ -865,6 +867,8 @@ org.apache.camel.quarkus:camel-quarkus-rest-openapi
 org.apache.camel.quarkus:camel-quarkus-rest-openapi-deployment
 org.apache.camel.quarkus:camel-quarkus-salesforce
 org.apache.camel.quarkus:camel-quarkus-salesforce-deployment
+org.apache.camel.quarkus:camel-quarkus-sap
+org.apache.camel.quarkus:camel-quarkus-sap-deployment
 org.apache.camel.quarkus:camel-quarkus-saxon
 org.apache.camel.quarkus:camel-quarkus-saxon-deployment
 org.apache.camel.quarkus:camel-quarkus-scheduler
@@ -1064,6 +1068,17 @@ org.conscrypt:conscrypt-openjdk-uber
 org.cryptacular:cryptacular
 org.eclipse.angus:angus-activation
 org.eclipse.angus:angus-mail
+org.eclipse.core:contenttype
+org.eclipse.core:jobs
+org.eclipse.core:runtime
+org.eclipse.emf:org.eclipse.emf.common
+org.eclipse.emf:org.eclipse.emf.ecore
+org.eclipse.emf:org.eclipse.emf.ecore.xmi
+org.eclipse.emf:org.eclipse.emf.edit
+org.eclipse.equinox:app
+org.eclipse.equinox:common
+org.eclipse.equinox:preferences
+org.eclipse.equinox:registry
 org.eclipse.jetty:jetty-alpn-client
 org.eclipse.jetty:jetty-client
 org.eclipse.jetty:jetty-http
@@ -1086,6 +1101,8 @@ org.eclipse.sisu:org.eclipse.sisu.inject
 org.eclipse.sisu:org.eclipse.sisu.plexus
 org.eclipse.transformer:org.eclipse.transformer
 org.ehcache:ehcache
+org.fusesource:camel-sap
+org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.jansi:jansi
 org.glassfish.expressly:expressly
 org.glassfish.jaxb:codemodel

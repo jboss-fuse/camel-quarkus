@@ -279,6 +279,8 @@ com.pubnub:pubnub-gson
 com.rabbitmq:amqp-client
 com.rometools:rome
 com.rometools:rome-utils
+com.sap.conn.idoc:sapidoc3
+com.sap.conn.jco:sapjco3
 com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
@@ -1656,6 +1658,8 @@ org.apache.camel.quarkus:camel-quarkus-saga
 org.apache.camel.quarkus:camel-quarkus-saga-deployment
 org.apache.camel.quarkus:camel-quarkus-salesforce
 org.apache.camel.quarkus:camel-quarkus-salesforce-deployment
+org.apache.camel.quarkus:camel-quarkus-sap
+org.apache.camel.quarkus:camel-quarkus-sap-deployment
 org.apache.camel.quarkus:camel-quarkus-sap-netweaver
 org.apache.camel.quarkus:camel-quarkus-sap-netweaver-deployment
 org.apache.camel.quarkus:camel-quarkus-saxon
@@ -2183,6 +2187,17 @@ org.eclipse.californium:californium-legal
 org.eclipse.californium:element-connector
 org.eclipse.californium:element-connector-tcp-netty
 org.eclipse.californium:scandium
+org.eclipse.core:contenttype
+org.eclipse.core:jobs
+org.eclipse.core:runtime
+org.eclipse.emf:org.eclipse.emf.common
+org.eclipse.emf:org.eclipse.emf.ecore
+org.eclipse.emf:org.eclipse.emf.ecore.xmi
+org.eclipse.emf:org.eclipse.emf.edit
+org.eclipse.equinox:app
+org.eclipse.equinox:common
+org.eclipse.equinox:preferences
+org.eclipse.equinox:registry
 org.eclipse.jetty:jetty-alpn-client
 org.eclipse.jetty:jetty-client
 org.eclipse.jetty:jetty-http
@@ -2225,6 +2240,8 @@ org.elasticsearch.client:elasticsearch-rest-client
 org.elasticsearch.client:elasticsearch-rest-client-sniffer
 org.facebook4j:facebook4j-core
 org.freemarker:freemarker
+org.fusesource:camel-sap
+org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.hawtbuf:hawtbuf
 org.fusesource.hawtdispatch:hawtdispatch
 org.fusesource.hawtdispatch:hawtdispatch-transport

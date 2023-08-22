@@ -47,6 +47,7 @@
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel.sb.docs.branch>camel-spring-boot-${camel.major.minor}.x</camel.sb.docs.branch><!-- The stable camel-spring-boot branch on which our Antora docs depends -->
         <camel-quarkus-community.version>3.2.0</camel-quarkus-community.version>
+        <camel-sap.version>4.0.0.redhat-00040</camel-sap.version>
         <cassandra-quarkus.version>1.2.0</cassandra-quarkus.version><!-- https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>${debezium-version}</debezium.version>
         <optaplanner.version>9.37.0.Final</optaplanner.version><!-- May go back to Camel's ${optaplanner-version} when they are in sync https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->

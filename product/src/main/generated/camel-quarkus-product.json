@@ -695,6 +695,15 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-sap",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-saxon",
             "metadata": {
                 "redhat-support": [

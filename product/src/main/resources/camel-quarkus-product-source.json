@@ -427,6 +427,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1; make sure that jsonSchema ends up in quarkus-camel-bom https://issues.redhat.com/browse/ENTESB-16542"
         },
+        "camel-quarkus-sap": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "supported/tp since CEQ 3.2.0"
+        },
         "camel-quarkus-saxon": {
             "jvm": "supported",
             "native": "supported",

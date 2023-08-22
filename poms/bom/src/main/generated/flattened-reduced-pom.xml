@@ -4949,6 +4949,16 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-sap</artifactId>
+        <version>3.2.0.fuse-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-sap-deployment</artifactId>
+        <version>3.2.0.fuse-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-sap-netweaver</artifactId>
         <version>3.2.0</version>
       </dependency>
@@ -6480,6 +6490,17 @@
         <groupId>org.eclipse.angus</groupId>
         <artifactId>angus-mail</artifactId>
         <version>2.0.2.redhat-00001</version>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-sap</artifactId>
+        <version>4.0.0.redhat-00040</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.eclipse</groupId>
+            <artifactId>osgi</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.graalvm.js</groupId>

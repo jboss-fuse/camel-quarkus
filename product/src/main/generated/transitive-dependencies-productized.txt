@@ -867,6 +867,8 @@ org.apache.camel.quarkus:camel-quarkus-rest-openapi
 org.apache.camel.quarkus:camel-quarkus-rest-openapi-deployment
 org.apache.camel.quarkus:camel-quarkus-salesforce
 org.apache.camel.quarkus:camel-quarkus-salesforce-deployment
+org.apache.camel.quarkus:camel-quarkus-sap
+org.apache.camel.quarkus:camel-quarkus-sap-deployment
 org.apache.camel.quarkus:camel-quarkus-saxon
 org.apache.camel.quarkus:camel-quarkus-saxon-deployment
 org.apache.camel.quarkus:camel-quarkus-scheduler
@@ -1088,6 +1090,7 @@ org.eclipse.sisu:org.eclipse.sisu.inject
 org.eclipse.sisu:org.eclipse.sisu.plexus
 org.eclipse.transformer:org.eclipse.transformer
 org.ehcache:ehcache
+org.fusesource:camel-sap
 org.fusesource.jansi:jansi
 org.glassfish.expressly:expressly
 org.glassfish.jaxb:codemodel

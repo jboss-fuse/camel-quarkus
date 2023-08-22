@@ -639,6 +639,11 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
+        <artifactId>camel-core</artifactId>
+        <version>4.0.0-RC2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-catalog</artifactId>
         <version>4.0.0-RC2</version>
       </dependency>
@@ -2596,6 +2601,11 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-yaml-dsl-deserializers</artifactId>
+        <version>4.0.0-RC2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-yaml-io</artifactId>
         <version>4.0.0-RC2</version>
       </dependency>
       <dependency>
@@ -4977,6 +4987,16 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-sap</artifactId>
+        <version>3.0.0-RC2.fuse-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-sap-deployment</artifactId>
+        <version>3.0.0-RC2.fuse-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-sap-netweaver</artifactId>
         <version>3.0.0-RC2</version>
       </dependency>
@@ -6508,6 +6528,11 @@
         <groupId>org.eclipse.angus</groupId>
         <artifactId>angus-mail</artifactId>
         <version>2.0.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-sap</artifactId>
+        <version>4.0.0.redhat-00027</version>
       </dependency>
       <dependency>
         <groupId>org.graalvm.js</groupId>

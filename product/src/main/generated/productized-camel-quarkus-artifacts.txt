@@ -230,6 +230,7 @@ camel-quarkus-integration-test-rest
 camel-quarkus-integration-test-rest-openapi
 camel-quarkus-integration-test-route-configurations
 camel-quarkus-integration-test-salesforce
+camel-quarkus-integration-test-sap
 camel-quarkus-integration-test-saxon
 camel-quarkus-integration-test-scheduler
 camel-quarkus-integration-test-seda
@@ -408,6 +409,9 @@ camel-quarkus-rest-parent
 camel-quarkus-salesforce
 camel-quarkus-salesforce-deployment
 camel-quarkus-salesforce-parent
+camel-quarkus-sap
+camel-quarkus-sap-deployment
+camel-quarkus-sap-parent
 camel-quarkus-saxon
 camel-quarkus-saxon-deployment
 camel-quarkus-saxon-parent

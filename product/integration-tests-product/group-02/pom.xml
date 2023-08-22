@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
-        <module>../../../integration-test-groups/foundation/core-thread-pools</module>
         <module>../../../integration-test-groups/foundation/dataset</module>
         <module>../../../integration-test-groups/foundation/direct</module>
         <module>../../../integration-test-groups/foundation/eip</module>
@@ -52,6 +51,7 @@
         <module>../../../integration-test-groups/mongodb/mongodb</module>
         <module>../../../integration-tests-jvm/azure-servicebus</module>
         <module>../../../integration-tests-jvm/controlbus-statistics</module>
+        <module>../../../integration-tests-jvm/sap</module>
         <module>../../../integration-tests-jvm/snmp</module>
         <module>../../../integration-tests-jvm/xslt-saxon</module>
         <module>../../../integration-tests/avro</module>

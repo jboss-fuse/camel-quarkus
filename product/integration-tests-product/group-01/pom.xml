@@ -65,5 +65,6 @@
         <module>../../../integration-test-groups/foundation/core-annotations</module>
         <module>../../../integration-test-groups/foundation/core-fault-tolerance</module>
         <module>../../../integration-test-groups/foundation/core-languages</module>
+        <module>../../../integration-test-groups/foundation/core-thread-pools</module>
     </modules>
 </project>

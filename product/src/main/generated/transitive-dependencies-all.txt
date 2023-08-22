@@ -1699,6 +1699,8 @@ org.apache.camel.quarkus:camel-quarkus-saga
 org.apache.camel.quarkus:camel-quarkus-saga-deployment
 org.apache.camel.quarkus:camel-quarkus-salesforce
 org.apache.camel.quarkus:camel-quarkus-salesforce-deployment
+org.apache.camel.quarkus:camel-quarkus-sap
+org.apache.camel.quarkus:camel-quarkus-sap-deployment
 org.apache.camel.quarkus:camel-quarkus-sap-netweaver
 org.apache.camel.quarkus:camel-quarkus-sap-netweaver-deployment
 org.apache.camel.quarkus:camel-quarkus-saxon
@@ -2268,6 +2270,7 @@ org.elasticsearch.client:elasticsearch-rest-client
 org.elasticsearch.client:elasticsearch-rest-client-sniffer
 org.facebook4j:facebook4j-core
 org.freemarker:freemarker
+org.fusesource:camel-sap
 org.fusesource.hawtbuf:hawtbuf
 org.fusesource.hawtdispatch:hawtdispatch
 org.fusesource.hawtdispatch:hawtdispatch-transport

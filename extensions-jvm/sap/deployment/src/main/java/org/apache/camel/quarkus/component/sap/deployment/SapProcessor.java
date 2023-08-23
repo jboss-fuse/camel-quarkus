@@ -16,10 +16,12 @@
  */
 package org.apache.camel.quarkus.component.sap.deployment;
 
+import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.annotations.ExecutionTime;
 import io.quarkus.deployment.annotations.Record;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
+import io.quarkus.deployment.builditem.IndexDependencyBuildItem;
 import io.quarkus.deployment.pkg.steps.NativeBuild;
 import org.apache.camel.quarkus.core.JvmOnlyRecorder;
 import org.jboss.logging.Logger;
@@ -32,6 +34,11 @@ class JmsProcessor {
     @BuildStep
     FeatureBuildItem feature() {
         return new FeatureBuildItem(FEATURE);
+    }
+
+    @BuildStep
+    void addDependencies(BuildProducer<IndexDependencyBuildItem> indexDependency) {
+        indexDependency.produce(new IndexDependencyBuildItem("org.fusesource", "camel-sap"));
     }
 
     /**

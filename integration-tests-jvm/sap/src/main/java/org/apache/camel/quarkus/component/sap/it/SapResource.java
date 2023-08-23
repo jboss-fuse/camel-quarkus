@@ -32,7 +32,7 @@ public class SapResource {
 
     private static final Logger LOG = Logger.getLogger(SapResource.class);
 
-    private static final String COMPONENT_SAP = "sap";
+    private static final String COMPONENT_SAP = "sap-trfc-server";
     @Inject
     CamelContext context;
 

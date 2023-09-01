@@ -485,7 +485,6 @@ org.apache.camel:camel-reactive-streams
 org.apache.camel:camel-redis
 org.apache.camel:camel-robotframework
 org.apache.camel:camel-rss
-org.apache.camel:camel-saga
 org.apache.camel:camel-sap-netweaver
 org.apache.camel:camel-schematron
 org.apache.camel:camel-servicenow
@@ -504,7 +503,6 @@ org.apache.camel:camel-stitch
 org.apache.camel:camel-stomp
 org.apache.camel:camel-stream
 org.apache.camel:camel-stringtemplate
-org.apache.camel:camel-stub
 org.apache.camel:camel-swift
 org.apache.camel:camel-syslog
 org.apache.camel:camel-tarfile

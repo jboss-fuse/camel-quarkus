@@ -135,6 +135,8 @@ com.nimbusds:content-type
 com.nimbusds:lang-tag
 com.nimbusds:nimbus-jose-jwt
 com.nimbusds:oauth2-oidc-sdk
+com.sap.conn.idoc:sapidoc3
+com.sap.conn.jco:sapjco3
 com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
@@ -587,6 +589,7 @@ org.apache.camel:camel-cloud
 org.apache.camel:camel-cluster
 org.apache.camel:camel-componentdsl
 org.apache.camel:camel-controlbus
+org.apache.camel:camel-core
 org.apache.camel:camel-core-catalog
 org.apache.camel:camel-core-engine
 org.apache.camel:camel-core-languages
@@ -665,6 +668,7 @@ org.apache.camel:camel-quartz
 org.apache.camel:camel-ref
 org.apache.camel:camel-rest
 org.apache.camel:camel-rest-openapi
+org.apache.camel:camel-saga
 org.apache.camel:camel-salesforce
 org.apache.camel:camel-saxon
 org.apache.camel:camel-scheduler
@@ -673,6 +677,7 @@ org.apache.camel:camel-slack
 org.apache.camel:camel-snmp
 org.apache.camel:camel-soap
 org.apache.camel:camel-sql
+org.apache.camel:camel-stub
 org.apache.camel:camel-support
 org.apache.camel:camel-telegram
 org.apache.camel:camel-timer
@@ -698,6 +703,7 @@ org.apache.camel:camel-xslt-saxon
 org.apache.camel:camel-yaml-dsl
 org.apache.camel:camel-yaml-dsl-common
 org.apache.camel:camel-yaml-dsl-deserializers
+org.apache.camel:camel-yaml-io
 org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
 org.apache.camel.quarkus:camel-quarkus-amqp
@@ -1066,8 +1072,20 @@ org.cometd.java:cometd-java-client-http-jetty
 org.cometd.java:cometd-java-common
 org.conscrypt:conscrypt-openjdk-uber
 org.cryptacular:cryptacular
+org.eclipse:osgi
 org.eclipse.angus:angus-activation
 org.eclipse.angus:angus-mail
+org.eclipse.core:contenttype
+org.eclipse.core:jobs
+org.eclipse.core:runtime
+org.eclipse.emf:org.eclipse.emf.common
+org.eclipse.emf:org.eclipse.emf.ecore
+org.eclipse.emf:org.eclipse.emf.ecore.xmi
+org.eclipse.emf:org.eclipse.emf.edit
+org.eclipse.equinox:app
+org.eclipse.equinox:common
+org.eclipse.equinox:preferences
+org.eclipse.equinox:registry
 org.eclipse.jetty:jetty-alpn-client
 org.eclipse.jetty:jetty-client
 org.eclipse.jetty:jetty-http
@@ -1091,6 +1109,7 @@ org.eclipse.sisu:org.eclipse.sisu.plexus
 org.eclipse.transformer:org.eclipse.transformer
 org.ehcache:ehcache
 org.fusesource:camel-sap
+org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.jansi:jansi
 org.glassfish.expressly:expressly
 org.glassfish.jaxb:codemodel

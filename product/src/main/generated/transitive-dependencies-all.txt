@@ -282,6 +282,8 @@ com.pubnub:pubnub-gson
 com.rabbitmq:amqp-client
 com.rometools:rome
 com.rometools:rome-utils
+com.sap.conn.idoc:sapidoc3
+com.sap.conn.jco:sapjco3
 com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
@@ -965,6 +967,7 @@ org.apache.camel:camel-console
 org.apache.camel:camel-consul
 org.apache.camel:camel-controlbus
 org.apache.camel:camel-corda
+org.apache.camel:camel-core
 org.apache.camel:camel-core-catalog
 org.apache.camel:camel-core-engine
 org.apache.camel:camel-core-languages
@@ -1224,6 +1227,7 @@ org.apache.camel:camel-xslt-saxon
 org.apache.camel:camel-yaml-dsl
 org.apache.camel:camel-yaml-dsl-common
 org.apache.camel:camel-yaml-dsl-deserializers
+org.apache.camel:camel-yaml-io
 org.apache.camel:camel-zendesk
 org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
@@ -2220,6 +2224,7 @@ org.drools:drools-tms
 org.drools:drools-util
 org.drools:drools-wiring-api
 org.drools:drools-wiring-static
+org.eclipse:osgi
 org.eclipse:yasson
 org.eclipse.angus:angus-activation
 org.eclipse.angus:angus-mail
@@ -2228,6 +2233,17 @@ org.eclipse.californium:californium-legal
 org.eclipse.californium:element-connector
 org.eclipse.californium:element-connector-tcp-netty
 org.eclipse.californium:scandium
+org.eclipse.core:contenttype
+org.eclipse.core:jobs
+org.eclipse.core:runtime
+org.eclipse.emf:org.eclipse.emf.common
+org.eclipse.emf:org.eclipse.emf.ecore
+org.eclipse.emf:org.eclipse.emf.ecore.xmi
+org.eclipse.emf:org.eclipse.emf.edit
+org.eclipse.equinox:app
+org.eclipse.equinox:common
+org.eclipse.equinox:preferences
+org.eclipse.equinox:registry
 org.eclipse.jetty:jetty-alpn-client
 org.eclipse.jetty:jetty-client
 org.eclipse.jetty:jetty-http
@@ -2271,6 +2287,7 @@ org.elasticsearch.client:elasticsearch-rest-client-sniffer
 org.facebook4j:facebook4j-core
 org.freemarker:freemarker
 org.fusesource:camel-sap
+org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.hawtbuf:hawtbuf
 org.fusesource.hawtdispatch:hawtdispatch
 org.fusesource.hawtdispatch:hawtdispatch-transport

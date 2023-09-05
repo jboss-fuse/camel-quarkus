@@ -280,7 +280,6 @@ mysql:mysql-connector-java
 net.i2p.crypto:eddsa
 net.jcip:jcip-annotations
 net.jodah:failsafe
-net.openhft:affinity
 net.sf.flatpack:flatpack
 net.sf.jt400:jt400
 oauth.signpost:signpost-core

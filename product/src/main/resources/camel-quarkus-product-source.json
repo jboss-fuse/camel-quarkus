@@ -342,14 +342,6 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
-        "camel-quarkus-microprofile-metrics": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1",
-            "allowedMixedTests": [
-                "camel-quarkus-integration-test-microprofile"
-            ]
-        },
         "camel-quarkus-minio": {
             "jvm": "supported",
             "native": "supported",

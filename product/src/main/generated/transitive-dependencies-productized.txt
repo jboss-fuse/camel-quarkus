@@ -17,7 +17,7 @@ ca.uhn.hapi.fhir:org.hl7.fhir.r4
 ca.uhn.hapi.fhir:org.hl7.fhir.r5
 ca.uhn.hapi.fhir:org.hl7.fhir.utilities
 com.aayushatharva.brotli4j:brotli4j
-com.aayushatharva.brotli4j:native-osx-aarch64
+com.aayushatharva.brotli4j:native-linux-x86_64
 com.aayushatharva.brotli4j:service
 com.atlassian.event:atlassian-event
 com.atlassian.httpclient:atlassian-httpclient-api
@@ -832,7 +832,6 @@ org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance
 org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance-deployment
 org.apache.camel.quarkus:camel-quarkus-microprofile-health
 org.apache.camel.quarkus:camel-quarkus-microprofile-health-deployment
-org.apache.camel.quarkus:camel-quarkus-microprofile-metrics-deployment
 org.apache.camel.quarkus:camel-quarkus-minio
 org.apache.camel.quarkus:camel-quarkus-minio-deployment
 org.apache.camel.quarkus:camel-quarkus-mllp

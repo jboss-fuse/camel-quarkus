@@ -94,6 +94,7 @@ com.google.apis:google-api-services-drive
 com.google.apis:google-api-services-gmail
 com.google.apis:google-api-services-sheets
 com.google.apis:google-api-services-storage
+com.google.auto.value:auto-value-annotations
 com.google.cloud:google-cloud-core-grpc
 com.google.cloud:google-cloud-functions
 com.google.cloud:google-cloud-secretmanager

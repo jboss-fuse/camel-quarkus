@@ -50,6 +50,7 @@
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-converter</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-mtom</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-mtom-awt</module>
+        <module>../../../integration-test-groups/cxf-soap/cxf-soap-rest</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-server</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-ssl</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-ws-security-client</module>
@@ -66,6 +67,5 @@
         <module>../../../integration-test-groups/foundation/core-fault-tolerance</module>
         <module>../../../integration-test-groups/foundation/core-languages</module>
         <module>../../../integration-test-groups/foundation/core-thread-pools</module>
-        <module>../../../integration-test-groups/foundation/dataset</module>
     </modules>
 </project>

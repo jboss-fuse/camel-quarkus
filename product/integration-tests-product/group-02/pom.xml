@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
+        <module>../../../integration-test-groups/foundation/dataset</module>
         <module>../../../integration-test-groups/foundation/direct</module>
         <module>../../../integration-test-groups/foundation/eip</module>
         <module>../../../integration-test-groups/foundation/language</module>

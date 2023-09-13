@@ -17,8 +17,10 @@ camel-bindy
 camel-browse
 camel-cassandraql
 camel-catalog
+camel-cli-connector
 camel-cloud
 camel-componentdsl
+camel-console
 camel-controlbus
 camel-core-catalog
 camel-core-engine

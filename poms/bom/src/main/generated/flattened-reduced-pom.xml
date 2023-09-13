@@ -545,7 +545,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-cli-connector</artifactId>
-        <version>4.0.0</version>
+        <version>4.0.0.redhat-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -591,7 +591,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-console</artifactId>
-        <version>4.0.0</version>
+        <version>4.0.0.redhat-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -3140,12 +3140,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-cli-connector</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-cli-connector-deployment</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -3190,12 +3190,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-console</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-console-deployment</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>

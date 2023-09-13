@@ -881,6 +881,15 @@
                     "supported"
                 ]
             }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-cli-connector",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
+                ]
+            }
         }
     ]
 }

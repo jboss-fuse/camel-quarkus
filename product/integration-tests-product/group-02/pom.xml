@@ -55,6 +55,8 @@
         <module>../../../integration-test-groups/jdbc/oracle</module>
         <module>../../../integration-test-groups/jdbc/postgresql</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
+        <module>../../../integration-tests-jvm/cli-connector</module>
+        <module>../../../integration-tests-jvm/console</module>
         <module>../../../integration-tests-jvm/controlbus-statistics</module>
         <module>../../../integration-tests-jvm/sap</module>
         <module>../../../integration-tests-jvm/snmp</module>
@@ -65,6 +67,5 @@
         <module>../../../integration-tests/core-discovery-disabled</module>
         <module>../../../integration-tests/crypto</module>
         <module>../../../integration-tests/fhir</module>
-        <module>../../../integration-tests/ftp</module>
     </modules>
 </project>

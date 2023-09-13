@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests/ftp</module>
         <module>../../../integration-tests/google-bigquery</module>
         <module>../../../integration-tests/google-pubsub</module>
         <module>../../../integration-tests/grpc</module>

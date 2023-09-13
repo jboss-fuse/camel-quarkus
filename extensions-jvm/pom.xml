@@ -47,11 +47,11 @@
         <!-- <module>bonita</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>chatscript</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>chunk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>cli-connector</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>cli-connector</module>
         <!-- <module>cm-sms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>coap</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>cometd</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>console</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>console</module>
         <!-- <module>couchbase</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>djl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>dns</module> disabled by cq-prod-maven-plugin:prod-excludes -->

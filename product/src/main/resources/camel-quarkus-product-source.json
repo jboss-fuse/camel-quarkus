@@ -541,7 +541,13 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
+        },
+        "camel-quarkus-cli-connector": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.2.0"
         }
+        
     },
     "additionalProductizedArtifacts": [
         "org.apache.camel.quarkus:camel-quarkus-catalog",

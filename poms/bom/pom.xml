@@ -606,7 +606,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-cli-connector</artifactId>
-                <version>${camel-community.version}</version>
+                <version>${camel.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -652,7 +652,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-console</artifactId>
-                <version>${camel-community.version}</version>
+                <version>${camel.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -3213,12 +3213,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-cli-connector</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-cli-connector-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -3263,12 +3263,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-console</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-console-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>

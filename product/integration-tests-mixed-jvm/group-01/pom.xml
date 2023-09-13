@@ -45,11 +45,9 @@
         <module>../../../integration-tests-jvm/bonita</module>
         <module>../../../integration-tests-jvm/chatscript</module>
         <module>../../../integration-tests-jvm/chunk</module>
-        <module>../../../integration-tests-jvm/cli-connector</module>
         <module>../../../integration-tests-jvm/cm-sms</module>
         <module>../../../integration-tests-jvm/coap</module>
         <module>../../../integration-tests-jvm/cometd</module>
-        <module>../../../integration-tests-jvm/console</module>
         <module>../../../integration-tests-jvm/couchbase</module>
         <module>../../../integration-tests-jvm/djl</module>
         <module>../../../integration-tests-jvm/dns</module>

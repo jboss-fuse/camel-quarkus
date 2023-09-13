@@ -329,12 +329,10 @@ org.apache.camel:camel-caffeine
 org.apache.camel:camel-cbor
 org.apache.camel:camel-chatscript
 org.apache.camel:camel-chunk
-org.apache.camel:camel-cli-connector
 org.apache.camel:camel-cloudevents
 org.apache.camel:camel-cm-sms
 org.apache.camel:camel-coap
 org.apache.camel:camel-cometd
-org.apache.camel:camel-console
 org.apache.camel:camel-consul
 org.apache.camel:camel-couchbase
 org.apache.camel:camel-couchdb
@@ -556,8 +554,6 @@ org.apache.camel.quarkus:camel-quarkus-chatscript
 org.apache.camel.quarkus:camel-quarkus-chatscript-deployment
 org.apache.camel.quarkus:camel-quarkus-chunk
 org.apache.camel.quarkus:camel-quarkus-chunk-deployment
-org.apache.camel.quarkus:camel-quarkus-cli-connector
-org.apache.camel.quarkus:camel-quarkus-cli-connector-deployment
 org.apache.camel.quarkus:camel-quarkus-cloudevents
 org.apache.camel.quarkus:camel-quarkus-cloudevents-deployment
 org.apache.camel.quarkus:camel-quarkus-cm-sms
@@ -566,8 +562,6 @@ org.apache.camel.quarkus:camel-quarkus-coap
 org.apache.camel.quarkus:camel-quarkus-coap-deployment
 org.apache.camel.quarkus:camel-quarkus-cometd
 org.apache.camel.quarkus:camel-quarkus-cometd-deployment
-org.apache.camel.quarkus:camel-quarkus-console
-org.apache.camel.quarkus:camel-quarkus-console-deployment
 org.apache.camel.quarkus:camel-quarkus-consul
 org.apache.camel.quarkus:camel-quarkus-consul-deployment
 org.apache.camel.quarkus:camel-quarkus-couchbase

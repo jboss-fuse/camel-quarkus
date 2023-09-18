@@ -6494,7 +6494,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
-        <version>4.0.0.redhat-00040</version>
+        <version>4.0.0.redhat-00043</version>
         <exclusions>
           <exclusion>
             <groupId>org.eclipse</groupId>

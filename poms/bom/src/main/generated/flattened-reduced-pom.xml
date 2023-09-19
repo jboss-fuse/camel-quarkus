@@ -6541,6 +6541,11 @@
         <version>23.0.1</version>
       </dependency>
       <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest</artifactId>
+        <version>2.2</version>
+      </dependency>
+      <dependency>
         <groupId>org.influxdb</groupId>
         <artifactId>influxdb-java</artifactId>
         <version>2.23</version>

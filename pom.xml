@@ -105,6 +105,7 @@
         <google-cloud-bom.version>0.202.0</google-cloud-bom.version><!-- @sync com.google.cloud:libraries-bom:${google-cloud-bom-version} dep:com.google.cloud:google-cloud-bom -->
         <google-cloud-pubsub-bom.version>1.124.0</google-cloud-pubsub-bom.version><!-- @sync com.google.cloud:google-cloud-bom:${google-cloud-bom.version} dep:com.google.cloud:google-cloud-pubsub-bom -->
         <google-cloud-pubsub.version>1.124.0</google-cloud-pubsub.version><!-- @sync com.google.cloud:google-cloud-pubsub-bom:${google-cloud-pubsub-bom.version} dep:com.google.cloud:google-cloud-pubsub -->
+        <google-guava-listenablefuture.version>9999.0.0.empty-to-avoid-conflict-with-guava-redhat-00001</google-guava-listenablefuture.version>
         <graalvm.version>23.0.1.0-1-redhat-00001</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.sdk:graal-sdk -->
         <graalvm-community.version>23.0.1</graalvm-community.version>
         <groovy.version>4.0.13</groovy.version><!-- @sync io.quarkiverse.groovy:quarkus-groovy-parent:${quarkiverse-groovy.version} prop:groovy.version -->

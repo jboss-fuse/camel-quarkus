@@ -6090,6 +6090,11 @@
         </exclusions>
       </dependency>
       <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>listenablefuture</artifactId>
+        <version>9999.0.0.empty-to-avoid-conflict-with-guava-redhat-00001</version>
+      </dependency>
+      <dependency>
         <groupId>com.google.oauth-client</groupId>
         <artifactId>google-oauth-client</artifactId>
         <version>1.34.1.redhat-00002</version>

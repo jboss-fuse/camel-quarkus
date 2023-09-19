@@ -6166,6 +6166,11 @@
                 </exclusions>
             </dependency>
             <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>listenablefuture</artifactId>
+                <version>${google-guava-listenablefuture.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.oauth-client</groupId>
                 <artifactId>google-oauth-client</artifactId>
                 <version>${google-oauth-client.version}</version>

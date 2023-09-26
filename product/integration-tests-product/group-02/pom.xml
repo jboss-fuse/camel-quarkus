@@ -56,6 +56,7 @@
         <module>../../../integration-test-groups/jdbc/oracle</module>
         <module>../../../integration-test-groups/jdbc/postgresql</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
+        <module>../../../integration-tests-jvm/azure-servicebus</module>
         <module>../../../integration-tests-jvm/cli-connector</module>
         <module>../../../integration-tests-jvm/console</module>
         <module>../../../integration-tests-jvm/controlbus-statistics</module>
@@ -67,6 +68,5 @@
         <module>../../../integration-tests/cassandraql</module>
         <module>../../../integration-tests/core-discovery-disabled</module>
         <module>../../../integration-tests/crypto</module>
-        <module>../../../integration-tests/fhir</module>
     </modules>
 </project>

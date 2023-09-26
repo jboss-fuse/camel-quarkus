@@ -41,7 +41,7 @@
         <!-- <module>aws-xray</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>azure-cosmosdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>azure-key-vault</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>azure-servicebus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>azure-servicebus</module>
         <!-- <module>azure-storage-datalake</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>barcode</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>bonita</module> disabled by cq-prod-maven-plugin:prod-excludes -->

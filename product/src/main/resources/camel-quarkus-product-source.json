@@ -57,6 +57,11 @@
             "native": "supported",
             "comment": "tp(by mistake?)/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-azure-servicebus": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "tp/tp since 3.2.0"
+        },
         "camel-quarkus-azure-storage-blob": {
             "jvm": "techPreview",
             "native": "techPreview",

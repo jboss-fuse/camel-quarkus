@@ -8,6 +8,7 @@ camel-aws2-lambda
 camel-aws2-s3
 camel-aws2-sns
 camel-aws2-sqs
+camel-azure-servicebus
 camel-azure-storage-blob
 camel-azure-storage-queue
 camel-base

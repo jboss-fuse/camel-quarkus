@@ -27,9 +27,11 @@ com.atlassian.jira:jira-rest-java-client-core
 com.atlassian.sal:sal-api
 com.auth0:java-jwt
 com.azure:azure-core
+com.azure:azure-core-amqp
 com.azure:azure-core-http-vertx
 com.azure:azure-identity
 com.azure:azure-json
+com.azure:azure-messaging-servicebus
 com.azure:azure-storage-blob
 com.azure:azure-storage-blob-changefeed
 com.azure:azure-storage-common
@@ -130,6 +132,7 @@ com.ibm.icu:icu4j
 com.jayway.jsonpath:json-path
 com.microsoft.azure:msal4j
 com.microsoft.azure:msal4j-persistence-extension
+com.microsoft.azure:qpid-proton-j-extensions
 com.nimbusds:content-type
 com.nimbusds:lang-tag
 com.nimbusds:nimbus-jose-jwt
@@ -574,6 +577,7 @@ org.apache.camel:camel-aws2-lambda
 org.apache.camel:camel-aws2-s3
 org.apache.camel:camel-aws2-sns
 org.apache.camel:camel-aws2-sqs
+org.apache.camel:camel-azure-servicebus
 org.apache.camel:camel-azure-storage-blob
 org.apache.camel:camel-azure-storage-queue
 org.apache.camel:camel-base
@@ -724,6 +728,8 @@ org.apache.camel.quarkus:camel-quarkus-aws2-sns
 org.apache.camel.quarkus:camel-quarkus-aws2-sns-deployment
 org.apache.camel.quarkus:camel-quarkus-aws2-sqs
 org.apache.camel.quarkus:camel-quarkus-aws2-sqs-deployment
+org.apache.camel.quarkus:camel-quarkus-azure-servicebus
+org.apache.camel.quarkus:camel-quarkus-azure-servicebus-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-blob
 org.apache.camel.quarkus:camel-quarkus-azure-storage-blob-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-queue

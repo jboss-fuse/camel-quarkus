@@ -399,7 +399,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-azure-servicebus</artifactId>
-        <version>4.0.0</version>
+        <version>4.0.0.redhat-00009</version>
         <exclusions>
           <exclusion>
             <groupId>com.azure</groupId>
@@ -2979,12 +2979,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-azure-servicebus</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-azure-servicebus-deployment</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>

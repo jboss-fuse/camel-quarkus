@@ -29,11 +29,9 @@ com.arangodb:arangodb-java-driver
 com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
-com.azure:azure-core-amqp
 com.azure:azure-cosmos
 com.azure:azure-messaging-eventhubs
 com.azure:azure-messaging-eventhubs-checkpointstore-blob
-com.azure:azure-messaging-servicebus
 com.azure:azure-security-keyvault-secrets
 com.azure:azure-storage-file-datalake
 com.bazaarvoice.jolt:jolt-core
@@ -129,7 +127,6 @@ com.lihaoyi:sourcecode_2.13
 com.lihaoyi:ujson_2.13
 com.lihaoyi:upickle-core_2.13
 com.lmax:disruptor
-com.microsoft.azure:qpid-proton-j-extensions
 com.microsoft.sqlserver:mssql-jdbc
 com.myjeeva.digitalocean:digitalocean-api-client
 com.mysql:mysql-connector-j
@@ -317,7 +314,6 @@ org.apache.camel:camel-aws2-translate
 org.apache.camel:camel-azure-cosmosdb
 org.apache.camel:camel-azure-eventhubs
 org.apache.camel:camel-azure-key-vault
-org.apache.camel:camel-azure-servicebus
 org.apache.camel:camel-azure-storage-datalake
 org.apache.camel:camel-barcode
 org.apache.camel:camel-base64
@@ -531,8 +527,6 @@ org.apache.camel.quarkus:camel-quarkus-azure-eventhubs
 org.apache.camel.quarkus:camel-quarkus-azure-eventhubs-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-key-vault
 org.apache.camel.quarkus:camel-quarkus-azure-key-vault-deployment
-org.apache.camel.quarkus:camel-quarkus-azure-servicebus
-org.apache.camel.quarkus:camel-quarkus-azure-servicebus-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-datalake
 org.apache.camel.quarkus:camel-quarkus-azure-storage-datalake-deployment
 org.apache.camel.quarkus:camel-quarkus-barcode

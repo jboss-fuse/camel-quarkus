@@ -22,7 +22,7 @@
 #
 ---
 name: "Camel XML JAXP"
-description: "Camel XML JAXP"
+description: "XML JAXP type converters and parsers"
 icon-url: "https://camel.apache.org/_/img/logo-d-f21b25ba38.svg"
 metadata:
   guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/3.latest/html/camel_extensions_for_quarkus_reference/extensions-xml-jaxp"

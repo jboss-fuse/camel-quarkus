@@ -1607,7 +1607,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-jq</artifactId>
-                <version>${camel.version}</version>
+                <version>${camel-community.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>net.thisptr</groupId>
@@ -4232,12 +4232,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-jq</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-jq-deployment</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>

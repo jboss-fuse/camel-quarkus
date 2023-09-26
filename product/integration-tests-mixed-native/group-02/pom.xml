@@ -45,6 +45,7 @@
         <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jolt</module>
         <module>../../../integration-tests/joor</module>
+        <module>../../../integration-tests/jq</module>
         <module>../../../integration-tests/js-dsl</module>
         <module>../../../integration-tests/jsch</module>
         <module>../../../integration-tests/jsh-dsl</module>
@@ -69,6 +70,5 @@
         <module>../../../integration-tests/nats</module>
         <module>../../../integration-tests/nitrite</module>
         <module>../../../integration-tests/oaipmh</module>
-        <module>../../../integration-tests/ognl</module>
     </modules>
 </project>

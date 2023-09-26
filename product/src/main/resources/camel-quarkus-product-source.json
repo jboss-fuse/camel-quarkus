@@ -279,11 +279,6 @@
                 "camel-quarkus-integration-test-jta"
             ]
         },
-        "camel-quarkus-jq": {
-            "jvm": "community",
-            "native": "community",
-            "comment": "community/community since CEQ 2.13.3; Required by Camel-K"
-        },
         "camel-quarkus-kafka": {
             "jvm": "supported",
             "native": "supported",

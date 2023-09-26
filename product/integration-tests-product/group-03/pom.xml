@@ -48,7 +48,6 @@
         <module>../../../integration-tests/jaxb</module>
         <module>../../../integration-tests/jira</module>
         <module>../../../integration-tests/jpa</module>
-        <module>../../../integration-tests/jq</module>
         <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/jsonpath</module>
         <module>../../../integration-tests/jta</module>

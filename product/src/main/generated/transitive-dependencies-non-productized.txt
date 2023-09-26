@@ -223,6 +223,9 @@ io.quarkiverse.freemarker:quarkus-freemarker
 io.quarkiverse.freemarker:quarkus-freemarker-deployment
 io.quarkiverse.groovy:quarkus-groovy
 io.quarkiverse.groovy:quarkus-groovy-deployment
+io.quarkiverse.jackson-jq:quarkus-jackson-jq
+io.quarkiverse.jackson-jq:quarkus-jackson-jq-deployment
+io.quarkiverse.jackson-jq:quarkus-jackson-jq-extra
 io.quarkiverse.jgit:quarkus-jgit
 io.quarkiverse.jgit:quarkus-jgit-deployment
 io.quarkiverse.poi:quarkus-poi
@@ -280,6 +283,8 @@ net.jcip:jcip-annotations
 net.jodah:failsafe
 net.sf.flatpack:flatpack
 net.sf.jt400:jt400
+net.thisptr:jackson-jq
+net.thisptr:jackson-jq-extra
 oauth.signpost:signpost-core
 ognl:ognl
 org.antlr:ST4
@@ -395,6 +400,7 @@ org.apache.camel:camel-jgroups-raft
 org.apache.camel:camel-jolt
 org.apache.camel:camel-jooq
 org.apache.camel:camel-joor
+org.apache.camel:camel-jq
 org.apache.camel:camel-js-dsl
 org.apache.camel:camel-jsch
 org.apache.camel:camel-jsh-dsl
@@ -681,6 +687,8 @@ org.apache.camel.quarkus:camel-quarkus-jooq
 org.apache.camel.quarkus:camel-quarkus-jooq-deployment
 org.apache.camel.quarkus:camel-quarkus-joor
 org.apache.camel.quarkus:camel-quarkus-joor-deployment
+org.apache.camel.quarkus:camel-quarkus-jq
+org.apache.camel.quarkus:camel-quarkus-jq-deployment
 org.apache.camel.quarkus:camel-quarkus-js-dsl
 org.apache.camel.quarkus:camel-quarkus-js-dsl-deployment
 org.apache.camel.quarkus:camel-quarkus-jsch
@@ -1173,6 +1181,8 @@ org.jgroups:jgroups-raft
 org.jodd:jodd-bean
 org.jodd:jodd-core
 org.jooq:jooq
+org.jruby.jcodings:jcodings
+org.jruby.joni:joni
 org.jsmpp:jsmpp
 org.jsoup:jsoup
 org.jxmpp:jxmpp-core

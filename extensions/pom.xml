@@ -140,7 +140,7 @@
         <!-- <module>jolt</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>joor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>jpa</module>
-        <module>jq</module>
+        <!-- <module>jq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>js-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jsch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jsh-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->

@@ -288,9 +288,6 @@ io.quarkiverse.cxf:quarkus-cxf-woodstox
 io.quarkiverse.cxf:quarkus-cxf-woodstox-deployment
 io.quarkiverse.cxf:quarkus-cxf-xjc-plugins
 io.quarkiverse.cxf:quarkus-cxf-xjc-plugins-deployment
-io.quarkiverse.jackson-jq:quarkus-jackson-jq
-io.quarkiverse.jackson-jq:quarkus-jackson-jq-deployment
-io.quarkiverse.jackson-jq:quarkus-jackson-jq-extra
 io.quarkiverse.jsch:quarkus-jsch
 io.quarkiverse.jsch:quarkus-jsch-deployment
 io.quarkiverse.messaginghub:quarkus-pooled-jms
@@ -553,8 +550,6 @@ net.minidev:json-smart
 net.sf.jopt-simple:jopt-simple
 net.sf.saxon:Saxon-HE
 net.shibboleth.utilities:java-support
-net.thisptr:jackson-jq
-net.thisptr:jackson-jq-extra
 org.aesh:aesh
 org.aesh:readline
 org.amqphub.quarkus:quarkus-qpid-jms
@@ -635,7 +630,6 @@ org.apache.camel:camel-jdbc
 org.apache.camel:camel-jira
 org.apache.camel:camel-jms
 org.apache.camel:camel-jpa
-org.apache.camel:camel-jq
 org.apache.camel:camel-jslt
 org.apache.camel:camel-jsonpath
 org.apache.camel:camel-jta
@@ -812,8 +806,6 @@ org.apache.camel.quarkus:camel-quarkus-jms
 org.apache.camel.quarkus:camel-quarkus-jms-deployment
 org.apache.camel.quarkus:camel-quarkus-jpa
 org.apache.camel.quarkus:camel-quarkus-jpa-deployment
-org.apache.camel.quarkus:camel-quarkus-jq
-org.apache.camel.quarkus:camel-quarkus-jq-deployment
 org.apache.camel.quarkus:camel-quarkus-jslt
 org.apache.camel.quarkus:camel-quarkus-jslt-deployment
 org.apache.camel.quarkus:camel-quarkus-jsonpath
@@ -1170,8 +1162,6 @@ org.jboss.threads:jboss-threads
 org.jboss.weld:weld-api
 org.jetbrains:annotations
 org.jooq:joor
-org.jruby.jcodings:jcodings
-org.jruby.joni:joni
 org.json:json
 org.junit.jupiter:junit-jupiter
 org.junit.jupiter:junit-jupiter-api

@@ -32,3 +32,13 @@ Provides SAP Camel Component
 ifeval::[{doc-show-user-guide-link} == true]
 Check the xref:user-guide/index.adoc[User guide] for more information about writing Camel Quarkus applications.
 endif::[]
+
+[id="extensions-sap-camel-quarkus-limitations"]
+== Camel Quarkus limitations
+
+It can not support uber-jar packaging type currently. It would cause the application to throw an exception at runtime such like
+[source]
+----
+Caused by: java.lang.ExceptionInInitializerError: JCo initialization failed with java.lang.ExceptionInInitializerError: Illegal JCo archive "sap-1.0.0-SNAPSHOT-runner.jar". It is not allowed to rename or repackage the original archive "sapjco3.jar".
+----
+

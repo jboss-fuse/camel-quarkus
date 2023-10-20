@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.0.0.redhat-00016</version>
+        <version>4.0.0.redhat-00027</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,7 +41,7 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.0</camel.major.minor>
         <camel-community.version>${camel.major.minor}.0</camel-community.version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.0.redhat-00016</camel.version>
+        <camel.version>${camel.major.minor}.0.redhat-00027</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
@@ -113,7 +113,7 @@
         <hapi.version>${hapi-version}</hapi.version>
         <hapi-base.version>${hapi-base-version}</hapi-base.version>
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
-        <hapi-fhir-core.version>6.0.1</hapi-fhir-core.version><!-- @sync ca.uhn.hapi.fhir:hapi-fhir:${hapi-fhir.version} prop:fhir_core_version -->
+        <hapi-fhir-core.version>6.0.1.redhat-00001</hapi-fhir-core.version><!-- @sync ca.uhn.hapi.fhir:hapi-fhir:${hapi-fhir.version} prop:fhir_core_version -->
         <httpclient5.version>${httpclient-version}</httpclient5.version><!-- Saxon and Wiremock -->
         <ibm.mq.client.version>9.3.2.1</ibm.mq.client.version>
         <icu4j.version>${icu4j-version}</icu4j.version>

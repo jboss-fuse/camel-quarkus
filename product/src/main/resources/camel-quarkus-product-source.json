@@ -597,5 +597,8 @@
         "camel-quarkus-cxf-soap": "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security,io.quarkiverse.cxf:quarkus-cxf-services-sts,io.quarkiverse.cxf:quarkus-cxf-xjc-plugins",
         "camel-quarkus-jms": "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
-    }
+    },
+    "ignoredTransitiveDependencies": [
+      "io.quarkus:quarkus-test-common"
+    ]
 }

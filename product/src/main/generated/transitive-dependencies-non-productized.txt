@@ -159,6 +159,7 @@ com.x5dev:chunk-templates
 com.zaxxer:SparseBitSet
 com.zendesk:mysql-binlog-connector-java
 commons-beanutils:commons-beanutils
+commons-cli:commons-cli
 commons-collections:commons-collections
 commons-daemon:commons-daemon
 commons-dbcp:commons-dbcp
@@ -271,6 +272,7 @@ io.smallrye.reactive:smallrye-reactive-messaging-health
 io.smallrye.reactive:smallrye-reactive-messaging-provider
 io.vavr:vavr
 io.vavr:vavr-match
+javax.inject:javax.inject
 javax.jcr:jcr
 javax.servlet.jsp:jsp-api
 javax.ws.rs:jsr311-api
@@ -1071,6 +1073,7 @@ org.bouncycastle:bcpg-jdk15on
 org.bouncycastle:bcprov-ext-jdk15on
 org.bouncycastle:bcprov-ext-jdk18on
 org.ccil.cowan.tagsoup:tagsoup
+org.codehaus.plexus:plexus-utils
 org.codelibs:jhighlight
 org.cometd.java:cometd-java-api-server
 org.cometd.java:cometd-java-server-common

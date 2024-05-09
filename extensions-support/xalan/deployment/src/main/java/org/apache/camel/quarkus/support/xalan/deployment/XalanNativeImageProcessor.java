@@ -26,6 +26,7 @@ import io.quarkus.deployment.builditem.nativeimage.ExcludeConfigBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.NativeImageResourceBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.NativeImageResourceBundleBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
+import io.quarkus.deployment.builditem.nativeimage.RuntimeReinitializedClassBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.ServiceProviderBuildItem;
 import org.apache.camel.quarkus.support.xalan.XalanTransformerFactory;
 
@@ -44,6 +45,11 @@ class XalanNativeImageProcessor {
                 "org.apache.xml.serializer.OutputPropertiesFactory",
                 "org.apache.xml.serializer.CharInfo",
                 "org.apache.xml.utils.FastStringBuffer").methods().build();
+    }
+
+    @BuildStep
+    RuntimeReinitializedClassBuildItem runtimeReinitializedClasses() {
+        return new RuntimeReinitializedClassBuildItem("org.apache.bcel.util.ClassPath");
     }
 
     @BuildStep

@@ -46,7 +46,7 @@
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel.sb.docs.branch>camel-spring-boot-${camel.major.minor}.x</camel.sb.docs.branch><!-- The stable camel-spring-boot branch on which our Antora docs depends -->
-        <camel-quarkus-community.version>3.8.0</camel-quarkus-community.version>
+        <camel-quarkus-community.version>3.11.0</camel-quarkus-community.version>
         <camel-sap.version>4.4.0.redhat-00008</camel-sap.version>
         <cassandra-quarkus.version>1.2.0</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>2.5.2.Final</debezium.version> <!-- This should be in sync with quarkus-platform https://github.com/quarkusio/quarkus-platform-->
@@ -742,7 +742,7 @@
                 <executions>
                     <execution>
                         <id>default-test</id>
-                        <phase /><!-- unbound here to speedup -Dquickly build; bound to a phase in camel-quarkus-build-parent-it -->
+                        <phase/><!-- unbound here to speedup -Dquickly build; bound to a phase in camel-quarkus-build-parent-it -->
                     </execution>
                 </executions>
             </plugin>
@@ -753,7 +753,7 @@
                 <executions>
                     <execution>
                         <id>attach-descriptor</id>
-                        <phase /><!-- skip to save time -->
+                        <phase/><!-- skip to save time -->
                     </execution>
                 </executions>
             </plugin>
@@ -813,7 +813,7 @@
                                         <requireJavaVersion>
                                             <version>11</version>
                                         </requireJavaVersion>
-                                        <dependencyConvergence />
+                                        <dependencyConvergence/>
                                         <filteredExternalRules>
                                             <location>classpath:enforcer-rules/quarkus-require-maven-version.xml</location>
                                         </filteredExternalRules>
@@ -1079,7 +1079,7 @@
                         <executions>
                             <execution>
                                 <id>camel-quarkus-enforcer-rules</id>
-                                <phase /><!-- Speedup the check-format profile by skipping the enforcer  -->
+                                <phase/><!-- Speedup the check-format profile by skipping the enforcer  -->
                             </execution>
                         </executions>
                     </plugin>
@@ -1102,7 +1102,7 @@
                         <executions>
                             <execution>
                                 <id>source-release-assembly</id>
-                                <phase /><!-- fix https://github.com/apache/camel-quarkus/issues/844 -->
+                                <phase/><!-- fix https://github.com/apache/camel-quarkus/issues/844 -->
                             </execution>
                             <execution>
                                 <id>camel-quarkus-source-release-assembly</id>

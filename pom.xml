@@ -108,7 +108,7 @@
         <google-oauth-client.version>${google-oauth-client-version}</google-oauth-client.version>
         <google-cloud-bom.version>0.212.0</google-cloud-bom.version><!-- @sync com.google.cloud:libraries-bom:${google-cloud-bom-version} dep:com.google.cloud:google-cloud-bom -->
         <google-cloud-pubsub-bom.version>1.126.2</google-cloud-pubsub-bom.version><!-- @sync com.google.cloud:google-cloud-bom:${google-cloud-bom.version} dep:com.google.cloud:google-cloud-pubsub-bom -->
-        <google-cloud-pubsub.version>1.126.2</google-cloud-pubsub.version><!-- @sync com.google.cloud:google-cloud-pubsub-bom:${google-cloud-pubsub-bom.version} dep:com.google.cloud:google-cloud-pubsub -->
+        <google-cloud-pubsub.version>1.132.3</google-cloud-pubsub.version><!-- @sync com.google.cloud:google-cloud-pubsub-bom:${google-cloud-pubsub-bom.version} dep:com.google.cloud:google-cloud-pubsub -->
 	    <graalvm.version>23.1.2</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.sdk:graal-sdk -->
         <graalvm-community.version>${graalvm.version}</graalvm-community.version>
         <graalvm-docs.version>jdk21</graalvm-docs.version><!-- @sync io.quarkus:quarkus-documentation:${quarkus.version} prop:graal-community.tag-for-documentation -->
@@ -742,7 +742,7 @@
                 <executions>
                     <execution>
                         <id>default-test</id>
-                        <phase /><!-- unbound here to speedup -Dquickly build; bound to a phase in camel-quarkus-build-parent-it -->
+                        <phase/><!-- unbound here to speedup -Dquickly build; bound to a phase in camel-quarkus-build-parent-it -->
                     </execution>
                 </executions>
             </plugin>
@@ -753,7 +753,7 @@
                 <executions>
                     <execution>
                         <id>attach-descriptor</id>
-                        <phase /><!-- skip to save time -->
+                        <phase/><!-- skip to save time -->
                     </execution>
                 </executions>
             </plugin>
@@ -813,7 +813,7 @@
                                         <requireJavaVersion>
                                             <version>11</version>
                                         </requireJavaVersion>
-                                        <dependencyConvergence />
+                                        <dependencyConvergence/>
                                         <filteredExternalRules>
                                             <location>classpath:enforcer-rules/quarkus-require-maven-version.xml</location>
                                         </filteredExternalRules>
@@ -1079,7 +1079,7 @@
                         <executions>
                             <execution>
                                 <id>camel-quarkus-enforcer-rules</id>
-                                <phase /><!-- Speedup the check-format profile by skipping the enforcer  -->
+                                <phase/><!-- Speedup the check-format profile by skipping the enforcer  -->
                             </execution>
                         </executions>
                     </plugin>
@@ -1102,7 +1102,7 @@
                         <executions>
                             <execution>
                                 <id>source-release-assembly</id>
-                                <phase /><!-- fix https://github.com/apache/camel-quarkus/issues/844 -->
+                                <phase/><!-- fix https://github.com/apache/camel-quarkus/issues/844 -->
                             </execution>
                             <execution>
                                 <id>camel-quarkus-source-release-assembly</id>

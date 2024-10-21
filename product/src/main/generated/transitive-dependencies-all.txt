@@ -1244,6 +1244,8 @@ org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
 org.apache.camel:camel-zookeeper
 org.apache.camel:camel-zookeeper-master
+org.apache.camel.kamelets:camel-kamelets-catalog
+org.apache.camel.kamelets:camel-kamelets-utils
 org.apache.camel.quarkus:camel-quarkus-activemq
 org.apache.camel.quarkus:camel-quarkus-activemq-deployment
 org.apache.camel.quarkus:camel-quarkus-amqp

@@ -60,7 +60,6 @@ com.azure:azure-core
 com.azure:azure-core-amqp
 com.azure:azure-core-http-vertx
 com.azure:azure-cosmos
-com.azure:azure-data-schemaregistry-apacheavro
 com.azure:azure-identity
 com.azure:azure-json
 com.azure:azure-messaging-eventhubs
@@ -272,7 +271,6 @@ com.lihaoyi:sourcecode_2.13
 com.lihaoyi:ujson_2.13
 com.lihaoyi:upickle-core_2.13
 com.lmax:disruptor
-com.microsoft.azure:azure-schemaregistry-kafka-avro
 com.microsoft.azure:msal4j
 com.microsoft.azure:msal4j-persistence-extension
 com.microsoft.azure:qpid-proton-j-extensions
@@ -872,7 +870,6 @@ net.minidev:json-smart
 net.sf.flatpack:flatpack
 net.sf.jt400:jt400
 net.sf.saxon:Saxon-HE
-net.snowflake:snowflake-jdbc
 net.sourceforge.plantuml:plantuml-mit
 net.thisptr:jackson-jq
 net.thisptr:jackson-jq-extra

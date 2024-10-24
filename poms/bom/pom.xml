@@ -6744,11 +6744,6 @@
                 <version>${azure-core-http-vertx.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.azure</groupId>
-                <artifactId>azure-data-schemaregistry-apacheavro</artifactId>
-                <version>${azure-data-schemaregistry-apacheavro.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.esotericsoftware.kryo</groupId>
                 <artifactId>kryo</artifactId>
                 <version>${kryo.version}</version>
@@ -6878,11 +6873,6 @@
                 <groupId>com.lihaoyi</groupId>
                 <artifactId>geny_2.13</artifactId>
                 <version>${geny.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.microsoft.azure</groupId>
-                <artifactId>azure-schemaregistry-kafka-avro</artifactId>
-                <version>${azure-schemaregistry-kafka-avro.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.microsoft.azure</groupId>
@@ -7323,11 +7313,6 @@
                 <groupId>net.minidev</groupId>
                 <artifactId>json-smart</artifactId>
                 <version>${json-smart.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.snowflake</groupId>
-                <artifactId>snowflake-jdbc</artifactId>
-                <version>${snowflake-jdbc.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.antlr</groupId>
@@ -7905,9 +7890,6 @@
                                 <resolutionEntryPointInclude>org.mapstruct:mapstruct-processor</resolutionEntryPointInclude>
                                 <!-- Kamelets catalog and required third party dependencies -->
                                 <resolutionEntryPointInclude>com.amazon.redshift:redshift-jdbc42</resolutionEntryPointInclude>
-                                <resolutionEntryPointInclude>com.azure:azure-data-schemaregistry-apacheavro</resolutionEntryPointInclude>
-                                <resolutionEntryPointInclude>com.microsoft.azure:azure-schemaregistry-kafka-avro</resolutionEntryPointInclude>
-                                <resolutionEntryPointInclude>net.snowflake:snowflake-jdbc</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>org.apache.camel.kamelets:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>org.apache.commons:commons-dbcp2</resolutionEntryPointInclude>
                             </resolutionEntryPointIncludes>

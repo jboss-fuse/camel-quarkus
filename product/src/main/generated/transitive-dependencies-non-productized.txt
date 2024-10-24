@@ -27,7 +27,6 @@ com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
 com.azure:azure-cosmos
-com.azure:azure-data-schemaregistry-apacheavro
 com.azure:azure-storage-file-datalake
 com.bazaarvoice.jolt:jolt-core
 com.bazaarvoice.jolt:json-utils
@@ -127,7 +126,6 @@ com.lihaoyi:sourcecode_2.13
 com.lihaoyi:ujson_2.13
 com.lihaoyi:upickle-core_2.13
 com.lmax:disruptor
-com.microsoft.azure:azure-schemaregistry-kafka-avro
 com.microsoft.sqlserver:mssql-jdbc
 com.myjeeva.digitalocean:digitalocean-api-client
 com.networknt:json-schema-validator
@@ -269,7 +267,6 @@ net.bytebuddy:byte-buddy-agent
 net.i2p.crypto:eddsa
 net.jcip:jcip-annotations
 net.sf.flatpack:flatpack
-net.snowflake:snowflake-jdbc
 oauth.signpost:signpost-core
 ognl:ognl
 org.antlr:ST4

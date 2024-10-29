@@ -591,7 +591,7 @@
       "artifact-id": "camel-quarkus-kubernetes-cluster-service",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },

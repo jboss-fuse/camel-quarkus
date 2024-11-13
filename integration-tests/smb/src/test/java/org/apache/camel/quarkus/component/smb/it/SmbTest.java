@@ -24,6 +24,7 @@ import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import org.apache.camel.component.smb.SmbConstants;
 import org.apache.camel.quarkus.test.DisabledIfFipsMode;
+import org.eclipse.microprofile.config.ConfigProvider;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.testcontainers.shaded.org.awaitility.Awaitility;
@@ -125,11 +126,13 @@ public class SmbTest {
 
             Set<String> set = Set.of(body.split(","));
 
+            String host = ConfigProvider.getConfig().getValue("smb.host", String.class);
+
             assertThat(set)
                     .contains("path=msg1.tx1")
                     .contains("content=Hello1")
                     .contains(SmbConstants.SMB_FILE_PATH + "=msg1.tx1")
-                    .contains(SmbConstants.SMB_UNC_PATH + "=\\\\localhost\\data-rw\\msg1.tx1");
+                    .contains(SmbConstants.SMB_UNC_PATH + "=\\\\%s\\data-rw\\msg1.tx1".formatted(host));
         });
 
     }

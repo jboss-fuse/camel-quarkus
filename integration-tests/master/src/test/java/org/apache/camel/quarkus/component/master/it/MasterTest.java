@@ -44,6 +44,11 @@ class MasterTest {
 
     @Test
     public void testFailover() throws IOException {
+        // Verify that this process is the cluster leader
+        Awaitility.await().atMost(10, TimeUnit.SECONDS).with().until(() -> {
+            return readLeaderFile("leader").equals("leader");
+        });
+
         // Start secondary application process
         QuarkusProcessExecutor quarkusProcessExecutor = new QuarkusProcessExecutor("-Dapplication.id=follower");
         StartedProcess process = quarkusProcessExecutor.start();
@@ -52,11 +57,6 @@ class MasterTest {
         awaitStartup(quarkusProcessExecutor);
 
         try {
-            // Verify that this process is the cluster leader
-            Awaitility.await().atMost(10, TimeUnit.SECONDS).with().until(() -> {
-                return readLeaderFile("leader").equals("leader");
-            });
-
             // Verify the follower hasn't took leader role
             assertThat(readLeaderFile("follower"), emptyString());
 

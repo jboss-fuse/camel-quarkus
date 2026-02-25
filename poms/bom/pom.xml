@@ -8546,6 +8546,16 @@
                 <artifactId>async-profiler</artifactId>
                 <version>${async-profiler.version}</version>
             </dependency>
+            <dependency>
+                <groupId>net.sf.saxon</groupId>
+                <artifactId>Saxon-HE</artifactId>
+                <version>${saxon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${commons-pool2.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>

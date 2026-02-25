@@ -34,7 +34,7 @@
 
     <modules>
         <module>camel-quarkus-junit</module>
-        <module>camel-quarkus-junit-tests</module>
+        <!-- <module>camel-quarkus-junit-tests</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>junit5</module>
     </modules>
 

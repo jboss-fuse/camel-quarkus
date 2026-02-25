@@ -186,6 +186,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-docling": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.33.0"
+        },
         "camel-quarkus-elasticsearch-rest-client": {
             "jvm": "supported",
             "native": "supported",
@@ -203,6 +208,11 @@
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-file"
             ]
+        },
+        "camel-quarkus-file-watch": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.33.0"
         },
         "camel-quarkus-file-cluster-service": {
             "jvm": "supported",
@@ -458,6 +468,16 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-milvus": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "JVM supported since CEQ 3.33.0"
+        },
+        "camel-quarkus-mina-sftp": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "JVM supported since CEQ 3.33.0"
+        },
         "camel-quarkus-minio": {
             "jvm": "supported",
             "native": "supported",
@@ -503,6 +523,11 @@
             "native": "supported",
             "comment": "supported since CEQ 3.20.0"
         },
+        "camel-quarkus-openai": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.33.0"
+        },
         "camel-quarkus-openapi-java": {
             "jvm": "supported",
             "native": "supported",
@@ -514,9 +539,14 @@
             "comment": "JVM supported since CEQ 3.27.0"
         },
         "camel-quarkus-opentelemetry": {
+            "jvm": "deprecated",
+            "native": "deprecated",
+            "comment": "tp since CEQ 2.13.1, supported since CEQ 3.8.0, deprecated since CEQ 3.33.0"
+        },
+        "camel-quarkus-opentelemetry2": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "tp since CEQ 2.13.1, supported since CEQ 3.8.0"
+            "comment": "supported since CEQ 3.33.0"
         },
         "camel-quarkus-paho": {
             "jvm": "supported",
@@ -532,6 +562,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
+        },
+        "camel-quarkus-qdrant": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.33.0"
         },
         "camel-quarkus-quartz": {
             "jvm": "supported",
@@ -676,6 +711,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
+        },
+        "camel-quarkus-weaviate": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.33.0"
         },
         "camel-quarkus-xj": {
             "jvm": "supported",

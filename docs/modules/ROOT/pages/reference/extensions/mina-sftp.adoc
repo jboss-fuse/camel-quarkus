@@ -9,12 +9,12 @@
 :cq-status-deprecation: Preview
 :cq-description: Upload and download files to/from SFTP servers using Apache MINA SSHD.
 :cq-deprecated: false
-:cq-jvm-since: 3.33.0
+:cq-jvm-since: 3.32.0
 :cq-native-since: n/a
 
 ifeval::[{doc-show-badges} == true]
 [.badges]
-[.badge-key]##JVM since##[.badge-supported]##3.33.0## [.badge-key]##Native##[.badge-unsupported]##unsupported##
+[.badge-key]##JVM since##[.badge-supported]##3.32.0## [.badge-key]##Native##[.badge-unsupported]##unsupported##
 endif::[]
 
 Upload and download files to/from SFTP servers using Apache MINA SSHD.

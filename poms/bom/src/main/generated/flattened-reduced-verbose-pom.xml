@@ -9681,41 +9681,6 @@
         <version>3.4.0.Final</version><!-- io.debezium:debezium-bom:3.4.0.Final -->
       </dependency>
       <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-database-commons</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-jdbc</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-mongodb</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-mssqlserver</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-mysql</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-oracle-xe</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
-        <groupId>org.testcontainers</groupId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <artifactId>testcontainers-postgresql</artifactId><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-        <version>2.0.2</version><!-- org.testcontainers:testcontainers-bom:2.0.2 -->
-      </dependency>
-      <dependency>
         <groupId>com.hazelcast</groupId><!-- com.hazelcast:quarkus-hazelcast-client-bom:4.1.0 -->
         <artifactId>hazelcast</artifactId><!-- com.hazelcast:quarkus-hazelcast-client-bom:4.1.0 -->
         <version>5.5.0</version><!-- com.hazelcast:quarkus-hazelcast-client-bom:4.1.0 -->

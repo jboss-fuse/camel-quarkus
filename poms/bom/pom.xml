@@ -8600,6 +8600,7 @@
                                 <resolutionExclude>*:*:*:test-jar:*:*</resolutionExclude>
                                 <resolutionExclude>*:*:*:*:tests:*</resolutionExclude>
                                 <resolutionExclude>*:*:*:*:testlib:*</resolutionExclude>
+                                <resolutionExclude>org.testcontainers:*</resolutionExclude>
                             </resolutionExcludes>
                             <bannedDependencyResources>
                                 <bannedDependencyResource>

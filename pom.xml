@@ -97,6 +97,7 @@
         <commons-collections4.version>${commons-collections4-version}</commons-collections4.version>
         <commons-exec.version>${commons-exec-version}</commons-exec.version>
         <commons-net.version>${commons-net-version}</commons-net.version>
+        <commons-pool2.version>2.13.1</commons-pool2.version>
         <ctgClient.version>9.2</ctgClient.version>
         <commons-validator.version>${commons-validator-version}</commons-validator.version>
         <cxf.version>4.1.5</cxf.version><!-- @sync io.quarkiverse.cxf:quarkus-cxf-parent:${quarkiverse-cxf.version} prop:cxf.version -->
@@ -176,6 +177,7 @@
         <rhino.version>1.7.15.1</rhino.version><!-- Used by Apache FOP, to sync with transitive dependencies -->
         <rxjava3.version>3.1.8</rxjava3.version><!-- Used by amazon-kinesis-client and infinispan-client-hotrod-jakarta -->
         <saxon.version>${saxon-version}</saxon.version>
+        <saxon.version>12.9</saxon.version>
         <smooks-bom.version>${smooks-version}</smooks-bom.version>
         <smooks.version>2.2.1</smooks.version><!-- @sync org.smooks:smooks-bom:${smooks-bom.version} prop:smooks.version -->
         <snakeyaml.version>2.5</snakeyaml.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.yaml:snakeyaml -->
@@ -397,7 +399,7 @@
             </releases>
         </repository>
     </repositories>
-    
+
     <pluginRepositories>
         <pluginRepository>
             <id>apache.snapshots</id>

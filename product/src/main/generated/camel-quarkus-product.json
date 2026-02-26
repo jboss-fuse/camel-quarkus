@@ -1225,15 +1225,6 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
-      "artifact-id": "camel-quarkus-weaviate",
-      "metadata": {
-        "redhat-camel-support": [
-          "supported"
-        ]
-      }
-    },
-    {
-      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-xj",
       "metadata": {
         "redhat-camel-support": [

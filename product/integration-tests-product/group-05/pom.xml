@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 05</name>
 
     <modules>
+        <module>../../../integration-tests/observability-services</module>
         <module>../../../integration-tests/olingo4</module>
         <module>../../../integration-tests/openai</module>
         <module>../../../integration-tests/openapi-java</module>
@@ -65,7 +66,6 @@
         <module>../../../integration-tests/validator</module>
         <module>../../../integration-tests/velocity</module>
         <module>../../../integration-tests/vertx-websocket</module>
-        <module>../../../integration-tests/weaviate</module>
         <module>../../../integration-tests/xj</module>
         <module>../../../integration-tests/xml-jaxp</module>
         <module>../../../integration-tests/xpath</module>

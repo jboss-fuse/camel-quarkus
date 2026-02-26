@@ -154,10 +154,7 @@ com.kjetland:mbknor-jackson-jsonschema_2.12
 com.microsoft.azure:msal4j
 com.microsoft.azure:msal4j-persistence-extension
 com.microsoft.azure:qpid-proton-j-extensions
-com.nimbusds:content-type
-com.nimbusds:lang-tag
 com.nimbusds:nimbus-jose-jwt
-com.nimbusds:oauth2-oidc-sdk
 com.openai:openai-java
 com.openai:openai-java-client-okhttp
 com.openai:openai-java-core
@@ -637,7 +634,6 @@ io.vertx:vertx-uri-template
 io.vertx:vertx-web
 io.vertx:vertx-web-client
 io.vertx:vertx-web-common
-io.weaviate:client
 it.krzeminski:snakeyaml-engine-kmp-jvm
 jakarta.activation:jakarta.activation-api
 jakarta.annotation:jakarta.annotation-api
@@ -867,7 +863,6 @@ org.apache.camel:camel-velocity
 org.apache.camel:camel-vertx-common
 org.apache.camel:camel-vertx-http
 org.apache.camel:camel-vertx-websocket
-org.apache.camel:camel-weaviate
 org.apache.camel:camel-webhook
 org.apache.camel:camel-xj
 org.apache.camel:camel-xml-io
@@ -1216,8 +1211,6 @@ org.apache.camel.quarkus:camel-quarkus-vertx-http
 org.apache.camel.quarkus:camel-quarkus-vertx-http-deployment
 org.apache.camel.quarkus:camel-quarkus-vertx-websocket
 org.apache.camel.quarkus:camel-quarkus-vertx-websocket-deployment
-org.apache.camel.quarkus:camel-quarkus-weaviate
-org.apache.camel.quarkus:camel-quarkus-weaviate-deployment
 org.apache.camel.quarkus:camel-quarkus-xj
 org.apache.camel.quarkus:camel-quarkus-xj-deployment
 org.apache.camel.quarkus:camel-quarkus-xml-io-dsl

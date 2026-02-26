@@ -285,7 +285,7 @@
         <module>vertx-websocket</module>
         <!-- <module>wasm</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>weather</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <module>weaviate</module>
+        <!-- <module>weaviate</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>xchange</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xj</module>
         <!-- <module>xmlsecurity</module> disabled by cq-prod-maven-plugin:prod-excludes -->

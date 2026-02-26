@@ -3083,16 +3083,16 @@
             <artifactId>annotations</artifactId>
           </exclusion>
           <exclusion>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>animal-sniffer-annotations</artifactId>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
           </exclusion>
           <exclusion>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-netty-shaded</artifactId>
           </exclusion>
           <exclusion>
-            <groupId>com.google.code.findbugs</groupId>
-            <artifactId>jsr305</artifactId>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>animal-sniffer-annotations</artifactId>
           </exclusion>
           <exclusion>
             <groupId>org.projectlombok</groupId>
@@ -6794,12 +6794,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-weaviate</artifactId>
-        <version>3.32.0.rhbac-SNAPSHOT</version>
+        <version>3.32.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-weaviate-deployment</artifactId>
-        <version>3.32.0.rhbac-SNAPSHOT</version>
+        <version>3.32.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>

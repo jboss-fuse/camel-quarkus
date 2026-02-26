@@ -138,6 +138,9 @@ com.microsoft.onnxruntime:onnxruntime
 com.microsoft.sqlserver:mssql-jdbc
 com.myjeeva.digitalocean:digitalocean-api-client
 com.networknt:json-schema-validator
+com.nimbusds:content-type
+com.nimbusds:lang-tag
+com.nimbusds:oauth2-oidc-sdk
 com.ning:compress-lzf
 com.oracle.database.jdbc:ojdbc11
 com.oracle.database.jdbc:ojdbc17
@@ -290,6 +293,7 @@ io.smallrye.reactive:smallrye-reactive-messaging-provider
 io.vavr:vavr
 io.vavr:vavr-match
 io.vertx:vertx-auth-oauth2
+io.weaviate:client
 it.unimi.dsi:fastutil
 jakarta.authentication:jakarta.authentication-api
 javax.jcr:jcr
@@ -502,6 +506,7 @@ org.apache.camel:camel-univocity-parsers
 org.apache.camel:camel-vertx
 org.apache.camel:camel-wasm
 org.apache.camel:camel-weather
+org.apache.camel:camel-weaviate
 org.apache.camel:camel-web3j
 org.apache.camel:camel-wordpress
 org.apache.camel:camel-workday
@@ -893,6 +898,8 @@ org.apache.camel.quarkus:camel-quarkus-wasm
 org.apache.camel.quarkus:camel-quarkus-wasm-deployment
 org.apache.camel.quarkus:camel-quarkus-weather
 org.apache.camel.quarkus:camel-quarkus-weather-deployment
+org.apache.camel.quarkus:camel-quarkus-weaviate
+org.apache.camel.quarkus:camel-quarkus-weaviate-deployment
 org.apache.camel.quarkus:camel-quarkus-web3j
 org.apache.camel.quarkus:camel-quarkus-web3j-deployment
 org.apache.camel.quarkus:camel-quarkus-wordpress

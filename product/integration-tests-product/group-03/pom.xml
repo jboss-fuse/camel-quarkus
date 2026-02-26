@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests-jvm/opensearch</module>
         <module>../../../integration-tests-jvm/sap</module>
         <module>../../../integration-tests-jvm/smooks</module>
         <module>../../../integration-tests-jvm/snmp</module>
@@ -69,6 +70,5 @@
         <module>../../../integration-tests/jms-artemis-client</module>
         <module>../../../integration-tests/jms-artemis-ra</module>
         <module>../../../integration-tests/jms-ibmmq-client</module>
-        <module>../../../integration-tests/jms-qpid-amqp-client</module>
     </modules>
 </project>

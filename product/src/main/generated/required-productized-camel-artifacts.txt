@@ -142,7 +142,6 @@ camel-validator
 camel-velocity
 camel-vertx-http
 camel-vertx-websocket
-camel-weaviate
 camel-webhook
 camel-xj
 camel-xml-io

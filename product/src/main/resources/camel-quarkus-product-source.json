@@ -712,11 +712,6 @@
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
         },
-        "camel-quarkus-weaviate": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.33.0"
-        },
         "camel-quarkus-xj": {
             "jvm": "supported",
             "native": "supported",

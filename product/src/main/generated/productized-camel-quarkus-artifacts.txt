@@ -345,7 +345,6 @@ camel-quarkus-integration-test-validator
 camel-quarkus-integration-test-variables
 camel-quarkus-integration-test-velocity
 camel-quarkus-integration-test-vertx-websocket
-camel-quarkus-integration-test-weaviate
 camel-quarkus-integration-test-xj
 camel-quarkus-integration-test-xml-jaxp
 camel-quarkus-integration-test-xpath
@@ -719,9 +718,6 @@ camel-quarkus-vertx-http-parent
 camel-quarkus-vertx-websocket
 camel-quarkus-vertx-websocket-deployment
 camel-quarkus-vertx-websocket-parent
-camel-quarkus-weaviate
-camel-quarkus-weaviate-deployment
-camel-quarkus-weaviate-parent
 camel-quarkus-xj
 camel-quarkus-xj-deployment
 camel-quarkus-xj-parent

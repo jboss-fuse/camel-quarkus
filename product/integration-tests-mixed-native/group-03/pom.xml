@@ -67,6 +67,7 @@
         <module>../../../integration-tests/vertx</module>
         <module>../../../integration-tests/wasm</module>
         <module>../../../integration-tests/weather</module>
+        <module>../../../integration-tests/weaviate</module>
         <module>../../../integration-tests/xchange</module>
         <module>../../../integration-tests/xmlsecurity</module>
         <module>../../../integration-tests/zendesk</module>

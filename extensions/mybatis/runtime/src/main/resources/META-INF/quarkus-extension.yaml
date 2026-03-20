@@ -29,5 +29,4 @@ metadata:
   guide: "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#extensions-mybatis"
   categories:
   - "integration"
-  status:
-  - "stable"
+  status: "stable"

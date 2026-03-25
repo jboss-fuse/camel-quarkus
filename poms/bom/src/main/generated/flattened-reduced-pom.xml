@@ -7751,7 +7751,7 @@
       <dependency>
         <groupId>org.apache.camel.kamelets</groupId>
         <artifactId>camel-kamelets</artifactId>
-        <version>4.18.0.redhat-00002</version>
+        <version>4.18.0.redhat-00005</version>
       </dependency>
       <dependency>
         <groupId>org.apache.cassandra</groupId>
@@ -7836,7 +7836,7 @@
       <dependency>
         <groupId>org.apache.kafka</groupId>
         <artifactId>connect-json</artifactId>
-        <version>4.1.1</version>
+        <version>4.1.0</version>
         <exclusions>
           <exclusion>
             <groupId>org.lz4</groupId>
@@ -7847,7 +7847,7 @@
       <dependency>
         <groupId>org.apache.kafka</groupId>
         <artifactId>connect-runtime</artifactId>
-        <version>4.1.1</version>
+        <version>4.1.0</version>
         <exclusions>
           <exclusion>
             <groupId>io.swagger.core.v3</groupId>
@@ -8261,7 +8261,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
-        <version>4.18.0.redhat-00003</version>
+        <version>4.18.0.redhat-00006</version>
         <exclusions>
           <exclusion>
             <groupId>org.eclipse</groupId>
@@ -8282,7 +8282,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-cics</artifactId>
-        <version>4.18.0.redhat-00003</version>
+        <version>4.18.0.redhat-00006</version>
         <exclusions>
           <exclusion>
             <groupId>org.eclipse</groupId>

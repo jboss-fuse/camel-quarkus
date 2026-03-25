@@ -2,4 +2,4 @@
 # Add key=value pairs of SDKs to use below
 java=17.0.17-tem
 maven=3.9.11
-mvnd=1.0.2
+mvnd=1.0.3

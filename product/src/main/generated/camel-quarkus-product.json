@@ -321,7 +321,7 @@
       "artifact-id": "camel-quarkus-docling",
       "metadata": {
         "redhat-camel-support": [
-          "supported"
+          "tech-preview"
         ]
       }
     },
@@ -790,9 +790,8 @@
       "artifact-id": "camel-quarkus-milvus",
       "metadata": {
         "redhat-camel-support": [
-          "supported-in-jvm"
-        ],
-        "unlisted": "false"
+          "supported"
+        ]
       }
     },
     {

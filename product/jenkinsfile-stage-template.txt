@@ -1,6 +1,6 @@
                 stage('${stageName}') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {

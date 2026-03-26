@@ -70,7 +70,7 @@ pipeline {
                 // %generated-stages-start%
                 stage('Product :: Group 01') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -104,7 +104,7 @@ pipeline {
                 }
                 stage('Product :: Group 02') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -138,7 +138,7 @@ pipeline {
                 }
                 stage('Product :: Group 03') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -172,7 +172,7 @@ pipeline {
                 }
                 stage('Product :: Group 04') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -206,7 +206,7 @@ pipeline {
                 }
                 stage('Product :: Group 05') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -240,7 +240,7 @@ pipeline {
                 }
                 stage('Mixed Allowed :: Group 01') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -274,7 +274,7 @@ pipeline {
                 }
                 stage('Mixed JVM :: Group 01') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -308,7 +308,7 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 01') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -342,7 +342,7 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 02') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {
@@ -376,7 +376,7 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 03') {
                     agent {
-                        label "rhel||pipeline||pipeline-large"
+                        label "pipeline-large"
                     }
                     steps {
                         script {

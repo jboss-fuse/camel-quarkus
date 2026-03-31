@@ -924,7 +924,6 @@ org.apache.commons:commons-dbcp2
 org.apache.commons:commons-exec
 org.apache.commons:commons-fileupload2-core
 org.apache.commons:commons-fileupload2-jakarta
-org.apache.commons:commons-net
 org.apache.curator:curator-client
 org.apache.curator:curator-framework
 org.apache.curator:curator-recipes

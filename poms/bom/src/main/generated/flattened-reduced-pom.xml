@@ -7962,6 +7962,11 @@
         <version>3.30.2.GA-redhat-00003</version>
       </dependency>
       <dependency>
+        <groupId>org.jgroups</groupId>
+        <artifactId>jgroups</artifactId>
+        <version>5.3.13.Final</version>
+      </dependency>
+      <dependency>
         <groupId>org.jolokia</groupId>
         <artifactId>jolokia-agent-jvm</artifactId>
         <version>2.5.1</version>

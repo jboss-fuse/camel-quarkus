@@ -464,7 +464,6 @@ io.quarkus:quarkus-quartz-deployment
 io.quarkus:quarkus-qute
 io.quarkus:quarkus-qute-deployment
 io.quarkus:quarkus-reactive-datasource-spi
-io.quarkus:quarkus-registry
 io.quarkus:quarkus-rest-client
 io.quarkus:quarkus-rest-client-config
 io.quarkus:quarkus-rest-client-config-deployment

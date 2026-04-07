@@ -475,8 +475,8 @@
         },
         "camel-quarkus-mina-sftp": {
             "jvm": "supported",
-            "native": "techPreview",
-            "comment": "JVM supported since CEQ 3.33.0"
+            "native": "supported",
+            "comment": "supported since CEQ 3.33.0"
         },
         "camel-quarkus-minio": {
             "jvm": "supported",

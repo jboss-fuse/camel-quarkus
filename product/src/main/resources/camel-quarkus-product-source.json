@@ -519,8 +519,8 @@
             "comment": "supported since CEQ 3.20.0"
         },
         "camel-quarkus-olingo4": {
-            "jvm": "supported",
-            "native": "supported",
+            "jvm": "deprecated",
+            "native": "deprecated",
             "comment": "supported since CEQ 3.20.0"
         },
         "camel-quarkus-openai": {

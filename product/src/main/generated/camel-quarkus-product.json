@@ -881,7 +881,7 @@
       "artifact-id": "camel-quarkus-olingo4",
       "metadata": {
         "redhat-camel-support": [
-          "supported"
+          "deprecated"
         ]
       }
     },

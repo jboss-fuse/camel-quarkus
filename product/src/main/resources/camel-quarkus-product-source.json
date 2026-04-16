@@ -654,9 +654,9 @@
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
         "camel-quarkus-splunk": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.2.0"
+            "jvm": "deprecated",
+            "native": "deprecated",
+            "comment": "supported since CEQ 3.2.0, deprecated since CEW 3.33.0"
         },
         "camel-quarkus-splunk-hec": {
             "jvm": "supported",

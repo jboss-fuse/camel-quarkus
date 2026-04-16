@@ -1128,7 +1128,7 @@
       "artifact-id": "camel-quarkus-splunk",
       "metadata": {
         "redhat-camel-support": [
-          "supported"
+          "deprecated"
         ]
       }
     },

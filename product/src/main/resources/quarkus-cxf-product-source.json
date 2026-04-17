@@ -43,5 +43,5 @@
         }
     },
     "guideUrlTemplate": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/${productMajorMinorVersion}/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#${artifactId}",
-    "platformOverridesSupportAttributeName": "redhat-camel-support"
+    "platformOverridesSupportAttributeNames": ["redhat-camel-support", "ibm-support"]
 }

@@ -7,6 +7,9 @@
         "redhat-camel-support": [
           "supported"
         ],
+        "ibm-support": [
+          "supported"
+        ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf"
       }
     },
@@ -15,6 +18,9 @@
       "artifact-id": "quarkus-cxf-integration-tracing-opentelemetry",
       "metadata": {
         "redhat-camel-support": [
+          "supported"
+        ],
+        "ibm-support": [
           "supported"
         ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-integration-tracing-opentelemetry"
@@ -27,6 +33,9 @@
         "redhat-camel-support": [
           "supported"
         ],
+        "ibm-support": [
+          "supported"
+        ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-jaxb-plugins"
       }
     },
@@ -35,6 +44,9 @@
       "artifact-id": "quarkus-cxf-rt-features-metrics",
       "metadata": {
         "redhat-camel-support": [
+          "supported"
+        ],
+        "ibm-support": [
           "supported"
         ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-features-metrics"
@@ -47,6 +59,9 @@
         "redhat-camel-support": [
           "supported"
         ],
+        "ibm-support": [
+          "supported"
+        ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-ws-rm"
       }
     },
@@ -55,6 +70,9 @@
       "artifact-id": "quarkus-cxf-rt-ws-security",
       "metadata": {
         "redhat-camel-support": [
+          "supported"
+        ],
+        "ibm-support": [
           "supported"
         ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-ws-security"
@@ -67,6 +85,9 @@
         "redhat-camel-support": [
           "supported"
         ],
+        "ibm-support": [
+          "supported"
+        ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-services-sts"
       }
     },
@@ -75,6 +96,9 @@
       "artifact-id": "quarkus-cxf-xjc-plugins",
       "metadata": {
         "redhat-camel-support": [
+          "supported"
+        ],
+        "ibm-support": [
           "supported"
         ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.18/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-xjc-plugins"

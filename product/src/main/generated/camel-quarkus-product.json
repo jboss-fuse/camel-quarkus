@@ -881,7 +881,8 @@
       "artifact-id": "camel-quarkus-olingo4",
       "metadata": {
         "redhat-camel-support": [
-          "supported"
+          "supported",
+          "deprecated"
         ]
       }
     },
@@ -918,6 +919,7 @@
       "artifact-id": "camel-quarkus-opentelemetry",
       "metadata": {
         "redhat-camel-support": [
+          "supported",
           "deprecated"
         ]
       }
@@ -1128,7 +1130,8 @@
       "artifact-id": "camel-quarkus-splunk",
       "metadata": {
         "redhat-camel-support": [
-          "supported"
+          "supported",
+          "deprecated"
         ]
       }
     },

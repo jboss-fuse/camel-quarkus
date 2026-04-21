@@ -519,9 +519,13 @@
             "comment": "supported since CEQ 3.20.0"
         },
         "camel-quarkus-olingo4": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.20.0"
+            "jvm": "deprecated",
+            "native": "deprecated",
+            "redhat-camel-support":[
+                "supported",
+                "deprecated"
+            ],
+            "comment": "supported since CEQ 3.20.0, deprecated since CEQ 3.33.0"
         },
         "camel-quarkus-openai": {
             "jvm": "supported",
@@ -541,6 +545,10 @@
         "camel-quarkus-opentelemetry": {
             "jvm": "deprecated",
             "native": "deprecated",
+            "redhat-camel-support":[
+                "supported",
+                "deprecated"
+            ],
             "comment": "tp since CEQ 2.13.1, supported since CEQ 3.8.0, deprecated since CEQ 3.33.0"
         },
         "camel-quarkus-opentelemetry2": {
@@ -654,9 +662,13 @@
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
         "camel-quarkus-splunk": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.2.0"
+            "jvm": "deprecated",
+            "native": "deprecated",
+            "redhat-camel-support":[
+                "supported",
+                "deprecated"
+            ],
+            "comment": "supported since CEQ 3.2.0, deprecated since CEQ 3.33.0"
         },
         "camel-quarkus-splunk-hec": {
             "jvm": "supported",

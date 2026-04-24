@@ -773,6 +773,7 @@
         "io.quarkiverse.artemis:quarkus-artemis-jms",
         "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "org.apache.camel.kamelets:camel-kamelets",
+        "org.apache.camel:camel-launcher",
         "org.apache.camel.quarkus:camel-quarkus-catalog",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-support",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
@@ -817,7 +818,15 @@
     "ignoredTransitiveDependencies": [
         "net.openhft:affinity",
         "io.quarkus:quarkus-test-common",
-        "io.fabric8:kubernetes-httpclient-okhttp"
+        "io.fabric8:kubernetes-httpclient-okhttp",
+        "org.apache.camel:camel-jbang-*",
+        "org.apache.camel:camel-micrometer-prometheus",
+        "org.apache.camel:camel-platform-http-main",
+        "org.apache.camel:camel-spring"
     ],
-    "platformOverridesSupportAttributeName": "redhat-camel-support"
+    "platformOverridesSupportAttributeName": "redhat-camel-support",
+    "artifactVersionOverrides": {
+        "camel-launcher": "${camel.launcher.version}"
+    }
 }
+

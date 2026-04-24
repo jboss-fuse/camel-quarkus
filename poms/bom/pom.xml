@@ -17,7 +17,9 @@
     limitations under the License.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -30,7 +32,8 @@
     <name>Camel Quarkus :: BOM</name>
     <properties>
         <!-- This property is kept in sync with project.version by the release plugin -->
-        <!-- Do not change to project.version because otherwise the end user apps having our BOM as parent (rather than importing it) will stop working -->
+        <!-- Do not change to project.version because otherwise the end user apps having our BOM as
+        parent (rather than importing it) will stop working -->
         <camel-quarkus.version>3.33.0.rhbac-SNAPSHOT</camel-quarkus.version>
         <allow-findbugs>true</allow-findbugs>
     </properties>
@@ -128,9 +131,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- Dependencies a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
+            <!-- Dependencies a..z; do not remove this comment, it is important when sorting via  mvn
+            process-resources -Pformat -->
 
-            <!--$ org.apache.camel $-->
+            <!--$
+            org.apache.camel $-->
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-activemq</artifactId>
@@ -1137,7 +1142,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-dsl-modeline</artifactId>
-                <version>${camel-community-version}</version>
+                <version>${camel.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -1840,7 +1845,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-jfr</artifactId>
-                <version>${camel-community-version}</version>
+                <version>${camel.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2006,6 +2011,78 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-kamelet</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-launcher</artifactId>
+                <version>${camel.launcher.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-allcomponents</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-catalog-console</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-catalog-suggest</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-jbang-console</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-jbang-core</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-jbang-plugin-generate</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-jbang-plugin-kubernetes</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-jbang-plugin-test</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-jbang-plugin-validate</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-kamelet-main</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-openapi-rest-dsl-generator</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-platform-http-main</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-resourceresolver-github</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-tooling-maven</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.camel</groupId>
+                        <artifactId>camel-yaml-dsl-validator</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>jcl-over-slf4j</artifactId>
+                    </exclusion>
+                </exclusions>
+
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2509,7 +2586,8 @@
                 <artifactId>camel-optaplanner</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
-                    <!-- TODO: Restore when optaplanner-quarkus > 10.0.0 is available - https://github.com/apache/camel-quarkus/issues/7533
+                    <!-- TODO: Restore when optaplanner-quarkus > 10.0.0 is available -
+                    https://github.com/apache/camel-quarkus/issues/7533
                     <exclusion>
                         <groupId>org.optaplanner</groupId>
                         <artifactId>optaplanner-core</artifactId>
@@ -2874,10 +2952,10 @@
                 <artifactId>camel-smb</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
-                  <exclusion>
-                    <groupId>junit</groupId>
-                    <artifactId>junit</artifactId>
-                  </exclusion>
+                    <exclusion>
+                        <groupId>junit</groupId>
+                        <artifactId>junit</artifactId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -2919,7 +2997,7 @@
                 <artifactId>camel-soap</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
-                   <exclusion>
+                    <exclusion>
                         <groupId>com.sun.xml.bind</groupId>
                         <artifactId>*</artifactId>
                     </exclusion>
@@ -3014,7 +3092,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-stub</artifactId>
-                <version>${camel-community-version}</version>
+                <version>${camel.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -3407,7 +3485,8 @@
                 </exclusions>
             </dependency>
 
-            <!--$ org.apache.camel.quarkus $-->
+            <!--$
+            org.apache.camel.quarkus $-->
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-activemq</artifactId>
@@ -7144,7 +7223,8 @@
                 <version>${camel-quarkus-community.version}</version>
             </dependency>
 
-            <!--$ Other third party dependencies $-->
+            <!--$
+            Other third party dependencies $-->
             <dependency>
                 <groupId>ca.uhn.hapi</groupId>
                 <artifactId>hapi-base</artifactId>
@@ -8617,23 +8697,29 @@
                                 <additionalBom>io.quarkus:quarkus-bom:${quarkus.version}</additionalBom>
                             </additionalBoms>
                             <originExcludes>
-                                <!-- Remove BOM entries from the flattened BOM which come from quarkus-bom -->
-                                <!-- This is mainly to get rid of potentially outdated quarkus-bom imports brought -->
+                                <!-- Remove BOM entries from the flattened BOM which come from
+                                quarkus-bom -->
+                                <!-- This is mainly to get rid of potentially outdated quarkus-bom
+                                imports brought -->
                                 <!-- via other participant's BOMs that we are importing -->
                                 <originExclude>io.quarkus:quarkus-bom</originExclude>
                             </originExcludes>
                             <resolutionEntryPointIncludes>
-                                <!-- We not only flatten the BOM, we also shrink it down so that includes -->
-                                <!-- entries that our extensions need. Here we define the set of our artifacts -->
+                                <!-- We not only flatten the BOM, we also shrink it down so that
+                                includes -->
+                                <!-- entries that our extensions need. Here we define the set of our
+                                artifacts -->
                                 <!-- whose dependencies we want to cover in the flattened BOM -->
                                 <resolutionEntryPointInclude>org.apache.camel.quarkus:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>org.apache.camel.kamelets:*</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.camel:camel-launcher</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>ca.uhn.hapi:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.artemis:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.cxf:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.minio:minio-native</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.messaginghub:*</resolutionEntryPointInclude>
-                                <resolutionEntryPointInclude>net.openhft:affinity</resolutionEntryPointInclude> <!-- https://github.com/apache/camel-quarkus/issues/3788 -->
+                                <resolutionEntryPointInclude>net.openhft:affinity</resolutionEntryPointInclude> <!--
+                                https://github.com/apache/camel-quarkus/issues/3788 -->
                                 <resolutionEntryPointInclude>com.ibm.mq:com.ibm.mq.jakarta.client</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>com.ibm.icu:icu4j</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>com.sun.xml.fastinfoset:FastInfoset</resolutionEntryPointInclude>
@@ -8648,15 +8734,20 @@
                             </resolutionExcludes>
                             <bannedDependencyResources>
                                 <bannedDependencyResource>
-                                    <location>classpath:enforcer-rules/quarkus-banned-dependencies.xml</location>
-                                    <xsltLocation>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/quarkus-banned-dependencies.xsl</xsltLocation>
+                                    <location>
+                                        classpath:enforcer-rules/quarkus-banned-dependencies.xml</location>
+                                    <xsltLocation>
+                                        ${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/quarkus-banned-dependencies.xsl</xsltLocation>
                                 </bannedDependencyResource>
                                 <bannedDependencyResource>
-                                    <location>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/camel-quarkus-banned-dependencies.xml</location>
-                                    <xsltLocation>${project.build.directory}/enforcer-rules/allow-findbugs.xsl</xsltLocation>
+                                    <location>
+                                        ${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/camel-quarkus-banned-dependencies.xml</location>
+                                    <xsltLocation>
+                                        ${project.build.directory}/enforcer-rules/allow-findbugs.xsl</xsltLocation>
                                 </bannedDependencyResource>
                                 <bannedDependencyResource>
-                                    <location>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/camel-quarkus-banned-dependencies-spring.xml</location>
+                                    <location>
+                                        ${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/camel-quarkus-banned-dependencies-spring.xml</location>
                                 </bannedDependencyResource>
                             </bannedDependencyResources>
                             <bomEntryTransformations>
@@ -8680,11 +8771,13 @@
                             <autogeneratedBomEntryTransformations>
                                 <autogeneratedBomEntryTransformation>
                                     <gavPattern>com.datastax.oss:java-driver-core</gavPattern>
-                                    <addExclusions>com.github.spotbugs:spotbugs-annotations,com.github.stephenc.jcip:jcip-annotations,com.google.code.findbugs:jsr305</addExclusions>
+                                    <addExclusions>
+                                        com.github.spotbugs:spotbugs-annotations,com.github.stephenc.jcip:jcip-annotations,com.google.code.findbugs:jsr305</addExclusions>
                                 </autogeneratedBomEntryTransformation>
                                 <autogeneratedBomEntryTransformation>
                                     <gavPattern>com.datastax.oss:java-driver-query-builder</gavPattern>
-                                    <addExclusions>com.github.spotbugs:spotbugs-annotations,com.github.stephenc.jcip:jcip-annotations,com.google.code.findbugs:jsr305</addExclusions>
+                                    <addExclusions>
+                                        com.github.spotbugs:spotbugs-annotations,com.github.stephenc.jcip:jcip-annotations,com.google.code.findbugs:jsr305</addExclusions>
                                 </autogeneratedBomEntryTransformation>
                                 <autogeneratedBomEntryTransformation>
                                     <gavPattern>org.apache.cxf:cxf-rt-transports-http-hc5</gavPattern>
@@ -8700,7 +8793,8 @@
                                 </autogeneratedBomEntryTransformation>
                                 <autogeneratedBomEntryTransformation>
                                     <gavPattern>com.datastax.oss.quarkus:cassandra-quarkus-client</gavPattern>
-                                    <addExclusions>com.github.spotbugs:spotbugs-annotations,com.github.stephenc.jcip:jcip-annotations</addExclusions>
+                                    <addExclusions>
+                                        com.github.spotbugs:spotbugs-annotations,com.github.stephenc.jcip:jcip-annotations</addExclusions>
                                 </autogeneratedBomEntryTransformation>
                             </autogeneratedBomEntryTransformations>
                         </configuration>
@@ -8711,7 +8805,8 @@
     </build>
     <repositories>
         <repository>
-            <!-- Has to be here, otherwise, the the flatten-bom mojo is not able to resolve jira-client and its transitives -->
+            <!-- Has to be here, otherwise, the the flatten-bom mojo is not able to resolve
+            jira-client and its transitives -->
             <id>atlassian</id>
             <url>https://packages.atlassian.com/maven-external/</url>
             <name>atlassian exteranl repo</name>
@@ -8738,16 +8833,19 @@
                         <artifactId>cq-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <!-- Fails the build if there are overlaps between our BOM and Quarkus BOM -->
+                                <!-- Fails the build if there are overlaps between our BOM and
+                                Quarkus BOM -->
                                 <id>bom-overlaps</id>
                                 <goals>
                                     <goal>bom-overlaps</goal>
                                 </goals>
                                 <phase>test</phase><!-- after process-resources where we flatten the BOM -->
                                 <configuration>
-                                    <baseBomPath>${project.basedir}/src/main/generated/flattened-reduced-pom.xml</baseBomPath>
+                                    <baseBomPath>
+                                        ${project.basedir}/src/main/generated/flattened-reduced-pom.xml</baseBomPath>
                                     <ignoredOverlaps>
-                                        <ignoredOverlap>org.glassfish.jaxb:jaxb-runtime</ignoredOverlap><!-- Comes from quarkus-cxf-bom -->
+                                        <ignoredOverlap>org.glassfish.jaxb:jaxb-runtime</ignoredOverlap><!--
+                                        Comes from quarkus-cxf-bom -->
                                     </ignoredOverlaps>
                                 </configuration>
                             </execution>

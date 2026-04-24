@@ -799,9 +799,8 @@
       "artifact-id": "camel-quarkus-mina-sftp",
       "metadata": {
         "redhat-camel-support": [
-          "supported-in-jvm"
-        ],
-        "unlisted": "false"
+          "supported"
+        ]
       }
     },
     {

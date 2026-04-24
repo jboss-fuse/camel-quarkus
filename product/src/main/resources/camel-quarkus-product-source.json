@@ -819,10 +819,13 @@
         "net.openhft:affinity",
         "io.quarkus:quarkus-test-common",
         "io.fabric8:kubernetes-httpclient-okhttp",
+        "org.codehaus.plexus:*",
         "org.apache.camel:camel-jbang-*",
         "org.apache.camel:camel-micrometer-prometheus",
         "org.apache.camel:camel-platform-http-main",
-        "org.apache.camel:camel-spring"
+        "org.apache.camel:camel-spring",
+        "org.apache.maven:*",
+        "org.apache.maven.resolver:*"
     ],
     "platformOverridesSupportAttributeName": "redhat-camel-support",
     "artifactVersionOverrides": {

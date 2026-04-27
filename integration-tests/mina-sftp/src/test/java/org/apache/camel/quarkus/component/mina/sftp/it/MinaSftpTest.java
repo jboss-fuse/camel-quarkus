@@ -202,6 +202,7 @@ class MinaSftpTest {
     }
 
     @Test
+    @DisabledIfFipsMode // https://github.com/apache/camel-quarkus/issues/8555
     void testChaCha20Cipher() {
         RestAssured.given()
                 .contentType(ContentType.TEXT)

@@ -32,16 +32,36 @@ class FtpProcessor {
     @BuildStep
     ReflectiveClassBuildItem registerJSchCertificateClasses() {
         // JSch OpenSSH certificate support classes for @cert-authority parsing in known_hosts
-        // The quarkus-jsch reflection config is missing several classes that JSch loads dynamically.
+        // and user certificate authentication. The quarkus-jsch reflection config is missing
+        // several classes that JSch loads dynamically via reflection.
         return ReflectiveClassBuildItem.builder(
+                // KeyPair classes for certificate verification and key type detection
                 "com.jcraft.jsch.KeyPairRSA",
                 "com.jcraft.jsch.KeyPairECDSA",
                 "com.jcraft.jsch.KeyPairEd25519",
                 "com.jcraft.jsch.KeyPairEd448",
                 "com.jcraft.jsch.KeyPairDSA",
+                "com.jcraft.jsch.KeyPairEdDSA",
+                "com.jcraft.jsch.KeyPairPKCS8",
+                // Signature classes for authentication
                 "com.jcraft.jsch.SignatureRSA",
                 "com.jcraft.jsch.SignatureECDSA",
-                "com.jcraft.jsch.jce.SignatureEd25519")
+                "com.jcraft.jsch.jce.SignatureEd25519",
+                // Identity classes for loading private keys and certificates from files
+                "com.jcraft.jsch.Identity",
+                "com.jcraft.jsch.IdentityFile",
+                "com.jcraft.jsch.IdentityRepository",
+                "com.jcraft.jsch.LocalIdentityRepository",
+                // KeyPairGen classes used internally by JSch to parse/decode private key file formats
+                // (not for key generation - Camel SFTP only uses existing keys provided by the user)
+                "com.jcraft.jsch.KeyPairGenRSA",
+                "com.jcraft.jsch.KeyPairGenDSA",
+                "com.jcraft.jsch.KeyPairGenECDSA",
+                "com.jcraft.jsch.KeyPairGenEdDSA",
+                "com.jcraft.jsch.jce.KeyPairGenRSA",
+                "com.jcraft.jsch.jce.KeyPairGenDSA",
+                "com.jcraft.jsch.jce.KeyPairGenECDSA",
+                "com.jcraft.jsch.jce.KeyPairGenEdDSA")
                 .build();
     }
 }

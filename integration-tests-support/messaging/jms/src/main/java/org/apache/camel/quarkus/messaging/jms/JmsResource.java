@@ -108,7 +108,9 @@ public class JmsResource {
         mockEndpoint.expectedMessageCount(1);
 
         producerTemplate.sendBody(
-                componentScheme + ":queue:" + queueName + "?transferExchange=true&objectMessageEnabled=true", message);
+                componentScheme + ":queue:" + queueName + "?transferExchange=true"
+                        + (!componentScheme.getScheme().startsWith("sjms") ? "&objectMessageEnabled=true" : ""),
+                message);
 
         mockEndpoint.assertIsSatisfied();
 
@@ -126,7 +128,8 @@ public class JmsResource {
         try {
             producerTemplate.requestBody(
                     componentScheme + ":queue:" + queueName
-                            + "?transferException=true&replyTo=exception.queue&objectMessageEnabled=true",
+                            + "?transferException=true&replyTo=exception.queue"
+                            + (!componentScheme.getScheme().startsWith("sjms") ? "&objectMessageEnabled=true" : ""),
                     "bad payload");
         } catch (RuntimeCamelException e) {
             Class<? extends Throwable> exception = e.getCause().getClass();

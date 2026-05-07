@@ -22,6 +22,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.smallrye.certs.Format;
 import io.smallrye.certs.junit5.Certificate;
+import org.apache.camel.quarkus.test.DisabledIfFipsMode;
 import org.apache.camel.quarkus.test.support.certificate.TestCertificates;
 import org.apache.camel.quarkus.test.support.sftp.SftpTestResource;
 import org.junit.jupiter.api.Test;
@@ -33,6 +34,7 @@ import static org.hamcrest.CoreMatchers.is;
                 Format.PEM }, password = "password"),
         @Certificate(name = "ftp", formats = {
                 Format.PKCS12 }, password = "password") })
+@DisabledIfFipsMode
 @QuarkusTest
 @QuarkusTestResource(SftpTestResource.class)
 class SftpTest {

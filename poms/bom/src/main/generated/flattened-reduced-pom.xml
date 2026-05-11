@@ -9211,22 +9211,22 @@
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-core</artifactId>
-        <version>3.13.1.redhat-00001</version>
+        <version>3.13.1.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-core-deployment</artifactId>
-        <version>3.13.1.redhat-00001</version>
+        <version>3.13.1.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-jms</artifactId>
-        <version>3.13.1.redhat-00001</version>
+        <version>3.13.1.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-jms-deployment</artifactId>
-        <version>3.13.1.redhat-00001</version>
+        <version>3.13.1.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
@@ -9246,7 +9246,7 @@
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-core-client</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0.redhat-00003</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.json</groupId>
@@ -9269,7 +9269,7 @@
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-jakarta-client</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0.redhat-00003</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.json</groupId>
@@ -9292,7 +9292,7 @@
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-server</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -9327,7 +9327,7 @@
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-amqp-protocol</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.artemis</groupId>
@@ -9338,7 +9338,7 @@
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-hqclient-protocol</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0.redhat-00003</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.artemis</groupId>
@@ -9349,37 +9349,37 @@
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-jakarta-ra</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-commons</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0.redhat-00003</version>
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-jakarta-service-extensions</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-jdbc-store</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-journal</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-lockmanager-api</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-selector</artifactId>
-        <version>2.52.0</version>
+        <version>2.53.0.redhat-00003</version>
       </dependency>
       <dependency>
         <groupId>org.apache.qpid</groupId>

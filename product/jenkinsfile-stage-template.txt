@@ -17,12 +17,12 @@
                             }
 
                             sh """
-                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                LOCAL_MAVEN_REPO=\$(mvn ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
                                 echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
                                 mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
                                 cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
                             """
-                            sh "cd ${groupDirectory} && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            sh "cd ${groupDirectory} && mvn ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {

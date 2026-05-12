@@ -785,7 +785,6 @@
         "io.quarkiverse.artemis:quarkus-artemis-jms",
         "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "org.apache.camel.kamelets:camel-kamelets",
-        "org.apache.camel:camel-launcher",
         "org.apache.camel.quarkus:camel-quarkus-catalog",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-support",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
@@ -839,9 +838,6 @@
         "org.apache.maven:*",
         "org.apache.maven.resolver:*"
     ],
-    "platformOverridesSupportAttributeName": "redhat-camel-support",
-    "artifactVersionOverrides": {
-        "camel-launcher": "${camel.launcher.version}"
-    }
+    "platformOverridesSupportAttributeName": "redhat-camel-support"
 }
 

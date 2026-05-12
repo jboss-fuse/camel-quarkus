@@ -1911,17 +1911,6 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
-        <artifactId>camel-launcher</artifactId>
-        <version>4.18.1.redhat-00018</version>
-        <exclusions>
-          <exclusion>
-            <groupId>*</groupId>
-            <artifactId>*</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel</groupId>
         <artifactId>camel-keycloak</artifactId>
         <version>4.18.1</version>
       </dependency>

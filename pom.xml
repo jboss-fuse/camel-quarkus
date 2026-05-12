@@ -46,7 +46,6 @@
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel-fusesource.version>4.18.1.redhat-00018</camel-fusesource.version>
-        <camel.launcher.version>4.18.1.redhat-00018</camel.launcher.version>
         <sapjco3.version>3.1.12</sapjco3.version>
         <sapidoc.version>3.1.4</sapidoc.version>
         <camel-kamelets.version>4.18.1.redhat-00021</camel-kamelets.version>

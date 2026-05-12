@@ -1916,17 +1916,6 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <artifactId>camel-launcher</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.18.1.redhat-00018</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <exclusions>
-          <exclusion>
-            <groupId>*</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-            <artifactId>*</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-keycloak</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <version>4.18.1</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
@@ -12346,7 +12335,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>jackson-jaxrs-base</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>2.21.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>2.21.2.redhat-00002</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -12356,7 +12345,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>jackson-jaxrs-json-provider</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>2.21.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>2.21.2.redhat-00002</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.jaxrs</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -12436,7 +12425,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>jackson-module-jaxb-annotations</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>2.21.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>2.21.2.redhat-00002</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -12596,7 +12585,7 @@
       <dependency>
         <groupId>com.google.code.findbugs</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>jsr305</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>3.0.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>3.0.2.redhat-00020</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>com.google.code.gson</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -13453,7 +13442,7 @@
       <dependency>
         <groupId>io.fabric8</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>openshift-model-hive</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>7.5.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>7.5.2.redhat-00003</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>io.fabric8</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -13478,7 +13467,7 @@
       <dependency>
         <groupId>io.fabric8</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>openshift-model-miscellaneous</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>7.5.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>7.5.2.redhat-00003</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>io.fabric8</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -13488,7 +13477,7 @@
       <dependency>
         <groupId>io.fabric8</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>openshift-model-operator</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>7.5.2</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>7.5.2.redhat-00003</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>io.fabric8</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -13648,7 +13637,7 @@
       <dependency>
         <groupId>io.grpc</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>grpc-netty-shaded</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>1.79.0</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>1.79.0.redhat-00003</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>io.grpc</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -14067,7 +14056,7 @@
       <dependency>
         <groupId>io.netty</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
         <artifactId>netty-resolver-dns-classes-macos</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
-        <version>4.1.132.Final</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
+        <version>4.1.132.Final-redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>io.netty</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00001 -->
@@ -23856,7 +23845,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:12.1.8.redhat-00001 -->
         <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:12.1.8.redhat-00001 -->
-        <version>12.1.8</version><!-- org.eclipse.jetty:jetty-bom:12.1.8.redhat-00001 -->
+        <version>12.1.8.redhat-00001</version><!-- org.eclipse.jetty:jetty-bom:12.1.8.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.compression</groupId><!-- org.eclipse.jetty:jetty-bom:12.1.8.redhat-00001 -->
@@ -26355,7 +26344,7 @@
       <dependency>
         <groupId>org.smooks.cartridges.edi</groupId><!-- org.smooks:smooks-bom:2.2.1.redhat-00003 -->
         <artifactId>smooks-edi-cartridge</artifactId><!-- org.smooks:smooks-bom:2.2.1.redhat-00003 -->
-        <version>2.1.0</version><!-- org.smooks:smooks-bom:2.2.1.redhat-00003 -->
+        <version>2.1.0.redhat-00001</version><!-- org.smooks:smooks-bom:2.2.1.redhat-00003 -->
       </dependency>
       <dependency>
         <groupId>org.smooks.cartridges.edi</groupId><!-- org.smooks:smooks-bom:2.2.1.redhat-00003 -->

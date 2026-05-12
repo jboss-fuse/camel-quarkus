@@ -1911,17 +1911,6 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <artifactId>camel-launcher</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.18.1.redhat-00018</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <exclusions>
-          <exclusion>
-            <groupId>*</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-            <artifactId>*</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-keycloak</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <version>4.18.1</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>

@@ -198,7 +198,6 @@ commons-codec:commons-codec
 commons-collections:commons-collections
 commons-digester:commons-digester
 commons-io:commons-io
-commons-logging:commons-logging
 commons-net:commons-net
 commons-validator:commons-validator
 de.dentrassi.crypto:pem-keystore
@@ -751,6 +750,7 @@ org.apache.camel:camel-docling
 org.apache.camel:camel-dsl-support
 org.apache.camel:camel-elasticsearch-rest-client
 org.apache.camel:camel-endpointdsl
+org.apache.camel:camel-endpointdsl-support
 org.apache.camel:camel-fhir
 org.apache.camel:camel-fhir-api
 org.apache.camel:camel-file
@@ -792,7 +792,6 @@ org.apache.camel:camel-kamelet
 org.apache.camel:camel-kubernetes
 org.apache.camel:camel-kudu
 org.apache.camel:camel-language
-org.apache.camel:camel-launcher
 org.apache.camel:camel-ldap
 org.apache.camel:camel-log
 org.apache.camel:camel-lra
@@ -816,6 +815,7 @@ org.apache.camel:camel-mongodb
 org.apache.camel:camel-mybatis
 org.apache.camel:camel-netty
 org.apache.camel:camel-netty-http
+org.apache.camel:camel-observability-services
 org.apache.camel:camel-olingo4
 org.apache.camel:camel-olingo4-api
 org.apache.camel:camel-openai
@@ -851,6 +851,7 @@ org.apache.camel:camel-ssh
 org.apache.camel:camel-support
 org.apache.camel:camel-telegram
 org.apache.camel:camel-telemetry
+org.apache.camel:camel-test-junit5
 org.apache.camel:camel-timer
 org.apache.camel:camel-tooling-model
 org.apache.camel:camel-tooling-util
@@ -1537,7 +1538,6 @@ org.reactivestreams:reactive-streams
 org.rnorth.duct-tape:duct-tape
 org.roaringbitmap:RoaringBitmap
 org.scala-lang:scala-library
-org.slf4j:jcl-over-slf4j
 org.slf4j:slf4j-api
 org.slf4j:slf4j-ext
 org.smooks:smooks-api
@@ -1551,6 +1551,7 @@ org.springframework:spring-expression
 org.springframework:spring-jdbc
 org.springframework:spring-jms
 org.springframework:spring-messaging
+org.springframework:spring-orm
 org.springframework:spring-tx
 org.springframework:spring-web
 org.springframework.amqp:spring-amqp

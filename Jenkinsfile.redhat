@@ -28,6 +28,7 @@ pipeline {
         MAVEN_OPTS = '-Xmx3g'
         TESTCONTAINERS_RYUK_DISABLED = 'true'
         TESTCONTAINERS_TINYIMAGE_CONTAINER_IMAGE = 'mirror.gcr.io/alpine:3.17'
+        MVNW_REPOURL = 'https://nexus.corp.redhat.com/repository/maven-central/'
     }
 
     options {

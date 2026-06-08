@@ -225,7 +225,6 @@ io.netty:netty-codec-compression
 io.netty:netty-codec-http3
 io.netty:netty-codec-native-quic
 io.netty:netty-tcnative-boringssl-static
-io.netty:netty-tcnative-classes
 io.opentelemetry.contrib:opentelemetry-gcp-resources
 io.pebbletemplates:pebble
 io.pinecone:pinecone-client

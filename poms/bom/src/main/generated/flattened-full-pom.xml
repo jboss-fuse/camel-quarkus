@@ -14128,7 +14128,7 @@
       <dependency>
         <groupId>io.netty</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>netty-tcnative-classes</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>2.0.75.Final</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>2.0.75.Final-redhat-00003</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.netty</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->

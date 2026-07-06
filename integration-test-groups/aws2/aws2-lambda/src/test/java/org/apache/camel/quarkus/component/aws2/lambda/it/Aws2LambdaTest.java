@@ -59,7 +59,11 @@ class Aws2LambdaTest extends BaseAWs2TestSupport {
 
     @BeforeEach
     public void beforeEach() {
-        Assumptions.assumeTrue(Files.exists(Paths.get("/var/run/docker.sock")));
+        // Check for local Docker socket or remote Docker via DOCKER_HOST
+        boolean dockerAvailable = Files.exists(Paths.get("/var/run/docker.sock"))
+                || System.getenv("DOCKER_HOST") != null;
+        Assumptions.assumeTrue(dockerAvailable,
+                "Docker is not available - neither /var/run/docker.sock exists nor DOCKER_HOST is set");
     }
 
     @Test

@@ -99,7 +99,6 @@ com.google.oauth-client:google-oauth-client-jetty
 com.google.zxing:core
 com.google.zxing:javase
 com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru
-com.googlecode.javaewah:JavaEWAH
 com.googlecode.libphonenumber:libphonenumber
 com.h2database:h2-mvstore
 com.hazelcast:hazelcast
@@ -161,7 +160,6 @@ com.rometools:rome-utils
 com.sonofab1rd:univocity-parsers
 com.squareup.moshi:moshi
 com.squareup.okhttp3:okhttp-java-net-cookiejar
-com.squareup.okhttp3:okhttp-jvm
 com.squareup.okhttp3:okhttp-sse
 com.squareup.okhttp3:okhttp-urlconnection
 com.squareup.retrofit2:converter-gson
@@ -919,6 +917,7 @@ org.apache.camel.quarkus:camel-quarkus-zookeeper-deployment
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master-deployment
 org.apache.commons:commons-configuration2
+org.apache.commons:commons-csv
 org.apache.commons:commons-dbcp2
 org.apache.commons:commons-exec
 org.apache.commons:commons-fileupload2-core
@@ -1001,6 +1000,7 @@ org.apache.shiro.crypto:shiro-hashes-argon2
 org.apache.shiro.crypto:shiro-hashes-bcrypt
 org.apache.solr:solr-api
 org.apache.solr:solr-solrj
+org.apache.thrift:libthrift
 org.apache.tika:tika-core
 org.apache.tika:tika-parser-html-module
 org.apache.tika:tika-parser-text-module
@@ -1084,7 +1084,6 @@ org.eclipse.jetty.websocket:jetty-websocket-core-server
 org.eclipse.jetty.websocket:jetty-websocket-jetty-api
 org.eclipse.jetty.websocket:jetty-websocket-jetty-common
 org.eclipse.jetty.websocket:jetty-websocket-jetty-server
-org.eclipse.jgit:org.eclipse.jgit
 org.eclipse.jgit:org.eclipse.jgit.ssh.jsch
 org.eclipse.milo:milo-dtd-core
 org.eclipse.milo:milo-dtd-manager
@@ -1196,6 +1195,7 @@ org.quickfixj:quickfixj-core
 org.quickfixj:quickfixj-messages-all
 org.redisson:redisson
 org.reflections:reflections
+org.roaringbitmap:RoaringBitmap
 org.robotframework:robotframework
 org.scala-lang:scala-reflect
 org.scala-lang.modules:scala-collection-compat_2.13

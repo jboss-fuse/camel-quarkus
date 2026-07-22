@@ -47,10 +47,6 @@ com.amazonaws:aws-xray-recorder-sdk-aws-sdk
 com.amazonaws:aws-xray-recorder-sdk-aws-sdk-core
 com.amazonaws:aws-xray-recorder-sdk-core
 com.amazonaws:dynamodb-lock-client
-com.apicatalog:titanium-jcs
-com.apicatalog:titanium-json-ld
-com.apicatalog:titanium-rdf-api
-com.apicatalog:titanium-rdf-n-quads
 com.apptasticsoftware:rssreader
 com.arangodb:arangodb-java-driver
 com.arangodb:core
@@ -141,7 +137,6 @@ com.fasterxml.jackson.module:jackson-module-kotlin
 com.fasterxml.jackson.module:jackson-module-parameter-names
 com.fasterxml.woodstox:woodstox-core
 com.github.albfernandez:juniversalchardet
-com.github.andrewoma.dexx:collection
 com.github.beanio:beanio
 com.github.ben-manes.caffeine:caffeine
 com.github.docker-java:docker-java-api
@@ -2273,13 +2268,6 @@ org.apache.jackrabbit:oak-jackrabbit-api
 org.apache.james:apache-mime4j-core
 org.apache.james:apache-mime4j-dom
 org.apache.james:apache-mime4j-storage
-org.apache.jena:jena-arq
-org.apache.jena:jena-base
-org.apache.jena:jena-core
-org.apache.jena:jena-iri
-org.apache.jena:jena-iri3986
-org.apache.jena:jena-langtag
-org.apache.jena:jena-shex
 org.apache.kafka:connect-api
 org.apache.kafka:connect-json
 org.apache.kafka:connect-runtime

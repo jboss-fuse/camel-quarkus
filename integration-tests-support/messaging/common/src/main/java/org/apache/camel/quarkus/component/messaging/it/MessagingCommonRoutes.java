@@ -78,9 +78,7 @@ public class MessagingCommonRoutes extends RouteBuilder {
                 })
                 .to("mock:txResult");
 
-        fromF("%s:queue:testJmsObject"
-                + (!componentScheme.getScheme().startsWith("sjms") ? "?objectMessageEnabled=true" : ""),
-                componentScheme)
+        fromF("%s:queue:testJmsObject?objectMessageEnabled=true", componentScheme)
                 .to("mock:objectTestResult");
 
         // Topic routes

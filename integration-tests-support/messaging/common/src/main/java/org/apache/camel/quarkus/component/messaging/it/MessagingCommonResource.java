@@ -217,9 +217,7 @@ public class MessagingCommonResource {
         MockEndpoint mockEndpoint = context.getEndpoint("mock:objectTestResult", MockEndpoint.class);
         mockEndpoint.expectedMessageCount(1);
 
-        producerTemplate.sendBody(componentScheme + ":queue:" + queueName +
-                (!componentScheme.getScheme().startsWith("sjms") ? "?objectMessageEnabled=true" : ""),
-                new Person(name));
+        producerTemplate.sendBody(componentScheme + ":queue:" + queueName + "?objectMessageEnabled=true", new Person(name));
 
         mockEndpoint.assertIsSatisfied();
 

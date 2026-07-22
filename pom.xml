@@ -70,7 +70,7 @@
         <quarkiverse-minio.version>3.8.6</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
         <quarkiverse-mybatis.version>2.4.2</quarkiverse-mybatis.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/mybatis/quarkus-mybatis-parent/ -->
         <quarkiverse-pooled-jms.version>2.10.0.redhat-00003</quarkiverse-pooled-jms.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/messaginghub/quarkus-pooled-jms-parent/ -->
-        <quarkus.version>3.33.2.redhat-00004</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus.version>3.33.2.redhat-00005</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
         <quarkus-community.version>3.33.1</quarkus-community.version>
         <quarkus-hazelcast-client.version>4.1.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
         <quarkus-qpid-jms.version>2.12.0.redhat-00002</quarkus-qpid-jms.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/org/amqphub/quarkus/quarkus-qpid-jms-bom/ -->
@@ -138,7 +138,7 @@
         <jgroups.version>5.3.13.Final</jgroups.version><!-- The version used by quarkus-artemis -> org.apache.artemis:artemis-core-client - see https://redhat.atlassian.net/browse/CEQ-12839 -->
         <jodatime.version>${jodatime2-version}</jodatime.version><!-- Mess in transitive dependencies of Splunk -->
         <javassist.version>${javassist-version}</javassist.version><!-- debezium -->
-        <jetty.version>${jetty-version}</jetty.version>
+        <jetty.version>12.1.11.redhat-00001</jetty.version>
         <jira-rest-client.version>${jira-rest-client-api-version}</jira-rest-client.version>
         <jnr-constants.version>0.9.11</jnr-constants.version><!-- Mess in web3j transitive deps -->
         <jnr-ffi.version>2.2.13</jnr-ffi.version><!-- Mess in web3j transitive deps -->

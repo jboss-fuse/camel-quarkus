@@ -26,3 +26,7 @@ metadata:
   guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
+  integrates:
+    - name: "Camel"
+      artifact: "org.apache.camel:camel-base"
+      version: "${camel.version}"

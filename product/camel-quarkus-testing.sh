@@ -339,37 +339,30 @@ if [[ "$TEST_ONLY" != "true" ]]; then
     # Replace Camel version in the top pom.xml
     if [[ -n "$CAMEL_VERSION" ]]; then
       log "Replacing Camel version to $CAMEL_VERSION in pom.xml"
-      xmllint --shell pom.xml <<EOF
-cd /*[local-name()="project"]/*[local-name()="parent"]/*[local-name()="version"]
-set $CAMEL_VERSION
-save
-EOF
+
+      # Update parent version using sed (cross-platform: works on Git Bash/Windows, Linux, macOS)
+      log "Updating parent version to $CAMEL_VERSION"
+      sed '/<parent>/,/<\/parent>/ s|<version>[^<]*</version>|<version>'"$CAMEL_VERSION"'</version>|' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml
       if [[ $? -ne 0 ]]; then
         echo "Error: Failed to replace Camel parent version in pom.xml"
         exit 1
       fi
+      # Verify the parent version was actually changed
+      if ! grep -q "<parent>" pom.xml || ! grep -A 3 "<parent>" pom.xml | grep -q "<version>$CAMEL_VERSION</version>"; then
+        echo "Error: Parent version was not updated to $CAMEL_VERSION in pom.xml"
+        exit 1
+      fi
 
-      xmllint --shell pom.xml <<EOF
-cd /*[local-name()="project"]/*[local-name()="properties"]/*[local-name()="camel.version"]
-set $CAMEL_VERSION
-save
-EOF
+      # Update camel.version property using sed
+      log "Updating camel.version property to $CAMEL_VERSION"
+      sed 's|<camel\.version>[^<]*</camel\.version>|<camel.version>'"$CAMEL_VERSION"'</camel.version>|' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml
       if [[ $? -ne 0 ]]; then
         echo "Error: Failed to replace Camel version property in pom.xml"
         exit 1
       fi
-    fi
-
-    # Replace Quarkus version in the top pom.xml
-    if [[ -n "$QUARKUS_VERSION" ]]; then
-      log "Replacing Quarkus version to $QUARKUS_VERSION in pom.xml"
-      xmllint --shell pom.xml <<EOF
-cd /*[local-name()="project"]/*[local-name()="properties"]/*[local-name()="quarkus.version"]
-set $QUARKUS_VERSION
-save
-EOF
-      if [[ $? -ne 0 ]]; then
-        echo "Error: Failed to replace Quarkus version property in pom.xml"
+      # Verify the camel.version property was actually changed
+      if ! grep -q "<camel\.version>$CAMEL_VERSION</camel\.version>" pom.xml; then
+        echo "Error: camel.version property was not updated to $CAMEL_VERSION in pom.xml"
         exit 1
       fi
     fi
@@ -377,11 +370,18 @@ EOF
     # Replace Quarkus version in the top pom.xml
     if [[ -n "$QUARKUS_VERSION" ]]; then
       log "Replacing Quarkus version to $QUARKUS_VERSION in pom.xml"
-      xmllint --shell pom.xml <<EOF
-cd /*[local-name()="project"]/*[local-name()="properties"]/*[local-name()="quarkus.version"]
-set $QUARKUS_VERSION
-save
-EOF
+
+      # Update quarkus.version property using sed (cross-platform)
+      sed 's|<quarkus\.version>[^<]*</quarkus\.version>|<quarkus.version>'"$QUARKUS_VERSION"'</quarkus.version>|' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml
+      if [[ $? -ne 0 ]]; then
+        echo "Error: Failed to replace Quarkus version property in pom.xml"
+        exit 1
+      fi
+      # Verify the quarkus.version property was actually changed
+      if ! grep -q "<quarkus\.version>$QUARKUS_VERSION</quarkus\.version>" pom.xml; then
+        echo "Error: quarkus.version property was not updated to $QUARKUS_VERSION in pom.xml"
+        exit 1
+      fi
     fi
   fi
 

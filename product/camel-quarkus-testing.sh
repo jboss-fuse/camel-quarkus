@@ -255,17 +255,40 @@ log "CAMEL_QUARKUS_PLATFORM_ARTIFACT_ID = $CAMEL_QUARKUS_PLATFORM_ARTIFACT_ID"
 CAMEL_QUARKUS_PLATFORM_VERSION="${CAMEL_QUARKUS_PLATFORM_VERSION:-$QUARKUS_PLATFORM_VERSION}"
 log "CAMEL_QUARKUS_PLATFORM_VERSION = $CAMEL_QUARKUS_PLATFORM_VERSION"
 
-if [[ -z "$QUARKUS_VERSION" && -n "$MRRC_LOCAL" ]]; then
+if [[ -z "$QUARKUS_VERSION" && -n "$MRRC_LOCAL" && "$RUN_AGAINST_MRRC_ONLY" == "true" ]]; then
   QUARKUS_VERSION="$(ls "${MRRC_LOCAL}/io/quarkus/quarkus-core/" 2>/dev/null | head -1)"
   log "QUARKUS_VERSION derived from MRRC_LOCAL"
 fi
 log "QUARKUS_VERSION = $QUARKUS_VERSION"
 
-if [[ -z "$CAMEL_VERSION" && -n "$MRRC_LOCAL" ]]; then
+# Validate that QUARKUS_VERSION is set when RUN_AGAINST_MRRC_ONLY is enabled
+if [[ "$RUN_AGAINST_MRRC_ONLY" == "true" && -z "$QUARKUS_VERSION" ]]; then
+  echo "Error: When --run-against-mrrc-only is set, QUARKUS_VERSION must be specified either via:"
+  echo "  1. --quarkus-version parameter, or"
+  echo "  2. --mrrc-local (QUARKUS_VERSION will be derived from MRRC)"
+  exit 1
+fi
+
+# Validate that CAMEL_QUARKUS_VERSION is set when RUN_AGAINST_MRRC_ONLY is NOT enabled
+if [[ "$RUN_AGAINST_MRRC_ONLY" != "true" && "$UPSTREAM" != "true" && -z "$CAMEL_QUARKUS_VERSION" ]]; then
+  echo "Error: When --run-against-mrrc-only is NOT set, CAMEL_QUARKUS_VERSION must be specified via:"
+  echo "  --camel-quarkus-version parameter"
+  exit 1
+fi
+
+if [[ -z "$CAMEL_VERSION" && -n "$MRRC_LOCAL" && "$RUN_AGAINST_MRRC_ONLY" == "true" ]]; then
   CAMEL_VERSION="$(ls "${MRRC_LOCAL}/org/apache/camel/camel-direct/" 2>/dev/null | head -1)"
   log "CAMEL_VERSION derived from MRRC_LOCAL"
 fi
 log "CAMEL_VERSION = $CAMEL_VERSION"
+
+# Validate that CAMEL_VERSION is set when RUN_AGAINST_MRRC_ONLY is enabled
+if [[ "$RUN_AGAINST_MRRC_ONLY" == "true" && -z "$CAMEL_VERSION" ]]; then
+  echo "Error: When --run-against-mrrc-only is set, CAMEL_VERSION must be specified either via:"
+  echo "  1. --camel-version parameter, or"
+  echo "  2. --mrrc-local (CAMEL_VERSION will be derived from MRRC)"
+  exit 1
+fi
 
 # Build common Maven arguments
 COMMON_MVN_ARGS="-B -ntp -Dformatter.skip -Dimpsort.skip -Denforcer.skip -DbuildMetaData.skip -Dcq.camel-prod-excludes.skip=true -Dcamel-quarkus.update-extension-doc-page.skip -Djava.home=$JAVA_HOME"
@@ -310,22 +333,55 @@ if [[ "$TEST_ONLY" != "true" ]]; then
     # Hack to fix the missing Jetty BOM (CEQ-8802)
     if [[ -f "poms/bom/src/main/generated/flattened-reduced-pom.xml" ]]; then
       log "Copying flattened-reduced-pom.xml to poms/bom/pom.xml"
-      cp poms/bom/src/main/generated/flattened-reduced-pom.xml poms/bom/pom.xml
+      cp poms/bom/src/main/generated/flattened-reduced-pom.xml poms/bom/pom.xml || exit $?
     fi
 
     # Replace Camel version in the top pom.xml
     if [[ -n "$CAMEL_VERSION" ]]; then
       log "Replacing Camel version to $CAMEL_VERSION in pom.xml"
-      xmllint --shell pom.xml <<EOF
-cd /*[local-name()="project"]/*[local-name()="parent"]/*[local-name()="version"]
-set $CAMEL_VERSION
-save
-EOF
-      xmllint --shell pom.xml <<EOF
-cd /*[local-name()="project"]/*[local-name()="properties"]/*[local-name()="camel.version"]
-set $CAMEL_VERSION
-save
-EOF
+
+      # Update parent version using sed (cross-platform: works on Git Bash/Windows, Linux, macOS)
+      log "Updating parent version to $CAMEL_VERSION"
+      sed '/<parent>/,/<\/parent>/ s|<version>[^<]*</version>|<version>'"$CAMEL_VERSION"'</version>|' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml
+      if [[ $? -ne 0 ]]; then
+        echo "Error: Failed to replace Camel parent version in pom.xml"
+        exit 1
+      fi
+      # Verify the parent version was actually changed
+      if ! grep -q "<parent>" pom.xml || ! grep -A 3 "<parent>" pom.xml | grep -q "<version>$CAMEL_VERSION</version>"; then
+        echo "Error: Parent version was not updated to $CAMEL_VERSION in pom.xml"
+        exit 1
+      fi
+
+      # Update camel.version property using sed
+      log "Updating camel.version property to $CAMEL_VERSION"
+      sed 's|<camel\.version>[^<]*</camel\.version>|<camel.version>'"$CAMEL_VERSION"'</camel.version>|' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml
+      if [[ $? -ne 0 ]]; then
+        echo "Error: Failed to replace Camel version property in pom.xml"
+        exit 1
+      fi
+      # Verify the camel.version property was actually changed
+      if ! grep -q "<camel\.version>$CAMEL_VERSION</camel\.version>" pom.xml; then
+        echo "Error: camel.version property was not updated to $CAMEL_VERSION in pom.xml"
+        exit 1
+      fi
+    fi
+
+    # Replace Quarkus version in the top pom.xml
+    if [[ -n "$QUARKUS_VERSION" ]]; then
+      log "Replacing Quarkus version to $QUARKUS_VERSION in pom.xml"
+
+      # Update quarkus.version property using sed (cross-platform)
+      sed 's|<quarkus\.version>[^<]*</quarkus\.version>|<quarkus.version>'"$QUARKUS_VERSION"'</quarkus.version>|' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml
+      if [[ $? -ne 0 ]]; then
+        echo "Error: Failed to replace Quarkus version property in pom.xml"
+        exit 1
+      fi
+      # Verify the quarkus.version property was actually changed
+      if ! grep -q "<quarkus\.version>$QUARKUS_VERSION</quarkus\.version>" pom.xml; then
+        echo "Error: quarkus.version property was not updated to $QUARKUS_VERSION in pom.xml"
+        exit 1
+      fi
     fi
   fi
 
@@ -354,6 +410,11 @@ EOF
         $SETTINGS_XML_ARG \
         $MVN_EXTRA \
         $module
+      MVN_EXIT_CODE=$?
+      if [[ $MVN_EXIT_CODE -ne 0 ]]; then
+        echo "Error: Maven build failed for module $module with exit code $MVN_EXIT_CODE"
+        exit $MVN_EXIT_CODE
+      fi
     done
   fi
 fi

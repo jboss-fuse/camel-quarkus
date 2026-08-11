@@ -246,6 +246,7 @@ group-13:
   - langchain4j-embeddingstore
   - milvus
   - salesforce
+  - sap
   - sap-netweaver
   - servicenow
   - slack

@@ -1,0 +1,9 @@
+The SAP extension does not support the packaging type `uber-jar` in JVM mode, which causes JCo to throw a runtime exception:
+
+[source, console, subs="attributes+"]
+----
+Caused by: java.lang.ExceptionInInitializerError: JCo initialization failed with java.lang.ExceptionInInitializerError: Illegal JCo archive "sap-1.0.0-SNAPSHOT-runner.jar". It is not allowed to rename or repackage the original archive "sapjco3.jar".
+----
+
+In native mode, JCo's JAR-based library loading is replaced via a GraalVM substitution because no JAR files exist in a native image.
+The platform-specific JCo native library (e.g. `libsapjco3.so` on Linux, `libsapjco3.dylib` on macOS, `sapjco3.dll` on Windows) must be available on the system library path (e.g. `LD_LIBRARY_PATH` or `java.library.path`).

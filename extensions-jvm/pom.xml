@@ -103,7 +103,6 @@
         <!-- <module>zookeeper</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>zookeeper-master</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cics</module>
-        <module>sap</module>
     </modules>
 
     <dependencyManagement>

@@ -1,0 +1,12 @@
+== SAP
+
+To run the SAP integration tests, the SAP JCo (`sapjco3`) and IDoc (`sapidoc3`) artifacts must be available in a Maven repository configured in your `settings.xml`. The platform-specific JCo native library (e.g. `libsapjco3.so`, `libsapjco3.dylib`, `sapjco3.dll`) must be present in a directory passed via `-Dsap.dir`.
+
+SAP connection parameters are configured via environment variables (`SAP_ASHOST`, `SAP_USER`, `SAP_PASSWD`, etc.). Tests requiring a live SAP instance are skipped when `SAP_ASHOST` is not set.
+
+Example:
+[source,shell]
+----
+SAP_ASHOST=myhost SAP_USER=myuser SAP_PASSWD=mypass \
+./mvnw test -pl integration-tests/sap -Dsap.dir=/path/to/native-libs
+----

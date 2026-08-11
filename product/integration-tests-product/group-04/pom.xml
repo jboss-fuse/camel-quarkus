@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
-        <module>../../../integration-tests/jpa</module>
         <module>../../../integration-tests/jq</module>
         <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/jsonpath</module>
@@ -70,5 +69,6 @@
         <module>../../../integration-tests/mllp</module>
         <module>../../../integration-tests/mybatis</module>
         <module>../../../integration-tests/netty</module>
+        <module>../../../integration-tests/observability-services</module>
     </modules>
 </project>

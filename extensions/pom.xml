@@ -247,6 +247,7 @@
         <!-- <module>rss</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>saga</module>
         <module>salesforce</module>
+        <module>sap</module>
         <!-- <module>sap-netweaver</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>saxon</module>
         <module>scheduler</module>

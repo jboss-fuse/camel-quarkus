@@ -105,6 +105,5 @@
         <module>zookeeper</module>
         <module>zookeeper-master</module>
         <module>cics</module>
-        <module>sap</module>
     </modules>
 </project>

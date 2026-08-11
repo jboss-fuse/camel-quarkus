@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 05</name>
 
     <modules>
-        <module>../../../integration-tests/observability-services</module>
         <module>../../../integration-tests/olingo4</module>
         <module>../../../integration-tests/openai</module>
         <module>../../../integration-tests/openapi-java</module>
@@ -52,6 +51,7 @@
         <module>../../../integration-tests/rest-openapi</module>
         <module>../../../integration-tests/saga</module>
         <module>../../../integration-tests/salesforce</module>
+        <module>../../../integration-tests/sap</module>
         <module>../../../integration-tests/saxon</module>
         <module>../../../integration-tests/servlet</module>
         <module>../../../integration-tests/slack</module>

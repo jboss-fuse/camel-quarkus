@@ -69,6 +69,6 @@
         <module>../../../integration-tests-jvm/junit-test-framework</module>
         <module>../../../integration-tests-jvm/main-devmode</module>
         <module>../../../integration-tests-jvm/opensearch</module>
-        <module>../../../integration-tests-jvm/sap</module>
+        <module>../../../integration-tests-jvm/smooks</module>
     </modules>
 </project>

@@ -530,7 +530,10 @@
         "camel-quarkus-openai": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 3.33.0"
+            "comment": "supported since CEQ 3.33.0",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-openai"
+            ]
         },
         "camel-quarkus-openapi-java": {
             "jvm": "supported",
@@ -794,6 +797,7 @@
     ],
     "versionTransformations": {
         "grpc-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
+        "hapi.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "kafka.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "mvel2.version": "${version?replace('[\\\\.\\\\-]redhat-.*$', '', 'r')}",
         "protobuf-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",

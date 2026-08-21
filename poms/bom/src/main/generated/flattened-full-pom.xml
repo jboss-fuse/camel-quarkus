@@ -7224,42 +7224,42 @@
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v21</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v22</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v23</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v231</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v24</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v25</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v251</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId>
         <artifactId>hapi-structures-v26</artifactId>
-        <version>2.6.0.redhat-00002</version>
+        <version>2.6.0</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
@@ -7691,6 +7691,11 @@
         <version>3.0.0</version>
       </dependency>
       <dependency>
+        <groupId>com.typesafe</groupId>
+        <artifactId>config</artifactId>
+        <version>1.4.7</version>
+      </dependency>
+      <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
         <version>1.11.0</version>
@@ -7901,6 +7906,11 @@
         <version>2.4.2</version>
       </dependency>
       <dependency>
+        <groupId>io.reactivex.rxjava3</groupId>
+        <artifactId>rxjava</artifactId>
+        <version>3.1.12</version>
+      </dependency>
+      <dependency>
         <groupId>io.swagger.codegen.v3</groupId>
         <artifactId>swagger-codegen</artifactId>
         <version>3.0.80</version>
@@ -8040,6 +8050,11 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-collections4</artifactId>
         <version>4.5.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-pool2</artifactId>
+        <version>2.13.1.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.apache.cxf</groupId>
@@ -9653,6 +9668,12 @@
         <groupId>software.amazon.awssdk</groupId>
         <artifactId>apache-client</artifactId>
         <version>2.49.1</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>software.amazon.awssdk</groupId>
@@ -24412,17 +24433,17 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-security</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-session</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -24617,17 +24638,17 @@
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>jetty-websocket-core-common</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>jetty-websocket-core-server</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>jetty-websocket-jetty-api</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
@@ -24637,12 +24658,12 @@
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>jetty-websocket-jetty-common</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>jetty-websocket-jetty-server</artifactId>
-        <version>12.1.11.redhat-00001</version>
+        <version>12.1.11</version>
       </dependency>
       <dependency>
         <groupId>com.azure</groupId>
@@ -25196,6 +25217,16 @@
         <groupId>com.datastax.oss.quarkus</groupId>
         <artifactId>cassandra-quarkus-client</artifactId>
         <version>1.4.1</version>
+        <exclusions>
+          <exclusion>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss.quarkus</groupId>

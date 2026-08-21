@@ -124,13 +124,14 @@
         <graalvm-community.version>${graalvm.version}</graalvm-community.version>
         <graalvm-docs.version>jdk21</graalvm-docs.version><!-- @sync io.quarkus:quarkus-documentation:${quarkus-community.version} prop:graal-community.tag-for-documentation -->
         <groovy.version>5.0.7</groovy.version><!-- @sync io.quarkiverse.groovy:quarkus-groovy-parent:${quarkiverse-groovy.version} prop:groovy.version -->
-        <hapi.version>${hapi-version}</hapi.version>
+        <hapi.version>2.6.0</hapi.version><!-- @sync org.apache.camel:camel-dependencies:${camel.version} prop:hapi-version --><!-- hapi-structures-* are not productized; the .redhat suffix is stripped via versionTransformations in product/src/main/resources/camel-quarkus-product-source.json -->
         <hapi-base.version>${hapi-base-version}</hapi-base.version>
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
         <hapi-fhir-core.version>${hapi-fhir-core-version}</hapi-fhir-core.version>
         <ibm.java-sdk-core.version>9.25.0</ibm.java-sdk-core.version><!-- Required because of https://github.com/apache/camel-quarkus/issues/7269 -->
         <ibm.mq.client.version>10.0.0.0</ibm.mq.client.version>
         <icu4j.version>${icu4j-version}</icu4j.version>
+        <infinispan.version>16.0.14</infinispan.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.infinispan:infinispan-client-hotrod -->
         <influxdb.version>${influx-java-driver-version}</influxdb.version>
         <jakarta.jms-api.version>${jakarta-jms-api-version}</jakarta.jms-api.version>
         <java-driver-query-builder.version>4.19.2</java-driver-query-builder.version><!-- @sync com.datastax.oss.quarkus:cassandra-quarkus-parent:${cassandra-quarkus.version} prop:java-driver.version -->
@@ -174,6 +175,7 @@
         <reactor-netty.version>${reactor-netty-version}</reactor-netty.version>
         <retrofit.version>3.0.0</retrofit.version><!-- @sync org.kiwiproject:consul-client:${consul-client-version} prop:retrofit.version -->
         <rhino.version>1.7.15.1</rhino.version><!-- Used by Apache FOP, to sync with transitive dependencies -->
+        <rxjava.version>3.1.12</rxjava.version><!-- @sync org.infinispan:infinispan-build-configuration-parent:${infinispan.version} prop:version.rxjava --><!-- Resolve conflict between aws2-kinesis (3.1.11) and infinispan (3.1.12) -->
         <saxon.version>${saxon-version}</saxon.version>
         <smooks-bom.version>${smooks-version}</smooks-bom.version>
         <smooks.version>2.2.1.redhat-00003</smooks.version><!-- @sync org.smooks:smooks-bom:${smooks-bom.version} prop:smooks.version -->
@@ -187,6 +189,7 @@
         <swagger-parser.version>${swagger-openapi3-java-parser-version}</swagger-parser.version>
         <tablesaw.version>0.43.1</tablesaw.version>
         <threetenbp.version>1.7.0</threetenbp.version><!-- @sync com.google.cloud:google-cloud-pubsub:${google-cloud-pubsub.version} dep:org.threeten:threetenbp -->
+        <typesafe-config.version>1.4.7</typesafe-config.version><!-- @sync com.github.ben-manes.caffeine:jcache:${caffeine.version} dep:com.typesafe:config --><!-- Resolve conflict between cassandraql (1.4.1) and jpa/hibernate-orm (1.4.7) -->
         <xalan.version>2.7.3.redhat-00001</xalan.version><!-- Xalan should be removed as is in Camel, but it is not possible. https://github.com/apache/camel-quarkus/issues/4065-->
         <xchange.version>${xchange-version}</xchange.version>
         <xmlgraphics-commons.version>2.11</xmlgraphics-commons.version><!-- @sync org.apache.xmlgraphics:fop-parent:${fop-version} prop:xmlgraphics.commons.version -->

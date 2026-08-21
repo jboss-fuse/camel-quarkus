@@ -38,7 +38,6 @@
         <module>../../../integration-tests/ocsf</module>
         <module>../../../integration-tests/ognl</module>
         <module>../../../integration-tests/once</module>
-        <module>../../../integration-tests/openai</module>
         <module>../../../integration-tests/openapi-validator</module>
         <module>../../../integration-tests/openstack</module>
         <module>../../../integration-tests/optaplanner</module>

@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-build-parent</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
         <relativePath>../poms/build-parent/pom.xml</relativePath>
     </parent>
 
@@ -42,8 +42,8 @@
         <quarkus.platform.version>${quarkus.version}</quarkus.platform.version>
         <camel-quarkus.platform.group-id>org.apache.camel.quarkus</camel-quarkus.platform.group-id>
         <camel-quarkus.platform.artifact-id>camel-quarkus-bom</camel-quarkus.platform.artifact-id>
-        <camel-quarkus.platform.version>3.39.0</camel-quarkus.platform.version>
-        <camel-quarkus.version>3.39.0</camel-quarkus.version><!-- This needs to be set to the underlying CQ version from command line when testing against Platform BOMs -->
+        <camel-quarkus.platform.version>3.39.0.rhbac-SNAPSHOT</camel-quarkus.platform.version>
+        <camel-quarkus.version>3.39.0.rhbac-SNAPSHOT</camel-quarkus.version><!-- This needs to be set to the underlying CQ version from command line when testing against Platform BOMs -->
     </properties>
 
     <modules>
@@ -51,10 +51,10 @@
         <module>aws2</module>
         <module>azure</module>
         <module>certificate-generator</module>
-        <module>custom-dataformat</module>
-        <module>custom-type-converter</module>
+        <!-- <module>custom-dataformat</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>custom-type-converter</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>custom-kamelet-resource</module>
-        <module>debezium</module>
+        <!-- <module>debezium</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>google</module>
         <module>grpc</module>
         <module>http</module>

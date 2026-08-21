@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-poms</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -36,7 +36,7 @@
         <!-- This property is kept in sync with project.version by the release plugin -->
         <!-- Do not change to project.version because otherwise the end user apps having our BOM as
         parent (rather than importing it) will stop working -->
-        <camel-quarkus.version>3.39.0</camel-quarkus.version>
+        <camel-quarkus.version>3.39.0.rhbac-SNAPSHOT</camel-quarkus.version>
     </properties>
 
     <dependencyManagement>
@@ -44,21 +44,14 @@
             <dependency>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-bom-test</artifactId>
-                <version>${quarkus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>io.quarkiverse.artemis</groupId>
-                <artifactId>quarkus-artemis-bom</artifactId>
-                <version>${quarkiverse-artemis.version}</version>
+                <version>${quarkus-community.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>io.quarkiverse.cxf</groupId>
                 <artifactId>quarkus-cxf-bom-test</artifactId>
-                <version>${quarkiverse-cxf.version}</version>
+                <version>${quarkiverse-cxf-community.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -96,7 +89,7 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-support-custom-dataformat</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -171,17 +164,17 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-custom-type-converter</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-debezium</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-debezium</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>

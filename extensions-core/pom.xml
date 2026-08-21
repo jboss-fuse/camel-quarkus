@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-build-parent</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
         <relativePath>../poms/build-parent/pom.xml</relativePath>
     </parent>
 
@@ -35,10 +35,10 @@
     <modules>
         <module>core</module>
         <module>http-common</module>
-        <module>reactive-executor</module>
-        <module>threadpoolfactory-vertx</module>
+        <!-- <module>reactive-executor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>threadpoolfactory-vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xml-io-dsl</module>
-        <module>xml-jaxb</module>
+        <!-- <module>xml-jaxb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xml-jaxp</module>
         <module>yaml-dsl</module>
         <module>yaml-io</module>

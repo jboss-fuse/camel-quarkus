@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-qute-parent</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -34,7 +34,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-mock</artifactId>
-                <version>${camel.version}</version>
+                <version>${camel-community-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

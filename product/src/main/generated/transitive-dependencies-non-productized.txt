@@ -1004,6 +1004,7 @@ org.apache.directory.server:apacheds-core-constants
 org.apache.directory.server:apacheds-i18n
 org.apache.drill.exec:drill-jdbc-all
 org.apache.fory:fory-core
+org.apache.httpcomponents:httpmime
 org.apache.httpcomponents.client5:httpclient5-fluent
 org.apache.ignite:ignite-binary-api
 org.apache.ignite:ignite-binary-impl

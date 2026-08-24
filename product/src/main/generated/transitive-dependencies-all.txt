@@ -48,9 +48,6 @@ com.arangodb:arangodb-java-driver
 com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
-com.atlassian.event:atlassian-event
-com.atlassian.httpclient:atlassian-httpclient-api
-com.atlassian.httpclient:atlassian-httpclient-library
 com.atlassian.jira:jira-rest-java-client-api
 com.atlassian.jira:jira-rest-java-client-core
 com.atlassian.oai:swagger-request-validator-core
@@ -393,7 +390,6 @@ io.agroal:agroal-api
 io.agroal:agroal-narayana
 io.agroal:agroal-pool
 io.atlassian.fugue:fugue
-io.atlassian.util.concurrent:atlassian-util-concurrent
 io.debezium:debezium-api
 io.debezium:debezium-config
 io.debezium:debezium-connect-plugins
@@ -2285,7 +2281,6 @@ org.apache.groovy:groovy-dateutil
 org.apache.groovy:groovy-json
 org.apache.groovy:groovy-xml
 org.apache.httpcomponents:httpasyncclient
-org.apache.httpcomponents:httpasyncclient-cache
 org.apache.httpcomponents:httpclient
 org.apache.httpcomponents:httpclient-cache
 org.apache.httpcomponents:httpcore

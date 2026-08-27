@@ -48,7 +48,7 @@
         <camel-fusesource.version>4.22.0.redhat-00001</camel-fusesource.version>
         <sapjco3.version>3.1.13</sapjco3.version><!-- @sync org.fusesource:camel-sap-parent:${camel-fusesource.version} dep:com.sap.conn.jco:sapjco3 -->
         <sapidoc.version>3.1.4</sapidoc.version><!-- @sync org.fusesource:camel-sap-parent:${camel-fusesource.version} dep:com.sap.conn.idoc:sapidoc3 -->
-        <camel-kamelets.version>4.21.0</camel-kamelets.version>
+        <camel-kamelets.version>4.22.0.redhat-00001</camel-kamelets.version>
         <async-profiler.version>2.9</async-profiler.version>
         <camel-quarkus-community.version>3.39.0</camel-quarkus-community.version>
         <cassandra-quarkus.version>1.4.1</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->

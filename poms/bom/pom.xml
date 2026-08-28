@@ -8806,6 +8806,16 @@
                                 <resolutionEntryPointInclude>ca.uhn.hapi:hapi-structures-v25</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>ca.uhn.hapi:hapi-structures-v251</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>ca.uhn.hapi:hapi-structures-v26</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>com.squareup.okhttp3:logging-interceptor</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>dev.langchain4j:langchain4j-embeddings</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.langchain4j:quarkus-langchain4j-core</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.mcp:quarkus-mcp-server-http</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.mcp:quarkus-mcp-server-http-deployment</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.cxf:cxf-rt-frontend-jaxrs</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.cxf:cxf-rt-rs-client</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.cxf:cxf-rt-rs-extension-providers</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.cxf:cxf-rt-rs-security-oauth2</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.kafka:connect-json</resolutionEntryPointInclude>
                             </resolutionEntryPointIncludes>
                             <resolutionExcludes>
                                 <!-- Exclude artifacts that we do not want in the flattened BOM -->

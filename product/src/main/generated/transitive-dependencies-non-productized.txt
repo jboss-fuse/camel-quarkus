@@ -469,6 +469,7 @@ org.apache.camel:camel-leveldb
 org.apache.camel:camel-lucene
 org.apache.camel:camel-lumberjack
 org.apache.camel:camel-lzf
+org.apache.camel:camel-mcp-server-api
 org.apache.camel:camel-mdc
 org.apache.camel:camel-micrometer-observability
 org.apache.camel:camel-milo

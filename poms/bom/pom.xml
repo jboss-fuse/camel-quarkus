@@ -7852,11 +7852,6 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>dev.langchain4j</groupId>
-                <artifactId>langchain4j-embeddings</artifactId>
-                <version>${langchain4j-beta.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>io.dropwizard.metrics</groupId>
                 <artifactId>metrics-core</artifactId>
                 <version>${dropwizard-metrics.version}</version>
@@ -8808,7 +8803,6 @@
                                 <resolutionEntryPointInclude>ca.uhn.hapi:hapi-structures-v26</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>com.squareup.okhttp3:logging-interceptor</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>dev.langchain4j:langchain4j-embeddings</resolutionEntryPointInclude>
-                                <resolutionEntryPointInclude>io.quarkiverse.langchain4j:quarkus-langchain4j-core</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.mcp:quarkus-mcp-server-http</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.mcp:quarkus-mcp-server-http-deployment</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>org.apache.cxf:cxf-rt-frontend-jaxrs</resolutionEntryPointInclude>

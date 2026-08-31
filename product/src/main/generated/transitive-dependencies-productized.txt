@@ -801,6 +801,7 @@ org.apache.camel:camel-management
 org.apache.camel:camel-management-api
 org.apache.camel:camel-mapstruct
 org.apache.camel:camel-master
+org.apache.camel:camel-mcp-server-api
 org.apache.camel:camel-micrometer
 org.apache.camel:camel-microprofile-config
 org.apache.camel:camel-microprofile-fault-tolerance

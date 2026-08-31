@@ -8839,6 +8839,10 @@
                             </bannedDependencyResources>
                             <bomEntryTransformations>
                                 <bomEntryTransformation>
+                                    <gavPattern>dev.langchain4j:*:*.beta*</gavPattern>
+                                    <versionReplacement>\.beta/-beta</versionReplacement>
+                                </bomEntryTransformation>
+                                <bomEntryTransformation>
                                     <gavPattern>org.apache.camel:camel-opentelemetry</gavPattern>
                                     <addExclusions>io.grpc:grpc-netty-shaded</addExclusions>
                                 </bomEntryTransformation>

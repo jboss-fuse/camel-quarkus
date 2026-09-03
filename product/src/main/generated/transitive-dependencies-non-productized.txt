@@ -2,7 +2,6 @@ ai.djl:api
 ai.djl:basicdataset
 ai.djl.huggingface:tokenizers
 ai.djl.timeseries:timeseries
-aopalliance:aopalliance
 ca.uhn.hapi:hapi-structures-v21
 ca.uhn.hapi:hapi-structures-v22
 ca.uhn.hapi:hapi-structures-v23
@@ -131,9 +130,6 @@ com.lmax:disruptor
 com.microsoft.onnxruntime:onnxruntime
 com.microsoft.sqlserver:mssql-jdbc
 com.myjeeva.digitalocean:digitalocean-api-client
-com.nimbusds:content-type
-com.nimbusds:lang-tag
-com.nimbusds:oauth2-oidc-sdk
 com.ning:compress-lzf
 com.oracle.database.jdbc:ojdbc11
 com.oracle.database.jdbc:ojdbc17
@@ -216,9 +212,6 @@ io.gsonfire:gson-fire
 io.jsonwebtoken:jjwt-api
 io.jsonwebtoken:jjwt-impl
 io.jsonwebtoken:jjwt-jackson
-io.micrometer:context-propagation
-io.micrometer:micrometer-tracing
-io.micrometer:micrometer-tracing-bridge-otel
 io.nats:jnats
 io.netty:netty-codec-base
 io.netty:netty-codec-classes-quic
@@ -230,7 +223,6 @@ io.opentelemetry:opentelemetry-exporter-logging
 io.opentelemetry:opentelemetry-exporter-logging-otlp
 io.opentelemetry:opentelemetry-exporter-prometheus
 io.opentelemetry:opentelemetry-exporter-sender-okhttp
-io.opentelemetry:opentelemetry-extension-trace-propagators
 io.opentelemetry.contrib:opentelemetry-gcp-resources
 io.pebbletemplates:pebble
 io.pinecone:pinecone-client
@@ -314,7 +306,6 @@ io.smallrye.reactive:smallrye-reactive-messaging-provider
 io.vavr:vavr
 io.vavr:vavr-match
 io.vertx:vertx-auth-oauth2
-io.weaviate:client6
 it.unimi.dsi:fastutil
 jakarta.authentication:jakarta.authentication-api
 javax.jcr:jcr
@@ -383,7 +374,6 @@ org.apache.camel:camel-consul
 org.apache.camel:camel-couchbase
 org.apache.camel:camel-couchdb
 org.apache.camel:camel-csv
-org.apache.camel:camel-cyberark-vault
 org.apache.camel:camel-datasonnet
 org.apache.camel:camel-dataweave
 org.apache.camel:camel-debezium-common
@@ -471,7 +461,6 @@ org.apache.camel:camel-lumberjack
 org.apache.camel:camel-lzf
 org.apache.camel:camel-mcp-server-api
 org.apache.camel:camel-mdc
-org.apache.camel:camel-micrometer-observability
 org.apache.camel:camel-milo
 org.apache.camel:camel-mongodb-gridfs
 org.apache.camel:camel-mustache
@@ -531,7 +520,6 @@ org.apache.camel:camel-univocity-parsers
 org.apache.camel:camel-vertx
 org.apache.camel:camel-wasm
 org.apache.camel:camel-weather
-org.apache.camel:camel-weaviate
 org.apache.camel:camel-web3j
 org.apache.camel:camel-wordpress
 org.apache.camel:camel-workday
@@ -629,8 +617,6 @@ org.apache.camel.quarkus:camel-quarkus-csimple
 org.apache.camel.quarkus:camel-quarkus-csimple-deployment
 org.apache.camel.quarkus:camel-quarkus-csv
 org.apache.camel.quarkus:camel-quarkus-csv-deployment
-org.apache.camel.quarkus:camel-quarkus-cyberark-vault
-org.apache.camel.quarkus:camel-quarkus-cyberark-vault-deployment
 org.apache.camel.quarkus:camel-quarkus-datasonnet
 org.apache.camel.quarkus:camel-quarkus-datasonnet-deployment
 org.apache.camel.quarkus:camel-quarkus-debezium-mongodb
@@ -799,8 +785,6 @@ org.apache.camel.quarkus:camel-quarkus-mcp-server
 org.apache.camel.quarkus:camel-quarkus-mcp-server-deployment
 org.apache.camel.quarkus:camel-quarkus-mdc
 org.apache.camel.quarkus:camel-quarkus-mdc-deployment
-org.apache.camel.quarkus:camel-quarkus-micrometer-observability
-org.apache.camel.quarkus:camel-quarkus-micrometer-observability-deployment
 org.apache.camel.quarkus:camel-quarkus-milo
 org.apache.camel.quarkus:camel-quarkus-milo-deployment
 org.apache.camel.quarkus:camel-quarkus-mongodb-gridfs
@@ -937,8 +921,6 @@ org.apache.camel.quarkus:camel-quarkus-wasm
 org.apache.camel.quarkus:camel-quarkus-wasm-deployment
 org.apache.camel.quarkus:camel-quarkus-weather
 org.apache.camel.quarkus:camel-quarkus-weather-deployment
-org.apache.camel.quarkus:camel-quarkus-weaviate
-org.apache.camel.quarkus:camel-quarkus-weaviate-deployment
 org.apache.camel.quarkus:camel-quarkus-web3j
 org.apache.camel.quarkus:camel-quarkus-web3j-deployment
 org.apache.camel.quarkus:camel-quarkus-wordpress

@@ -75,7 +75,6 @@
         <module>../../../integration-tests/master-infinispan</module>
         <module>../../../integration-tests/mcp-server</module>
         <module>../../../integration-tests/mdc</module>
-        <module>../../../integration-tests/micrometer-observability</module>
         <module>../../../integration-tests/milo</module>
         <module>../../../integration-tests/mustache</module>
         <module>../../../integration-tests/nats</module>

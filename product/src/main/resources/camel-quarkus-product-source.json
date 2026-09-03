@@ -158,6 +158,11 @@
             "native": "supported",
             "comment": "supported since CEQ 3.27.0"
         },
+        "camel-quarkus-cyberark-vault": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.39.0"
+        },
         "camel-quarkus-cxf-soap": {
             "jvm": "supported",
             "native": "supported",
@@ -458,6 +463,11 @@
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
         },
+        "camel-quarkus-micrometer-observability": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "tp since CEQ 3.39.0"
+        },
         "camel-quarkus-microprofile-fault-tolerance": {
             "jvm": "supported",
             "native": "supported",
@@ -726,6 +736,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
+        },
+        "camel-quarkus-weaviate": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.39.0"
         },
         "camel-quarkus-xj": {
             "jvm": "supported",

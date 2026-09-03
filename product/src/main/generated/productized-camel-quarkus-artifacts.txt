@@ -100,6 +100,9 @@ camel-quarkus-crypto-pgp-parent
 camel-quarkus-cxf-soap
 camel-quarkus-cxf-soap-deployment
 camel-quarkus-cxf-soap-parent
+camel-quarkus-cyberark-vault
+camel-quarkus-cyberark-vault-deployment
+camel-quarkus-cyberark-vault-parent
 camel-quarkus-dataformat
 camel-quarkus-dataformat-deployment
 camel-quarkus-dataformat-parent
@@ -221,6 +224,7 @@ camel-quarkus-integration-test-cxf-soap-ssl
 camel-quarkus-integration-test-cxf-soap-ws-security-client
 camel-quarkus-integration-test-cxf-soap-ws-security-server
 camel-quarkus-integration-test-cxf-soap-ws-trust
+camel-quarkus-integration-test-cyberark-vault
 camel-quarkus-integration-test-dataset
 camel-quarkus-integration-test-debug
 camel-quarkus-integration-test-direct
@@ -287,6 +291,7 @@ camel-quarkus-integration-test-mapstruct
 camel-quarkus-integration-test-master-file
 camel-quarkus-integration-test-master-openshift
 camel-quarkus-integration-test-micrometer
+camel-quarkus-integration-test-micrometer-observability
 camel-quarkus-integration-test-microprofile-fault-tolerance
 camel-quarkus-integration-test-microprofile-health
 camel-quarkus-integration-test-milvus
@@ -342,6 +347,7 @@ camel-quarkus-integration-test-validator
 camel-quarkus-integration-test-variables
 camel-quarkus-integration-test-velocity
 camel-quarkus-integration-test-vertx-websocket
+camel-quarkus-integration-test-weaviate
 camel-quarkus-integration-test-xj
 camel-quarkus-integration-test-xml-jaxp
 camel-quarkus-integration-test-xpath
@@ -493,6 +499,9 @@ camel-quarkus-master-parent
 camel-quarkus-maven-plugin
 camel-quarkus-micrometer
 camel-quarkus-micrometer-deployment
+camel-quarkus-micrometer-observability
+camel-quarkus-micrometer-observability-deployment
+camel-quarkus-micrometer-observability-parent
 camel-quarkus-micrometer-parent
 camel-quarkus-microprofile-fault-tolerance
 camel-quarkus-microprofile-fault-tolerance-deployment
@@ -716,6 +725,9 @@ camel-quarkus-vertx-http-parent
 camel-quarkus-vertx-websocket
 camel-quarkus-vertx-websocket-deployment
 camel-quarkus-vertx-websocket-parent
+camel-quarkus-weaviate
+camel-quarkus-weaviate-deployment
+camel-quarkus-weaviate-parent
 camel-quarkus-xj
 camel-quarkus-xj-deployment
 camel-quarkus-xj-parent

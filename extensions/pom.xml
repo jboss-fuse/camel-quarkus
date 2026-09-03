@@ -94,7 +94,7 @@
         <!-- <module>csimple</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>csv</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cxf-soap</module>
-        <!-- <module>cyberark-vault</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>cyberark-vault</module>
         <module>dataformat</module>
         <module>dataset</module>
         <!-- <module>datasonnet</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -208,7 +208,7 @@
         <!-- <module>mcp-server</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>mdc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>micrometer</module>
-        <!-- <module>micrometer-observability</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>micrometer-observability</module>
         <module>microprofile-fault-tolerance</module>
         <module>microprofile-health</module>
         <!-- <module>milo</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -300,7 +300,7 @@
         <module>vertx-websocket</module>
         <!-- <module>wasm</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>weather</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>weaviate</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>weaviate</module>
         <!-- <module>xchange</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xj</module>
         <!-- <module>xmlsecurity</module> disabled by cq-prod-maven-plugin:prod-excludes -->

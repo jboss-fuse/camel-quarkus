@@ -35,6 +35,7 @@ camel-cron
 camel-crypto
 camel-crypto-pgp
 camel-cxf-soap
+camel-cyberark-vault
 camel-dataformat
 camel-dataset
 camel-debug
@@ -90,6 +91,7 @@ camel-management
 camel-mapstruct
 camel-master
 camel-micrometer
+camel-micrometer-observability
 camel-microprofile-config
 camel-microprofile-fault-tolerance
 camel-microprofile-health
@@ -141,6 +143,7 @@ camel-validator
 camel-velocity
 camel-vertx-http
 camel-vertx-websocket
+camel-weaviate
 camel-webhook
 camel-xj
 camel-xml-io

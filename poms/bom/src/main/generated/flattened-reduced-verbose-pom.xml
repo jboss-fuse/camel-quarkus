@@ -2447,7 +2447,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-cyberark-vault</artifactId>
-        <version>4.22.0</version>
+        <version>4.22.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -3784,7 +3784,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-micrometer-observability</artifactId>
-        <version>4.22.0</version>
+        <version>4.22.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -4758,7 +4758,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-weaviate</artifactId>
-        <version>4.22.0</version>
+        <version>4.22.0.redhat-00002</version>
         <exclusions>
           <exclusion>
             <groupId>com.github.stephenc.jcip</groupId>
@@ -5735,12 +5735,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-cyberark-vault</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-cyberark-vault-deployment</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -7145,12 +7145,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-micrometer-observability</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-micrometer-observability-deployment</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -8565,12 +8565,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-weaviate</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-weaviate-deployment</artifactId>
-        <version>3.39.0</version>
+        <version>3.39.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>

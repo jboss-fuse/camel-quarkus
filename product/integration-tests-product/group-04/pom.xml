@@ -33,8 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
-        <module>../../../integration-tests/jolokia</module>
-        <module>../../../integration-tests/jpa</module>
         <module>../../../integration-tests/jq</module>
         <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/jsonpath</module>
@@ -63,6 +61,7 @@
         <module>../../../integration-tests/master-file</module>
         <module>../../../integration-tests/master-openshift</module>
         <module>../../../integration-tests/micrometer</module>
+        <module>../../../integration-tests/micrometer-observability</module>
         <module>../../../integration-tests/microprofile-fault-tolerance</module>
         <module>../../../integration-tests/microprofile-health</module>
         <module>../../../integration-tests/milvus</module>
@@ -70,5 +69,6 @@
         <module>../../../integration-tests/minio</module>
         <module>../../../integration-tests/mllp</module>
         <module>../../../integration-tests/mybatis</module>
+        <module>../../../integration-tests/netty</module>
     </modules>
 </project>

@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
-        <module>../../../integration-test-groups/foundation/direct</module>
         <module>../../../integration-test-groups/foundation/eip</module>
         <module>../../../integration-test-groups/foundation/language</module>
         <module>../../../integration-test-groups/foundation/log</module>
@@ -70,5 +69,7 @@
         <module>../../../integration-tests-jvm/junit-test-framework</module>
         <module>../../../integration-tests-jvm/main-devmode</module>
         <module>../../../integration-tests-jvm/opensearch</module>
+        <module>../../../integration-tests-jvm/sap</module>
+        <module>../../../integration-tests-jvm/smooks</module>
     </modules>
 </project>

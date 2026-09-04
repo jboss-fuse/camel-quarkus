@@ -68,7 +68,6 @@
         <module>../../../integration-tests/couchdb</module>
         <module>../../../integration-tests/csimple</module>
         <module>../../../integration-tests/csv</module>
-        <module>../../../integration-tests/cyberark-vault</module>
         <module>../../../integration-tests/datasonnet</module>
         <module>../../../integration-tests/digitalocean</module>
         <module>../../../integration-tests/disruptor</module>

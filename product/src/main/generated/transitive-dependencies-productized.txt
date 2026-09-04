@@ -1,6 +1,7 @@
 ai.docling:docling-core
 ai.docling:docling-serve-api
 ai.docling:docling-serve-client
+aopalliance:aopalliance
 at.yawk.lz4:lz4-java
 biz.aQute.bnd:biz.aQute.bnd.transform
 ca.uhn.hapi:hapi-base
@@ -156,7 +157,10 @@ com.microsoft.azure:msal4j
 com.microsoft.azure:msal4j-persistence-extension
 com.microsoft.azure:qpid-proton-j-extensions
 com.networknt:json-schema-validator
+com.nimbusds:content-type
+com.nimbusds:lang-tag
 com.nimbusds:nimbus-jose-jwt
+com.nimbusds:oauth2-oidc-sdk
 com.openai:openai-java
 com.openai:openai-java-client-okhttp
 com.openai:openai-java-core
@@ -267,10 +271,13 @@ io.grpc:grpc-util
 io.grpc:grpc-xds
 io.grpc:protoc-gen-grpc-java
 io.methvin:directory-watcher
+io.micrometer:context-propagation
 io.micrometer:micrometer-commons
 io.micrometer:micrometer-core
 io.micrometer:micrometer-observation
 io.micrometer:micrometer-registry-prometheus-simpleclient
+io.micrometer:micrometer-tracing
+io.micrometer:micrometer-tracing-bridge-otel
 io.milvus:milvus-sdk-java
 io.minio:minio
 io.modelcontextprotocol.sdk:mcp-core
@@ -303,6 +310,7 @@ io.opentelemetry:opentelemetry-context
 io.opentelemetry:opentelemetry-exporter-common
 io.opentelemetry:opentelemetry-exporter-otlp
 io.opentelemetry:opentelemetry-exporter-otlp-common
+io.opentelemetry:opentelemetry-extension-trace-propagators
 io.opentelemetry:opentelemetry-sdk
 io.opentelemetry:opentelemetry-sdk-common
 io.opentelemetry:opentelemetry-sdk-extension-autoconfigure
@@ -630,6 +638,7 @@ io.vertx:vertx-uri-template
 io.vertx:vertx-web
 io.vertx:vertx-web-client
 io.vertx:vertx-web-common
+io.weaviate:client6
 it.krzeminski:snakeyaml-engine-kmp-jvm
 jakarta.activation:jakarta.activation-api
 jakarta.annotation:jakarta.annotation-api
@@ -739,6 +748,7 @@ org.apache.camel:camel-crypto-pgp
 org.apache.camel:camel-cxf-common
 org.apache.camel:camel-cxf-soap
 org.apache.camel:camel-cxf-transport
+org.apache.camel:camel-cyberark-vault
 org.apache.camel:camel-dataformat
 org.apache.camel:camel-dataset
 org.apache.camel:camel-debug
@@ -802,6 +812,7 @@ org.apache.camel:camel-management-api
 org.apache.camel:camel-mapstruct
 org.apache.camel:camel-master
 org.apache.camel:camel-micrometer
+org.apache.camel:camel-micrometer-observability
 org.apache.camel:camel-microprofile-config
 org.apache.camel:camel-microprofile-fault-tolerance
 org.apache.camel:camel-microprofile-health
@@ -860,6 +871,7 @@ org.apache.camel:camel-velocity
 org.apache.camel:camel-vertx-common
 org.apache.camel:camel-vertx-http
 org.apache.camel:camel-vertx-websocket
+org.apache.camel:camel-weaviate
 org.apache.camel:camel-webhook
 org.apache.camel:camel-xj
 org.apache.camel:camel-xml-io
@@ -943,6 +955,8 @@ org.apache.camel.quarkus:camel-quarkus-crypto-pgp
 org.apache.camel.quarkus:camel-quarkus-crypto-pgp-deployment
 org.apache.camel.quarkus:camel-quarkus-cxf-soap
 org.apache.camel.quarkus:camel-quarkus-cxf-soap-deployment
+org.apache.camel.quarkus:camel-quarkus-cyberark-vault
+org.apache.camel.quarkus:camel-quarkus-cyberark-vault-deployment
 org.apache.camel.quarkus:camel-quarkus-dataformat
 org.apache.camel.quarkus:camel-quarkus-dataformat-deployment
 org.apache.camel.quarkus:camel-quarkus-dataset
@@ -1059,6 +1073,8 @@ org.apache.camel.quarkus:camel-quarkus-master
 org.apache.camel.quarkus:camel-quarkus-master-deployment
 org.apache.camel.quarkus:camel-quarkus-micrometer
 org.apache.camel.quarkus:camel-quarkus-micrometer-deployment
+org.apache.camel.quarkus:camel-quarkus-micrometer-observability
+org.apache.camel.quarkus:camel-quarkus-micrometer-observability-deployment
 org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance
 org.apache.camel.quarkus:camel-quarkus-microprofile-fault-tolerance-deployment
 org.apache.camel.quarkus:camel-quarkus-microprofile-health
@@ -1206,6 +1222,8 @@ org.apache.camel.quarkus:camel-quarkus-vertx-http
 org.apache.camel.quarkus:camel-quarkus-vertx-http-deployment
 org.apache.camel.quarkus:camel-quarkus-vertx-websocket
 org.apache.camel.quarkus:camel-quarkus-vertx-websocket-deployment
+org.apache.camel.quarkus:camel-quarkus-weaviate
+org.apache.camel.quarkus:camel-quarkus-weaviate-deployment
 org.apache.camel.quarkus:camel-quarkus-xj
 org.apache.camel.quarkus:camel-quarkus-xj-deployment
 org.apache.camel.quarkus:camel-quarkus-xml-io-dsl

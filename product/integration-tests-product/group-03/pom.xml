@@ -33,8 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests-jvm/sap</module>
-        <module>../../../integration-tests-jvm/smooks</module>
         <module>../../../integration-tests-jvm/snmp</module>
         <module>../../../integration-tests/amqp</module>
         <module>../../../integration-tests/avro</module>
@@ -44,6 +42,7 @@
         <module>../../../integration-tests/cassandraql</module>
         <module>../../../integration-tests/crypto</module>
         <module>../../../integration-tests/crypto-pgp</module>
+        <module>../../../integration-tests/cyberark-vault</module>
         <module>../../../integration-tests/debug</module>
         <module>../../../integration-tests/docling</module>
         <module>../../../integration-tests/elasticsearch-rest-client</module>
@@ -70,5 +69,7 @@
         <module>../../../integration-tests/jms-artemis-ra</module>
         <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
+        <module>../../../integration-tests/jolokia</module>
+        <module>../../../integration-tests/jpa</module>
     </modules>
 </project>

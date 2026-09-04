@@ -525,6 +525,10 @@
                 "supported",
                 "deprecated"
             ],
+            "ibm-support":[
+                "supported",
+                "deprecated"
+            ],
             "comment": "supported since CEQ 3.20.0, deprecated since CEQ 3.33.0"
         },
         "camel-quarkus-openai": {
@@ -549,6 +553,10 @@
             "jvm": "deprecated",
             "native": "deprecated",
             "redhat-camel-support":[
+                "supported",
+                "deprecated"
+            ],
+            "ibm-support":[
                 "supported",
                 "deprecated"
             ],
@@ -668,6 +676,10 @@
             "jvm": "deprecated",
             "native": "deprecated",
             "redhat-camel-support":[
+                "supported",
+                "deprecated"
+            ],
+            "ibm-support":[
                 "supported",
                 "deprecated"
             ],
@@ -842,6 +854,6 @@
         "org.apache.maven:*",
         "org.apache.maven.resolver:*"
     ],
-    "platformOverridesSupportAttributeName": "redhat-camel-support"
+    "platformOverridesSupportAttributeNames": ["redhat-camel-support", "ibm-support"]
 }
 

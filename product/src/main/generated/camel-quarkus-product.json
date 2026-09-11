@@ -379,6 +379,9 @@
       "metadata": {
         "redhat-camel-support": [
           "supported"
+        ],
+        "ibm-support": [
+          "supported"
         ]
       }
     },
@@ -1037,6 +1040,9 @@
       "metadata": {
         "redhat-camel-support": [
           "tech-preview"
+        ],
+        "ibm-support": [
+          "tech-preview"
         ]
       }
     },
@@ -1655,6 +1661,9 @@
       "artifact-id": "camel-quarkus-weaviate",
       "metadata": {
         "redhat-camel-support": [
+          "supported"
+        ],
+        "ibm-support": [
           "supported"
         ]
       }

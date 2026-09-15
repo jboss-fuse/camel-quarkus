@@ -8817,6 +8817,12 @@
                                 <resolutionExclude>*:*:*:test-jar:*:*</resolutionExclude>
                                 <resolutionExclude>*:*:*:*:tests:*</resolutionExclude>
                                 <resolutionExclude>*:*:*:*:testlib:*</resolutionExclude>
+                                <!-- quarkus-bom manages the macOS natives at the community version because PNC -->
+                                <!-- cannot build them, which clashes with the productized classifier-less artifact -->
+                                <resolutionExclude>io.netty:netty-transport-native-kqueue:*:*:osx-*:*</resolutionExclude>
+                                <!-- quarkus-test-artemis is a test-support artifact that pulls in community Netty -->
+                                <!-- versions conflicting with productized ones; exclude it from BOM resolution -->
+                                <resolutionExclude>io.quarkiverse.artemis:quarkus-test-artemis:*:*:*:*</resolutionExclude>
                             </resolutionExcludes>
                             <bannedDependencyResources>
                                 <bannedDependencyResource>

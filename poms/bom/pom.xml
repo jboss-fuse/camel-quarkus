@@ -8783,7 +8783,12 @@
                                 <resolutionEntryPointInclude>ca.uhn.hapi:*</resolutionEntryPointInclude>
                                 <!-- Transitives of quarkus-micrometer-registry-jmx overridden to avoid stale versions declared in debzium-bom -->
                                 <resolutionEntryPointInclude>io.dropwizard.metrics:*</resolutionEntryPointInclude>
-                                <resolutionEntryPointInclude>io.quarkiverse.artemis:*</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:quarkus-artemis-core</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:quarkus-artemis-core-deployment</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:quarkus-artemis-jms</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:quarkus-artemis-jms-deployment</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:quarkus-artemis-jms-ra</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:quarkus-artemis-jms-ra-deployment</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.cxf:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.minio:minio-native</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.messaginghub:*</resolutionEntryPointInclude>
@@ -8817,6 +8822,9 @@
                                 <resolutionExclude>*:*:*:test-jar:*:*</resolutionExclude>
                                 <resolutionExclude>*:*:*:*:tests:*</resolutionExclude>
                                 <resolutionExclude>*:*:*:*:testlib:*</resolutionExclude>
+                                <!-- quarkus-bom manages the macOS natives at the community version because PNC -->
+                                <!-- cannot build them, which clashes with the productized classifier-less artifact -->
+                                <resolutionExclude>io.netty:netty-transport-native-kqueue:*:*:osx-*:*</resolutionExclude>
                             </resolutionExcludes>
                             <bannedDependencyResources>
                                 <bannedDependencyResource>

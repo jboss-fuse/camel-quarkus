@@ -153,7 +153,7 @@
         <keycloak.version>26.7.1</keycloak.version><!-- @sync io.quarkus:quarkus-build-parent:${quarkus.version} prop:keycloak.server.version -->
         <kudu.version>${kudu-version}</kudu.version>
         <kotlinx.version>1.4.0</kotlinx.version><!--Used by com.squareup.wire:wire-compiler referenced from aws2:kinesis -->
-        <kryo.version>2.24.0</kryo.version><!-- @sync org.apache.flink:flink-core:${flink-version} dep:com.esotericsoftware.kryo:kryo -->
+        <kryo.version>2.24.0.redhat-00006</kryo.version><!-- @sync org.apache.flink:flink-core:${flink-version} dep:com.esotericsoftware.kryo:kryo -->
         <langchain4j.version>1.19.0</langchain4j.version><!-- @sync io.quarkiverse.langchain4j:quarkus-langchain4j-parent:${quarkiverse-langchain4j.version} prop:langchain4j.version -->
         <langchain4j-beta.version>1.19.0-beta29</langchain4j-beta.version><!-- @sync dev.langchain4j:langchain4j-bom:${langchain4j.version} prop:langchain4j.beta.version -->
         <mapstruct.version>${mapstruct-version}</mapstruct.version>

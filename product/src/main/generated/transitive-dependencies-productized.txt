@@ -702,6 +702,7 @@ org.apache.avro:avro
 org.apache.avro:avro-compiler
 org.apache.avro:avro-idl
 org.apache.bcel:bcel
+org.apache.camel:camel-ai-tool
 org.apache.camel:camel-amqp
 org.apache.camel:camel-api
 org.apache.camel:camel-attachments

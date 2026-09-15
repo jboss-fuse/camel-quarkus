@@ -332,7 +332,6 @@ org.apache.avro:avro-protobuf
 org.apache.camel:camel-a2a
 org.apache.camel:camel-activemq
 org.apache.camel:camel-activemq6
-org.apache.camel:camel-ai-tool
 org.apache.camel:camel-arangodb
 org.apache.camel:camel-as2
 org.apache.camel:camel-as2-api

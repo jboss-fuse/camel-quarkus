@@ -7208,11 +7208,6 @@
         <version>2.2.13</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
-        <groupId>com.github.luben</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <artifactId>zstd-jni</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.5.6-10</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-      </dependency>
-      <dependency>
         <groupId>com.github.mwiede</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>jsch</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <version>2.28.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -7580,11 +7575,6 @@
         <groupId>io.opentelemetry</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>opentelemetry-semconv</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <version>1.29.0-alpha</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-      </dependency>
-      <dependency>
-        <groupId>io.projectreactor</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <artifactId>reactor-core</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.7.11</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>io.projectreactor.netty</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -19604,7 +19594,7 @@
       <dependency>
         <groupId>io.smallrye.reactive</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-mutiny-generator</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>3.21.6.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>3.21.6</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.smallrye.stork</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
@@ -20109,42 +20099,42 @@
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <type>test-jar</type><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <classifier>processor</classifier><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <classifier>sources</classifier><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <classifier>tck-sources</classifier><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <classifier>tck</classifier><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
       <dependency>
         <groupId>io.vertx</groupId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <artifactId>vertx-codegen</artifactId><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
-        <version>4.5.27.redhat-00001</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
+        <version>4.5.27</version><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <type>test-jar</type><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
         <classifier>tests</classifier><!-- io.quarkus:quarkus-bom:3.33.1.redhat-00002 -->
       </dependency>
@@ -25414,6 +25404,11 @@
         <artifactId>kafka_2.13</artifactId><!-- io.debezium:debezium-bom:3.4.2.Final -->
         <version>4.1.1</version><!-- io.debezium:debezium-bom:3.4.2.Final -->
         <classifier>test</classifier><!-- io.debezium:debezium-bom:3.4.2.Final -->
+      </dependency>
+      <dependency>
+        <groupId>com.github.luben</groupId><!-- io.debezium:debezium-bom:3.4.2.Final -->
+        <artifactId>zstd-jni</artifactId><!-- io.debezium:debezium-bom:3.4.2.Final -->
+        <version>1.5.6-10</version><!-- io.debezium:debezium-bom:3.4.2.Final -->
       </dependency>
       <dependency>
         <groupId>io.confluent</groupId><!-- io.debezium:debezium-bom:3.4.2.Final -->

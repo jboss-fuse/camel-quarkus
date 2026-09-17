@@ -2605,6 +2605,7 @@ org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
 org.jfree:jfreechart
 org.jgroups:jgroups
 org.jgroups:jgroups-raft
+org.jline:jansi
 org.jodd:jodd-util
 org.jolokia:jolokia-agent-jvm
 org.jolokia:jolokia-core

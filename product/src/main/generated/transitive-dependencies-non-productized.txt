@@ -286,9 +286,11 @@ io.smallrye.reactive:smallrye-reactive-messaging-api
 io.smallrye.reactive:smallrye-reactive-messaging-camel
 io.smallrye.reactive:smallrye-reactive-messaging-health
 io.smallrye.reactive:smallrye-reactive-messaging-provider
+io.smallrye.reactive:vertx-mutiny-generator
 io.vavr:vavr
 io.vavr:vavr-match
 io.vertx:vertx-auth-oauth2
+io.vertx:vertx-codegen
 io.weaviate:client
 it.unimi.dsi:fastutil
 jakarta.authentication:jakarta.authentication-api

@@ -601,7 +601,6 @@ io.smallrye.reactive:smallrye-mutiny-vertx-web
 io.smallrye.reactive:smallrye-mutiny-vertx-web-common
 io.smallrye.reactive:smallrye-reactive-converter-api
 io.smallrye.reactive:smallrye-reactive-converter-mutiny
-io.smallrye.reactive:vertx-mutiny-generator
 io.smallrye.stork:stork-api
 io.strimzi:strimzi-test-container
 io.swagger:swagger-annotations
@@ -620,7 +619,6 @@ io.swagger.parser.v3:swagger-parser-safe-url-resolver
 io.swagger.parser.v3:swagger-parser-v3
 io.vertx:vertx-auth-common
 io.vertx:vertx-bridge-common
-io.vertx:vertx-codegen
 io.vertx:vertx-core
 io.vertx:vertx-grpc
 io.vertx:vertx-grpc-client
@@ -1460,6 +1458,7 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk7
 org.jetbrains.kotlin:kotlin-stdlib-jdk8
 org.jfree:jfreechart
 org.jgroups:jgroups
+org.jline:jansi
 org.jolokia:jolokia-agent-jvm
 org.jolokia:jolokia-core
 org.jolokia:jolokia-json

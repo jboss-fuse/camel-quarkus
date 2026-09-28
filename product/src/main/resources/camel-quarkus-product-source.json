@@ -489,9 +489,14 @@
             "comment": "supported since CEQ 3.33.0"
         },
         "camel-quarkus-minio": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.2.0"
+            "jvm": "deprecated",
+            "native": "deprecated",
+            "redhat-camel-support":[
+                "supported",
+                "deprecated"
+            ],
+            "ibm-support":[],
+            "comment": "supported since CEQ 3.2.0, deprecated since CEQ 3.39.0; empty ibm-support omits the attribute, as IBM does not ship this extension"
         },
         "camel-quarkus-mllp": {
             "jvm": "supported",

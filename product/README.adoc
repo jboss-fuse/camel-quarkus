@@ -25,6 +25,13 @@
 * `extensions.<artifactId>.allowedMixedTests` - if defined and set to a non-empty array of artifactIds,
   accept the mixed tests covering the given extension.
 * `extensions.<artifactId>.[jvm|native]` - The support status: possible values: `community`, `techPreview`, `supported`
+* `extensions.<artifactId>.<supportAttributeName>` - an array overriding the support levels emitted for one of the
+  attributes listed in `platformOverridesSupportAttributeNames`, e.g. `"redhat-camel-support": ["supported", "deprecated"]`.
+  If the key is absent, the value is derived from the `jvm` and `native` statuses.
+  An explicit empty array omits the attribute from the generated platform overrides file altogether,
+  which is how an extension is marked as not shipped by a given vendor.
+  Note that if every configured attribute is set to an empty array, the extension is left out of the file entirely.
+  Empty arrays are honored since cq-prod-maven-plugin 4.28.1
 * `extensions.<artifactId>.comment` - A free form comment
 * `additionalProductizedArtifacts` - an array of `[groupId:]artifactId` to include in the product build.
   If `groupId:` is omitted, then `org.apache.camel.quarkus` is taken as default.
@@ -53,6 +60,7 @@
   For CEQ versions before 3.27.0, the value `redhat-support` should be used.
   For 3.27.0+ versions, the name for the Red Hat CEQ product should be `redhat-camel-support`.
   For 3.33.0+ versions: a single value `redhat-camel-support` for Camel Quarkus extensions and `["redhat-camel-support", "ibm-support"]` for Quarkus CXF extensions.
+  For 3.39.0+ versions: `["redhat-camel-support", "ibm-support"]` for both Camel Quarkus and Quarkus CXF extensions.
   See also https://github.com/l2x6/cq-maven-plugin/issues/717.
   Since cq-prod-maven-plugin 4.22.0
 

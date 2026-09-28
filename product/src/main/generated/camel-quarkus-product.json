@@ -1099,10 +1099,8 @@
       "artifact-id": "camel-quarkus-minio",
       "metadata": {
         "redhat-camel-support": [
-          "supported"
-        ],
-        "ibm-support": [
-          "supported"
+          "supported",
+          "deprecated"
         ]
       }
     },

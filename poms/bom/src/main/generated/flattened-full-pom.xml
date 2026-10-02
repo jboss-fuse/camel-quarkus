@@ -7634,6 +7634,11 @@
         <version>2.0.1.redhat-00001</version>
       </dependency>
       <dependency>
+        <groupId>com.rabbitmq</groupId>
+        <artifactId>amqp-client</artifactId>
+        <version>5.36.0</version>
+      </dependency>
+      <dependency>
         <groupId>com.sangupta</groupId>
         <artifactId>murmur</artifactId>
         <version>1.0.0</version>
@@ -8241,6 +8246,17 @@
         <groupId>org.apache.shiro</groupId>
         <artifactId>shiro-core</artifactId>
         <version>3.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.sshd</groupId>
+        <artifactId>sshd-sftp</artifactId>
+        <version>2.20.0</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.apache.xmlgraphics</groupId>
@@ -9668,6 +9684,12 @@
         <groupId>software.amazon.awssdk</groupId>
         <artifactId>apache-client</artifactId>
         <version>2.54.13</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>software.amazon.awssdk</groupId>
@@ -25251,6 +25273,16 @@
         <groupId>com.datastax.oss.quarkus</groupId>
         <artifactId>cassandra-quarkus-client</artifactId>
         <version>1.4.1</version>
+        <exclusions>
+          <exclusion>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss.quarkus</groupId>

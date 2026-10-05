@@ -320,16 +320,6 @@
         <groupId>com.datastax.oss.quarkus</groupId>
         <artifactId>cassandra-quarkus-client</artifactId>
         <version>1.4.1</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.github.spotbugs</groupId>
-            <artifactId>spotbugs-annotations</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>com.github.stephenc.jcip</groupId>
-            <artifactId>jcip-annotations</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss.quarkus</groupId>
@@ -376,6 +366,16 @@
         <groupId>com.github.mwiede</groupId>
         <artifactId>jsch</artifactId>
         <version>2.28.6</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-annotations</artifactId>
+        <version>3.1.12</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.stephenc.jcip</groupId>
+        <artifactId>jcip-annotations</artifactId>
+        <version>1.0-1</version>
       </dependency>
       <dependency>
         <groupId>com.google.api</groupId>
@@ -993,11 +993,6 @@
         <version>3.14.3</version>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId>
-        <artifactId>quarkus-test-artemis</artifactId>
-        <version>3.14.3</version>
-      </dependency>
-      <dependency>
         <groupId>io.quarkiverse.batik</groupId>
         <artifactId>quarkus-batik</artifactId>
         <version>1.1.0</version>
@@ -1443,17 +1438,6 @@
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
-        <artifactId>artemis-amqp-protocol</artifactId>
-        <version>2.54.0</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.apache.artemis</groupId>
-            <artifactId>artemis-server</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-commons</artifactId>
         <version>2.54.0</version>
       </dependency>
@@ -1526,58 +1510,8 @@
       </dependency>
       <dependency>
         <groupId>org.apache.artemis</groupId>
-        <artifactId>artemis-jdbc-store</artifactId>
-        <version>2.54.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.artemis</groupId>
-        <artifactId>artemis-journal</artifactId>
-        <version>2.54.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.artemis</groupId>
-        <artifactId>artemis-lockmanager-api</artifactId>
-        <version>2.54.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.artemis</groupId>
         <artifactId>artemis-selector</artifactId>
         <version>2.54.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.artemis</groupId>
-        <artifactId>artemis-server</artifactId>
-        <version>2.54.0</version>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-core</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>jakarta.json</groupId>
-            <artifactId>jakarta.json-api</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-json_1.0_spec</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.apache.johnzon</groupId>
-            <artifactId>johnzon-core</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.checkerframework</groupId>
-            <artifactId>checker-qual</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.jboss.logmanager</groupId>
-            <artifactId>jboss-logmanager</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -9966,12 +9900,6 @@
         <groupId>software.amazon.awssdk</groupId>
         <artifactId>apache-client</artifactId>
         <version>2.54.13</version>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>software.amazon.awssdk</groupId>

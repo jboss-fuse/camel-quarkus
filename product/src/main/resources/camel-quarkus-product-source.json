@@ -458,6 +458,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-mdc": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.40.0"
+        },
         "camel-quarkus-micrometer": {
             "jvm": "supported",
             "native": "supported",

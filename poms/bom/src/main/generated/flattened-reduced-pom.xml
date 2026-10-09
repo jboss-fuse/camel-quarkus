@@ -320,6 +320,16 @@
         <groupId>com.datastax.oss.quarkus</groupId>
         <artifactId>cassandra-quarkus-client</artifactId>
         <version>1.4.1</version>
+        <exclusions>
+          <exclusion>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss.quarkus</groupId>
@@ -366,16 +376,6 @@
         <groupId>com.github.mwiede</groupId>
         <artifactId>jsch</artifactId>
         <version>2.28.6</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.spotbugs</groupId>
-        <artifactId>spotbugs-annotations</artifactId>
-        <version>3.1.12</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.stephenc.jcip</groupId>
-        <artifactId>jcip-annotations</artifactId>
-        <version>1.0-1</version>
       </dependency>
       <dependency>
         <groupId>com.google.api</groupId>
@@ -3708,7 +3708,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-mdc</artifactId>
-        <version>4.22.1</version>
+        <version>4.22.1.redhat-00004</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -7059,12 +7059,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-mdc</artifactId>
-        <version>3.40.0</version>
+        <version>3.40.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-mdc-deployment</artifactId>
-        <version>3.40.0</version>
+        <version>3.40.0.rhbac-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -9900,6 +9900,12 @@
         <groupId>software.amazon.awssdk</groupId>
         <artifactId>apache-client</artifactId>
         <version>2.54.13</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>software.amazon.awssdk</groupId>

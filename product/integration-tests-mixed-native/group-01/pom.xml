@@ -79,6 +79,5 @@
         <module>../../../integration-tests/flatpack</module>
         <module>../../../integration-tests/fop</module>
         <module>../../../integration-tests/fory</module>
-        <module>../../../integration-tests/freemarker</module>
     </modules>
 </project>

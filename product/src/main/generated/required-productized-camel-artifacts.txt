@@ -90,6 +90,7 @@ camel-main
 camel-management
 camel-mapstruct
 camel-master
+camel-mdc
 camel-micrometer
 camel-micrometer-observability
 camel-microprofile-config

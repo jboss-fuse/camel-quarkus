@@ -461,7 +461,6 @@ org.apache.camel:camel-lucene
 org.apache.camel:camel-lumberjack
 org.apache.camel:camel-lzf
 org.apache.camel:camel-mcp-server-api
-org.apache.camel:camel-mdc
 org.apache.camel:camel-milo
 org.apache.camel:camel-mongodb-gridfs
 org.apache.camel:camel-mustache
@@ -784,8 +783,6 @@ org.apache.camel.quarkus:camel-quarkus-lzf
 org.apache.camel.quarkus:camel-quarkus-lzf-deployment
 org.apache.camel.quarkus:camel-quarkus-mcp-server
 org.apache.camel.quarkus:camel-quarkus-mcp-server-deployment
-org.apache.camel.quarkus:camel-quarkus-mdc
-org.apache.camel.quarkus:camel-quarkus-mdc-deployment
 org.apache.camel.quarkus:camel-quarkus-milo
 org.apache.camel.quarkus:camel-quarkus-milo-deployment
 org.apache.camel.quarkus:camel-quarkus-mongodb-gridfs

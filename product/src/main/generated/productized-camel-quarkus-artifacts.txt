@@ -290,6 +290,7 @@ camel-quarkus-integration-test-management
 camel-quarkus-integration-test-mapstruct
 camel-quarkus-integration-test-master-file
 camel-quarkus-integration-test-master-openshift
+camel-quarkus-integration-test-mdc
 camel-quarkus-integration-test-micrometer
 camel-quarkus-integration-test-micrometer-observability
 camel-quarkus-integration-test-microprofile-fault-tolerance
@@ -497,6 +498,9 @@ camel-quarkus-master
 camel-quarkus-master-deployment
 camel-quarkus-master-parent
 camel-quarkus-maven-plugin
+camel-quarkus-mdc
+camel-quarkus-mdc-deployment
+camel-quarkus-mdc-parent
 camel-quarkus-micrometer
 camel-quarkus-micrometer-deployment
 camel-quarkus-micrometer-observability

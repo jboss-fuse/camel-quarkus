@@ -812,6 +812,7 @@ org.apache.camel:camel-management
 org.apache.camel:camel-management-api
 org.apache.camel:camel-mapstruct
 org.apache.camel:camel-master
+org.apache.camel:camel-mdc
 org.apache.camel:camel-micrometer
 org.apache.camel:camel-micrometer-observability
 org.apache.camel:camel-microprofile-config
@@ -1072,6 +1073,8 @@ org.apache.camel.quarkus:camel-quarkus-mapstruct
 org.apache.camel.quarkus:camel-quarkus-mapstruct-deployment
 org.apache.camel.quarkus:camel-quarkus-master
 org.apache.camel.quarkus:camel-quarkus-master-deployment
+org.apache.camel.quarkus:camel-quarkus-mdc
+org.apache.camel.quarkus:camel-quarkus-mdc-deployment
 org.apache.camel.quarkus:camel-quarkus-micrometer
 org.apache.camel.quarkus:camel-quarkus-micrometer-deployment
 org.apache.camel.quarkus:camel-quarkus-micrometer-observability

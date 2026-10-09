@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
+        <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
         <module>../../../integration-tests/git</module>
         <module>../../../integration-tests/github2</module>
@@ -77,7 +78,6 @@
         <module>../../../integration-tests/main-xml-jaxb</module>
         <module>../../../integration-tests/master-infinispan</module>
         <module>../../../integration-tests/mcp-server</module>
-        <module>../../../integration-tests/mdc</module>
         <module>../../../integration-tests/milo</module>
     </modules>
 </project>

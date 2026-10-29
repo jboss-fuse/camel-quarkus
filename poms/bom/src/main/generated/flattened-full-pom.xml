@@ -8050,6 +8050,11 @@
         <version>3.5.2</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.bcel</groupId>
+        <artifactId>bcel</artifactId>
+        <version>6.13.0</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.camel.kamelets</groupId>
         <artifactId>camel-kamelets</artifactId>
         <version>4.22.1.redhat-00008</version>

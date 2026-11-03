@@ -190,10 +190,8 @@ NATIVE_PROFILE="-Pnative,docker"
 NATIVE_TEST_ARGS="-Dtest=!* -Dsurefire.failIfNoSpecifiedTests=false"
 
 if [[ "$NATIVE" == "true" ]]; then
-  INTEGRATION_TEST_PHASE="verify"
   NATIVE_MVN_ARGS="$NATIVE_PROFILE $NATIVE_TEST_ARGS"
 else
-  INTEGRATION_TEST_PHASE="test"
   NATIVE_MVN_ARGS=""
 fi
 
@@ -439,7 +437,8 @@ if [[ -z "$TEST_MODULES" && -z "${MVN_TEST_EXTRA_ARGS+x}" ]]; then
 fi
 
 # Build complete Maven command
-MVN_CMD="$(echo "-V clean $INTEGRATION_TEST_PHASE -fae $SETTINGS_XML_ARG $COMMON_MVN_ARGS $NATIVE_MVN_ARGS $MVN_EXTRA $TEST_MODULES_ARG $TEST_CLASSES_ARG $TEST_DEBUG_ARG $MVN_TEST_EXTRA_ARGS $MAVEN_REPO_LOCAL_ARG" | tr -s ' ')"
+# Note we use `verify` phase even for JVM mode, because some tests exec the app JAR (thus they need `package` phase) - https://github.com/apache/camel-quarkus/pull/9242#issuecomment-5830717777
+MVN_CMD="$(echo "-V clean verify -fae $SETTINGS_XML_ARG $COMMON_MVN_ARGS $NATIVE_MVN_ARGS $MVN_EXTRA $TEST_MODULES_ARG $TEST_CLASSES_ARG $TEST_DEBUG_ARG $MVN_TEST_EXTRA_ARGS $MAVEN_REPO_LOCAL_ARG" | tr -s ' ')"
 
 # Run the integration tests
 log "=== Running integration tests ==="

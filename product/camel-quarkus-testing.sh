@@ -34,7 +34,7 @@ usage() {
   echo "                                        (e.g., -am -amd -pl modules)"
   echo "  --native                            Run native tests"
   echo "                                        Adds: -Pnative,docker -Dtest=!* -Dsurefire.failIfNoSpecifiedTests=false"
-  echo "  --test-modules                      Comma-separated list of modules to test (adds -pl <modules>)"
+  echo "  --test-modules                      Comma-separated list of modules to test (adds -Pmixed -pl :camel-quarkus-product,<modules>)"
   echo "  --test-classes                      Comma-separated list of test classes to run"
   echo "  --test-debug                        Enable Maven debug mode for tests"
   echo "                                        (JVM: -Dmaven.surefire.debug, Native: -Dmaven.failsafe.debug)"
@@ -198,7 +198,7 @@ else
 fi
 
 if [[ -n "$TEST_MODULES" ]]; then
-  TEST_MODULES_ARG="-pl $TEST_MODULES"
+  TEST_MODULES_ARG="-Pmixed -pl :camel-quarkus-product,$TEST_MODULES"
 else
   TEST_MODULES_ARG=""
 fi
@@ -431,9 +431,9 @@ if [[ -z "$TEST_MODULES" && -z "${MVN_TEST_EXTRA_ARGS+x}" ]]; then
   echo "Error: Either --test-modules or --mvn-test-extra-args is required when running tests"
   echo ""
   echo "Examples:"
-  echo "  $0 --test-modules 'integration-tests/http'"
-  echo "  $0 --test-modules 'integration-tests/http,integration-tests/rest'"
-  echo "  $0 --mvn-test-extra-args '-am -amd -pl integration-tests/http'"
+  echo "  $0 --test-modules ':camel-quarkus-integration-test-openai'"
+  echo "  $0 --test-modules ':camel-quarkus-integration-test-openai,:camel-quarkus-integration-test-rest'"
+  echo "  $0 --mvn-test-extra-args '-am -amd -pl :camel-quarkus-integration-test-openai'"
   echo "  $0 --mvn-test-extra-args ''  # empty is OK when not needed"
   exit 1
 fi

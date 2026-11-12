@@ -500,7 +500,6 @@ io.netty:netty-buffer
 io.netty:netty-codec
 io.netty:netty-codec-base
 io.netty:netty-codec-classes-quic
-io.netty:netty-codec-compression
 io.netty:netty-codec-dns
 io.netty:netty-codec-haproxy
 io.netty:netty-codec-http
@@ -2718,6 +2717,7 @@ org.openeuler:bgmprovider
 org.openeuler:commons
 org.openeuler:jca
 org.openeuler:jsse
+org.openjdk.nashorn:nashorn-core
 org.opensearch:opensearch-testcontainers
 org.opensearch.client:opensearch-java
 org.opensearch.client:opensearch-rest-client

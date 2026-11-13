@@ -215,7 +215,6 @@ io.jsonwebtoken:jjwt-jackson
 io.nats:jnats
 io.netty:netty-codec-base
 io.netty:netty-codec-classes-quic
-io.netty:netty-codec-compression
 io.netty:netty-codec-http3
 io.netty:netty-codec-native-quic
 io.netty:netty-tcnative-boringssl-static

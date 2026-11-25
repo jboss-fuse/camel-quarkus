@@ -200,6 +200,7 @@
         <xmlgraphics-commons.version>2.11</xmlgraphics-commons.version><!-- @sync org.apache.xmlgraphics:fop-parent:${fop-version} prop:xmlgraphics.commons.version -->
         <web3j.version>${web3j-version}</web3j.version>
         <web3j.quorum.version>${web3j-quorum-version}</web3j.quorum.version>
+        <wire-runtime.version>6.4.7</wire-runtime.version><!-- TODO: Remove when fixed: https://github.com/awslabs/aws-glue-schema-registry/issues/522 -->
         <zookeeper.version>${zookeeper-version}</zookeeper.version>
 
         <!-- Test dependency versions (keep sorted alphabetically) -->

@@ -7848,6 +7848,16 @@
                 <version>${retrofit.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.squareup.wire</groupId>
+                <artifactId>wire-runtime</artifactId>
+                <version>${wire-runtime.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.wire</groupId>
+                <artifactId>wire-runtime-jvm</artifactId>
+                <version>${wire-runtime.version}</version>
+            </dependency>
+            <dependency>
                 <!-- Convergence fix: cassandraql->java-driver-core vs jpa->caffeine:jcache -->
                 <groupId>com.typesafe</groupId>
                 <artifactId>config</artifactId>
